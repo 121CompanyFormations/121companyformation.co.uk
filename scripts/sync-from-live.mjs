@@ -417,6 +417,7 @@ ${block("HEADER_NAV")}
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex, nofollow"/>
 <title>${escapeHtml(title)}</title>
 <link rel="icon" href="${iconHref}"/>
 <link rel="stylesheet" href="${cssHref}"/>
@@ -555,6 +556,12 @@ function buildSite() {
     fs.existsSync(path.join(PAGES, "blog-content.html"))
       ? shellPage("Blog", read(path.join(PAGES, "blog-content.html")), "site")
       : stub("Blog", "The live /blog/ route currently returns 404.")
+  );
+
+  // Preview subdomain must stay out of Google (redesign.* only)
+  write(
+    path.join(SITE, "robots.txt"),
+    "User-agent: *\nDisallow: /\n"
   );
 
   // GitHub Pages custom domain + publish copy in /docs (branch deploy option)
