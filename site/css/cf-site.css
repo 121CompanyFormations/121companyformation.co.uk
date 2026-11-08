@@ -178,15 +178,28 @@ html:has(body.cf-redesign) {
   box-shadow: 0 8px 18px rgba(232, 70, 30, 0.25);
 }
 .cf-btn--primary:hover { box-shadow: 0 10px 22px rgba(232, 70, 30, 0.32); color: #fff !important; }
-/* Compare table clips overflow for rounded corners — any button shadow
-   becomes a hard rectangular “square” behind the pill. Keep these flat. */
+/* Compare table clips overflow for rounded corners — shadows become a hard
+   rectangular “square” behind the pill. Also avoid gradient+transparent-border
+   which can read as an inner box on small CTAs. */
 .cf-table--compare .cf-btn,
 .cf-table__actions .cf-btn {
   box-shadow: none !important;
+  border-width: 0;
 }
 .cf-table--compare .cf-btn:hover,
 .cf-table__actions .cf-btn:hover {
   box-shadow: none !important;
+}
+.cf-table--compare .cf-btn--primary,
+.cf-table__actions .cf-btn--primary {
+  background: #e8461e;
+  background-image: none;
+}
+.cf-table--compare .cf-btn--outline,
+.cf-table__actions .cf-btn--outline {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--cf-line);
 }
 .cf-btn--ghost {
   background: transparent;
