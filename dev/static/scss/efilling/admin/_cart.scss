@@ -1,0 +1,35 @@
+#efGoPayNowForm {
+  #tnc-check {
+    input {
+      height: auto;
+    }
+    label a {
+      color: $cf-navy;
+      font-weight: 600;
+    }
+  }
+}
+
+#ef-checkout-action {
+  font-family: $font-display;
+  font-weight: 700;
+  color: $white;
+  border: 0;
+  background: $cf-grad;
+  min-height: 52px;
+  padding: 12px 22px;
+  border-radius: $cf-radius-pill;
+  margin: 5px;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.96);
+    color: $white;
+  }
+}
+
+.ef-terms-and-conditions-wrapper {
+  text-align: initial;
+  color: $cf-muted;
+  font-size: 0.9rem;
+}

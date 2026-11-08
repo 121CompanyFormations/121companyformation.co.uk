@@ -1,0 +1,46 @@
+/* Client account area (portal after login) */
+
+.container.custom_container #efPageContent {
+  max-width: 1200px;
+}
+
+#efPageContent {
+  .efAccountMenu {
+    margin-bottom: 28px;
+    padding: 0;
+
+    .efAccountMenuTabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0;
+
+      .efAccountMainMenuLi {
+        list-style: none;
+
+        a {
+          display: inline-flex;
+          align-items: center;
+          min-height: 40px;
+          padding: 0 14px;
+          border-radius: $cf-radius-pill;
+          border: 1px solid $cf-line;
+          background: $white;
+          color: $cf-navy;
+          font-family: $font-display;
+          font-size: 0.85rem;
+          font-weight: 700;
+          text-decoration: none;
+
+          &:hover,
+          &.active,
+          &.current {
+            background: $cf-grad;
+            border-color: transparent;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

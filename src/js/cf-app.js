@@ -1,14 +1,6 @@
 /**
- * 121 Company Formation – redesign app JS
- * Upload minified build to eFiling Asset Manager as /assets/custom/files/app_min.js
- *
- * Buy-flow (mirrors live app_min.js):
- *   packagesBuyNow(slug)
- *     - if URL hash present (company name from name search) → /buy/{slug}/
- *     - else → /name-check/{slug}/
- *   nameSearch()
- *     - if hash → /buy/{hash}
- *     - else → /packages/#packages
+ * 121 redesign UI (nav / package tabs / youtube).
+ * Buy-flow globals live in functions.js (packagesBuyNow, nameSearch) – same as 001.
  */
 (function () {
   "use strict";
@@ -23,21 +15,6 @@
   function hashValue() {
     return String(window.location.hash || "").replace(/^#/, "");
   }
-
-  /** Live platform buy entry – keep as globals for onclick="packagesBuyNow(...)" */
-  window.packagesBuyNow = function packagesBuyNow(slug) {
-    if (!slug) return;
-    var hash = hashValue();
-    /* Hash is used by live name-check flow to carry the chosen company name into /buy/ */
-    window.location.href = hash ? "/buy/" + slug + "/" : "/name-check/" + slug + "/";
-  };
-
-  window.nameSearch = function nameSearch() {
-    var hash = hashValue();
-    window.location.href = hash
-      ? "/buy/" + hash
-      : window.location.origin + "/packages/#packages";
-  };
 
   /* -------------------- Mobile nav + dropdowns -------------------- */
   function closeAllDropdowns() {

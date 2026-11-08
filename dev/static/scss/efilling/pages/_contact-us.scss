@@ -1,0 +1,17 @@
+#efPageContent {
+  .efContactForm,
+  #efContactForm,
+  form[name*="contact"] {
+    .efSubmitButton,
+    button[type="submit"] {
+      background: $cf-grad;
+      border: 0;
+      border-radius: $cf-radius-pill;
+      color: $white;
+      font-family: $font-display;
+      font-weight: 700;
+      min-height: 46px;
+      padding: 0 22px;
+    }
+  }
+}

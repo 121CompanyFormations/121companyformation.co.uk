@@ -1,0 +1,15 @@
+#efOrderConfirmation,
+.efConfirmation,
+#ef-confirmation {
+  padding: 28px;
+  border-radius: $cf-radius;
+  border: 1px solid $cf-line;
+  background: $white;
+  box-shadow: $cf-shadow;
+
+  h1,
+  h2 {
+    font-family: $font-display;
+    color: $cf-navy;
+  }
+}

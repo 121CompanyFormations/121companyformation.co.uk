@@ -1,0 +1,132 @@
+/* Soft overrides for eFiling Core widgets – 121 redesign */
+
+#efPageContent {
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 16px 72px;
+  color: $cf-ink;
+  font-family: $font-body;
+
+  @media #{$grid-sm} {
+    max-width: 540px;
+  }
+  @media #{$grid-md} {
+    max-width: 720px;
+  }
+  @media #{$grid-lg} {
+    max-width: 960px;
+  }
+  @media #{$grid-xl} {
+    max-width: 1200px;
+  }
+
+  .efWidgetHeading {
+    padding: 10px 0;
+    font-family: $font-display;
+    color: $cf-navy;
+  }
+}
+
+body.cf-redesign #efPageContent,
+.cf-redesign #efPageContent {
+  padding-top: 32px;
+}
+
+.efSelectInput,
+.efTextInput,
+.efTextarea,
+.efInputText {
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  width: 100%;
+  border: 1px solid $cf-line;
+  border-radius: $cf-radius-sm;
+  font-family: $font-body;
+  color: $cf-ink;
+  background: $white;
+
+  &:focus {
+    border-color: rgba(255, 154, 31, 0.55);
+    box-shadow: 0 0 0 3px rgba(255, 154, 31, 0.18);
+    outline: none;
+  }
+}
+
+.efTableSubheader {
+  background: $cf-navy-2 !important;
+  color: $white !important;
+}
+
+.efTable {
+  width: 100%;
+  border-collapse: collapse;
+
+  tbody {
+    @media #{$m990} {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    tr {
+      @media #{$m990} {
+        display: grid;
+        border: 1px solid $cf-line;
+        border-radius: $cf-radius-sm;
+        margin: 10px 0;
+        text-align: center;
+        overflow: hidden;
+      }
+
+      td {
+        @media #{$m990} {
+          text-align: center !important;
+        }
+      }
+    }
+  }
+}
+
+.efButton,
+input.efButton,
+a.efButton,
+.efSubmitButton,
+input.efSubmitButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: $cf-radius-pill;
+  border: 2px solid transparent;
+  font-family: $font-display;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  background: $cf-grad;
+  color: $white !important;
+  box-shadow: none;
+
+  &:hover {
+    filter: brightness(0.96);
+    color: $white !important;
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-shadow: none !important;
+}
+
+#tcagree-checkbox-label {
+  display: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 3px solid rgba(255, 154, 31, 0.55);
+  outline-offset: 2px;
+}

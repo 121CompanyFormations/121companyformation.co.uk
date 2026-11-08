@@ -1,0 +1,31 @@
+/* /name-check/{package}/ – availability result + continue into buy */
+
+#efNameCheckResult {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  padding: 24px;
+  border-radius: $cf-radius;
+  background: $cf-bg;
+  border: 1px solid $cf-line;
+  font-family: $font-display;
+  font-size: 1.15rem;
+  font-weight: 700;
+
+  #efNameCheckResult_GREEN {
+    color: #15803d;
+  }
+  #efNameCheckResult_RED {
+    color: $cf-red;
+  }
+}
+
+form[action*="name-check"],
+.cf-namecheck {
+  .efSubmitButton,
+  .efButton {
+    background: $cf-grad;
+  }
+}

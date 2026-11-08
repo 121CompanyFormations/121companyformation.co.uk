@@ -1,0 +1,84 @@
+/* Authenticated order wizard (#page-order) */
+
+#page-order {
+  color: $cf-ink !important;
+
+  #ef-order-form {
+    .ef-order-form-nav-wrapper {
+      background-color: $white;
+      border: 1px solid $cf-line;
+      border-radius: $cf-radius;
+      overflow: hidden;
+
+      .ef-nav-section-link {
+        border-right: 1px solid rgba(255, 255, 255, 0.12);
+        background: $cf-navy-2;
+        color: $white;
+        font-family: $font-display;
+        font-weight: 600;
+
+        &.current {
+          background: $cf-grad;
+        }
+      }
+
+      .ef-order-form-nav-step-wrapper {
+        background-color: $cf-navy;
+
+        .ef-order-form-nav-item-text,
+        a {
+          color: rgba(255, 255, 255, 0.88);
+          &:hover {
+            color: $white;
+          }
+        }
+
+        .step-complete + div {
+          color: #4ade80;
+        }
+      }
+    }
+
+    .ef-content-wrapper {
+      .ef-panel-wrapper {
+        border: 1px solid $cf-line;
+        border-radius: $cf-radius;
+        overflow: hidden;
+        background: $white;
+        box-shadow: $cf-shadow;
+
+        #ef-panel-title {
+          background: $cf-navy;
+          color: $white;
+          padding: 14px 18px;
+          h1 {
+            color: $white;
+            font-family: $font-display;
+            font-size: 1.15rem;
+            margin: 0;
+          }
+        }
+
+        .ef-primary-btn,
+        .efPrimaryBtn,
+        button.ef-primary-btn {
+          margin-left: 12px;
+          font-family: $font-display;
+          font-weight: 700;
+          color: $white;
+          background: $cf-grad;
+          border: 0;
+          min-height: 46px;
+          border-radius: $cf-radius-pill;
+          min-width: 50px;
+          padding: 0 18px;
+          cursor: pointer;
+
+          &:hover {
+            filter: brightness(0.96);
+          }
+        }
+      }
+    }
+  }
+}

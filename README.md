@@ -93,13 +93,27 @@ YouTube: facade with thumbnail + play; iframe loads on click (faster, looks good
 
 ### Buy flow (live-compatible)
 
-`packagesBuyNow(slug)` (from live `app_min.js`):
+`packagesBuyNow(slug)` (from live / 001 `functions.js`):
 
 - with a URL hash (company name from name search) → `/buy/{slug}/`
 - otherwise → `/name-check/{slug}/`
 
 Package CTAs use `href="/name-check/{slug}/"` + `onclick="packagesBuyNow('…')"`.  
 Nav structure links use `/packages/#package-llp` (etc.) so the correct compare tab opens.
+
+### Theme layout (same as 001formationagent eFiling build)
+
+001 is the reference gulp theme; 121 uses the same eFiling platform and the same buy/account widgets (`#efPackagePurchaseOptionsContainer`, `#efNameCheckResult`, `#page-order`, …).
+
+| 001formationagent | 121 redesign |
+|---|---|
+| `dev/static/scss/efilling/` | `dev/static/scss/efilling/` (121 navy/orange tokens) |
+| `dev/static/js/functions.js` | `dev/static/js/functions.js` (`packagesBuyNow`) |
+| `dev/static/js/main.js` | `dev/static/js/main.js` (package hash tabs) |
+| `gulp build` → `build/static/app.min.*` | `npm run build` → `dist/app_min.*` |
+| marketing + eFiling in one CSS | `css/cf-site.css` + compiled eFiling SCSS concatenated |
+
+Backoffice covered in SCSS: name-check, login, register, contact, account, buy, cart, order, payment, confirmation.
 6. Create the new blocks (HOW_IT_WORKS, BANKING_PARTNERS, POPULAR_SERVICES, WHY_US, FAQ_HOME).
 7. Replace homepage PAGE_CONTENT with `pages/home-content.html`.
 8. Hard refresh + test on desktop and mobile: menu, dropdown, name check, Buy now.

@@ -1,0 +1,130 @@
+/* /buy/{package}/ – package purchase options (client order start) */
+
+#efPackagePurchaseOptionsContainer {
+  form {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 24px;
+
+    @media #{$m990} {
+      flex-direction: column-reverse;
+    }
+
+    #efEverythingInTheOrderContainer {
+      flex: 0 0 calc(40% - 12px);
+      padding: 20px;
+      border-radius: $cf-radius;
+      border: 1px solid $cf-line;
+      background: $white;
+      box-shadow: $cf-shadow;
+
+      @media #{$m990} {
+        flex: 0 0 100%;
+      }
+
+      table {
+        tr {
+          &.ui-widget-header {
+            background: $cf-navy;
+            color: $white;
+            &.efTableSubheader {
+              background: $cf-navy-2;
+            }
+          }
+          td {
+            input[type="button"] {
+              background: $cf-grad;
+              border: 0;
+              border-radius: $cf-radius-pill;
+              color: $white;
+              font-family: $font-display;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+
+      #efPackageAgreeTerms {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 14px 0;
+        input {
+          height: auto;
+          width: auto;
+          margin-top: 3px;
+        }
+        label {
+          width: 100%;
+          text-align: left;
+          font-size: 0.9rem;
+          line-height: 1.35;
+          color: $cf-muted;
+        }
+      }
+
+      input[type="button"] {
+        font-family: $font-display;
+        font-weight: 700;
+        color: $white;
+        background: $cf-grad;
+        border: 0;
+        border-radius: $cf-radius-pill;
+        &#efPackageCheckoutButton {
+          padding: 0 28px;
+          min-height: 48px;
+          width: 100%;
+        }
+        &:hover {
+          filter: brightness(0.96);
+          cursor: pointer;
+        }
+      }
+    }
+
+    #efEverythingOptionalContainer {
+      flex: 0 0 60%;
+      @media #{$m990} {
+        flex: 0 0 100%;
+      }
+
+      table {
+        tr {
+          &.ui-widget-header {
+            background: $cf-navy;
+            color: $white;
+            &.efTableSubheader {
+              background: $cf-navy-2;
+            }
+          }
+          td {
+            .efQuantity {
+              margin: 0;
+              width: auto;
+              max-width: 48px;
+              text-align: center;
+              border-radius: $cf-radius-sm;
+            }
+            input.efButton {
+              border: 1px solid $cf-line;
+              color: $cf-navy;
+              background: $white;
+              border-radius: $cf-radius-pill;
+              padding: 8px 14px;
+              &:hover,
+              &.ui-button {
+                background: $cf-grad;
+                border-color: transparent;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#efContinueExistingPackageOrder form {
+  margin: 0;
+}

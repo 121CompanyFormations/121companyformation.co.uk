@@ -1,0 +1,28 @@
+#efLoginContainer {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 28px;
+  border-radius: $cf-radius;
+  background: $white;
+  border: 1px solid $cf-line;
+  box-shadow: $cf-shadow;
+
+  h2 {
+    font-family: $font-display;
+    color: $cf-navy;
+    margin: 0 0 18px;
+  }
+
+  .efButton,
+  .efSubmitButton,
+  button[type="submit"] {
+    width: 100%;
+    background: $cf-grad;
+    border: 0;
+    border-radius: $cf-radius-pill;
+    color: $white;
+    font-family: $font-display;
+    font-weight: 700;
+    min-height: 46px;
+  }
+}

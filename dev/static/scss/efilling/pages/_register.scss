@@ -1,0 +1,82 @@
+#efRegisterContainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  #register {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+    .efRegisterUserWrapper,
+    .efRegisterUserAddressWrapper {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 280px;
+      padding: 20px;
+      border: 1px solid $cf-line;
+      border-radius: $cf-radius;
+      background: $white;
+    }
+
+    .efRegisterTermsWrapper {
+      flex: 0 0 100%;
+      p {
+        line-height: 1.4;
+        label input[type="checkbox"] {
+          width: auto;
+          height: auto;
+          margin-right: 8px;
+        }
+      }
+    }
+
+    #efRegisterSubmitButton {
+      margin: 0 auto;
+      button {
+        font-family: $font-display;
+        font-weight: 700;
+        color: $white;
+        background: $cf-grad;
+        border: 0;
+        border-radius: $cf-radius-pill;
+        padding: 14px 28px;
+        min-height: 52px;
+        cursor: pointer;
+
+        &:hover {
+          filter: brightness(0.96);
+        }
+      }
+    }
+
+    .efPanelContent {
+      padding: 10px;
+      table {
+        width: 100%;
+        td {
+          padding: 6px 0;
+          input {
+            width: 100%;
+          }
+          &:first-child {
+            width: 30%;
+            font-weight: 600;
+            color: $cf-navy;
+            @media #{$md} {
+              width: 40%;
+            }
+            @media #{$m990} {
+              width: 100%;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
