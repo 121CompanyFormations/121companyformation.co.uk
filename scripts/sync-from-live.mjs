@@ -9,6 +9,8 @@ const PAGES = path.join(ROOT, "pages");
 const BLOCKS = path.join(ROOT, "blocks");
 const PREVIEW = path.join(ROOT, "preview");
 const SITE = path.join(ROOT, "site");
+const DOCS = path.join(ROOT, "docs");
+const PAGES_DOMAIN = "redesign.121companyformation.co.uk";
 
 const SIDEBAR_URLS = new Set([
   "/registered-office-address/",
@@ -554,6 +556,12 @@ function buildSite() {
       ? shellPage("Blog", read(path.join(PAGES, "blog-content.html")), "site")
       : stub("Blog", "The live /blog/ route currently returns 404.")
   );
+
+  // GitHub Pages custom domain + publish copy in /docs (branch deploy option)
+  write(path.join(SITE, "CNAME"), `${PAGES_DOMAIN}\n`);
+  fs.rmSync(DOCS, { recursive: true, force: true });
+  copyDir(SITE, DOCS);
+  console.log(`DOCS mirror → ${path.relative(ROOT, DOCS)} (CNAME ${PAGES_DOMAIN})`);
 }
 
 function syncPages() {

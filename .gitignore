@@ -9,3 +9,6 @@ Thumbs.db
 dist/
 tmp/
 *.local
+
+# docs/ is a publish copy of site/ for GitHub Pages (branch /docs)
+# Keep it in git so "Deploy from a branch → /docs" works without Actions.
