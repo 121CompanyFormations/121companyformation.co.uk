@@ -464,6 +464,13 @@
     var burger = qs("[data-cf-burger]");
     if (!wrap) return;
     if (open) {
+      /* Keep drawer under <body> so sticky/filter ancestors cannot clip it */
+      if (!wrap._cfHome) {
+        wrap._cfHome = { parent: wrap.parentNode, next: wrap.nextSibling };
+      }
+      if (wrap.parentNode !== document.body) {
+        document.body.appendChild(wrap);
+      }
       wrap.classList.add("is-open");
       if (backdrop) {
         backdrop.hidden = false;
@@ -479,6 +486,9 @@
       }
       if (burger) burger.setAttribute("aria-expanded", "false");
       document.documentElement.style.overflow = "";
+      if (wrap._cfHome && wrap._cfHome.parent) {
+        wrap._cfHome.parent.insertBefore(wrap, wrap._cfHome.next);
+      }
       closeAllDropdowns();
     }
   }

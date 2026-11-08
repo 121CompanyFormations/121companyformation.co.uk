@@ -247,9 +247,9 @@ html:has(body.cf-redesign) {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(11, 21, 48, 0.97);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  /* Solid navy — avoid backdrop-filter: it makes position:fixed descendants
+     (mobile nav drawer) resolve against the header instead of the viewport */
+  background: #0b1530;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 8px 24px rgba(7, 14, 34, 0.18);
 }
@@ -435,12 +435,6 @@ html:has(body.cf-redesign) {
 .cf-burger svg { width: 22px; height: 22px; }
 
 @media (max-width: 1024px) {
-  /* backdrop-filter creates a containing block for position:fixed —
-     without this the mobile drawer is clipped to the header height */
-  .cf-header {
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-  }
   .cf-burger { display: inline-flex; }
   .cf-header__cluster {
     display: inline-flex;
