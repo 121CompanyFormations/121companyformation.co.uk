@@ -1,0 +1,16 @@
+{
+  "name": "121-efiling-redesign",
+  "version": "1.0.0",
+  "private": true,
+  "description": "121 Company Formation eFiling redesign – static preview",
+  "scripts": {
+    "build": "node scripts/sync-from-live.mjs --site-only",
+    "start": "node scripts/sync-from-live.mjs --site-only && serve site -p 3000 -n",
+    "preview": "serve site -p 3000 -n",
+    "crawl": "node scripts/crawl-live.mjs",
+    "sync": "node scripts/sync-from-live.mjs"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

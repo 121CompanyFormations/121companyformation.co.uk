@@ -1,0 +1,36 @@
+<!-- Block: BLOG_POST_LAYOUT – wrapper around single post body from CMS -->
+<article class="cf-section cf-article blog_single">
+  <div class="cf-blog-layout">
+    <div class="cf-blog-main">
+      <header class="cf-article__header blog_single_info">
+        <p class="cf-article__meta"><span class="post_date">##POST_DATE#</span></p>
+        <h1 class="cf-article__title">##POST_TITLE#</h1>
+      </header>
+      <div class="cf-prose blog_content">
+        ##POST_BODY#
+      </div>
+      <footer class="cf-article__footer">
+        <div class="cf-share post_share" aria-label="Share">
+          <span>Share</span>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=##POST_URL#" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=##POST_URL#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://twitter.com/intent/tweet?url=##POST_URL#" target="_blank" rel="noopener">X</a>
+        </div>
+        <div class="cf-related blog_related_post">
+          <h2>Related guides</h2>
+          <ul>
+            <li><a href="/introduction-to-company-formation/">Introduction to company formation</a></li>
+            <li><a href="/company-formation-checklist/">Company formation checklist</a></li>
+            <li><a href="/frequently-asked-questions/">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="cf-article__cta">
+          <h2>Ready to form your company?</h2>
+          <p>Packages from £110.95. Expert checks before we file at Companies House.</p>
+          <a class="cf-btn cf-btn--primary" href="/packages/#packages">View packages</a>
+        </div>
+      </footer>
+    </div>
+    ##BLOG_SIDEBAR#
+  </div>
+</article>

@@ -1,0 +1,418 @@
+[
+  {
+    "url": "/packages/",
+    "file": "pages/packages-content.html",
+    "template": "packages-listing",
+    "blocks": "HOME_PACKAGES_*, HELP_SECTION",
+    "custom": "CUSTOM1=Packages",
+    "status": "done"
+  },
+  {
+    "url": "/lbs-bronze/",
+    "file": "pages/lbs-bronze-content.html",
+    "template": "package-detail",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/lbs-gold/",
+    "file": "pages/lbs-gold-content.html",
+    "template": "package-detail",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/lbs-platinum/",
+    "file": "pages/lbs-platinum-content.html",
+    "template": "package-detail",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/lbs-diamond/",
+    "file": "pages/lbs-diamond-content.html",
+    "template": "package-detail",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/registered-office-address/",
+    "file": "pages/registered-office-address-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/service-address/",
+    "file": "pages/service-address-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/trade-mail-forwarding/",
+    "file": "pages/trade-mail-forwarding-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/renewals/",
+    "file": "pages/renewals-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/confirmation-statement-service/",
+    "file": "pages/confirmation-statement-service-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/company-closure/",
+    "file": "pages/company-closure-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/company-name-change/",
+    "file": "pages/company-name-change-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/vat-registration/",
+    "file": "pages/vat-registration-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/director-appointment-and-resignation/",
+    "file": "pages/director-appointment-and-resignation-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/business-telephone-service/",
+    "file": "pages/business-telephone-service-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/transfer-of-shares/",
+    "file": "pages/transfer-of-shares-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/allocation-of-shares/",
+    "file": "pages/allocation-of-shares-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/certificate-of-good-standing/",
+    "file": "pages/certificate-of-good-standing-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/business-banking/",
+    "file": "pages/business-banking-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/year-end-accounts/",
+    "file": "pages/year-end-accounts-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/corporation-tax/",
+    "file": "pages/corporation-tax-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/bookkeeping/",
+    "file": "pages/bookkeeping-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/vat-returns/",
+    "file": "pages/vat-returns-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/payroll-and-paye/",
+    "file": "pages/payroll-and-paye-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/dormant-company-account/",
+    "file": "pages/dormant-company-account-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/director-salary-and-dividends/",
+    "file": "pages/director-salary-and-dividends-content.html",
+    "template": "service",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/introduction-to-company-formation/",
+    "file": "pages/introduction-to-company-formation-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/company-formation-checklist/",
+    "file": "pages/company-formation-checklist-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/our-4-step-guide-to-setting-up-a-company/",
+    "file": "pages/our-4-step-guide-to-setting-up-a-company-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/post-incorporation-activities/",
+    "file": "pages/post-incorporation-activities-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/admin-portal-to-manage-your-companies/",
+    "file": "pages/admin-portal-to-manage-your-companies-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/online-company-name-search-tool/",
+    "file": "pages/online-company-name-search-tool-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/company-director/",
+    "file": "pages/company-director-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/company-secretary/",
+    "file": "pages/company-secretary-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/limited-company-shareholders/",
+    "file": "pages/limited-company-shareholders-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/limited-by-shares/",
+    "file": "pages/limited-by-shares-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/limited-by-guarantee-company/",
+    "file": "pages/limited-by-guarantee-company-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/limited-liability-partnership/",
+    "file": "pages/limited-liability-partnership-content.html",
+    "template": "guide",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/about-us/",
+    "file": "pages/about-us-content.html",
+    "template": "about",
+    "blocks": "\u2014",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/contact-us/",
+    "file": "pages/contact-us-content.html",
+    "template": "contact",
+    "blocks": "SERVICE_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/frequently-asked-questions/",
+    "file": "pages/frequently-asked-questions-content.html",
+    "template": "faq",
+    "blocks": "\u2014",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/privacy-policy/",
+    "file": "pages/privacy-policy-content.html",
+    "template": "legal",
+    "blocks": "LEGAL_LAYOUT (optional)",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/terms-and-conditions/",
+    "file": "pages/terms-and-conditions-content.html",
+    "template": "legal",
+    "blocks": "LEGAL_LAYOUT (optional)",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/terms/",
+    "file": "pages/terms-content.html",
+    "template": "legal",
+    "blocks": "LEGAL_LAYOUT (optional)",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/refund-and-cancellation-policy/",
+    "file": "pages/refund-and-cancellation-policy-content.html",
+    "template": "legal",
+    "blocks": "LEGAL_LAYOUT (optional)",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/blog/",
+    "file": "pages/blog-content.html",
+    "template": "blog-index",
+    "blocks": "BLOG_SIDEBAR, BLOG_LIST",
+    "custom": "CUSTOM2/3/4 optional",
+    "status": "done-template-live-404"
+  },
+  {
+    "url": "/blog/{post}/ (when enabled)",
+    "file": "pages/blog-post-sample-content.html",
+    "template": "blog-post",
+    "blocks": "BLOG_POST_LAYOUT, BLOG_SIDEBAR",
+    "custom": "\u2014",
+    "status": "done-template"
+  },
+  {
+    "url": "404",
+    "file": "pages/404-content.html",
+    "template": "error",
+    "blocks": "\u2014",
+    "custom": "\u2014",
+    "status": "done"
+  },
+  {
+    "url": "/name-check/*",
+    "file": null,
+    "template": "platform-flow",
+    "blocks": "header/footer/CSS only",
+    "custom": "\u2014",
+    "status": "platform-native"
+  },
+  {
+    "url": "/login/, /register/",
+    "file": null,
+    "template": "platform-auth",
+    "blocks": "header/footer/CSS only",
+    "custom": "\u2014",
+    "status": "platform-native"
+  },
+  {
+    "url": "/lbs-silver/",
+    "file": null,
+    "template": "package-detail",
+    "blocks": "\u2014",
+    "custom": "\u2014",
+    "status": "live-404"
+  },
+  {
+    "url": "/vat/",
+    "file": null,
+    "template": "service",
+    "blocks": "\u2014",
+    "custom": "\u2014",
+    "status": "found-in-search-not-sitemap"
+  }
+]

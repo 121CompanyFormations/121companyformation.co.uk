@@ -1,0 +1,138 @@
+<!-- PAGE_CONTENT for /contact-us/ – redesign of eFiling contact page -->
+<section class="cf-page-hero" aria-label="Page header">
+  <div class="cf-container cf-page-hero__inner">
+    <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+      <span class="cf-breadcrumbs__current">Contact Us</span>
+    </nav>
+    <h1 class="cf-page-hero__title">Contact Us</h1>
+    <p class="cf-page-hero__lead">Speak to our team about UK company formation, packages and ongoing compliance.</p>
+  </div>
+</section>
+
+<section class="cf-section cf-contact" aria-labelledby="cf-contact-title">
+  <div class="cf-container">
+    <h2 id="cf-contact-title" class="cf-sr-only">Contact details and enquiry form</h2>
+
+    <div class="cf-contact__grid">
+      <aside class="cf-contact__info" aria-label="Office and contact details">
+        <div class="cf-contact__card">
+          <h3>Office Address</h3>
+          <p>
+            <a href="https://www.google.com/maps/place/Hold+Everything/@51.5132068,-0.1438285,17.13z/data=!3m1!5s0x48761b2cab03f1df:0x588fabaca8473c91!4m5!3m4!1s0x48761ad574cf495d:0x737f5960ced46d6d!8m2!3d51.5132459!4d-0.1411087" target="_blank" rel="noopener">
+              3rd Floor,<br />
+              207 Regent Street<br />
+              London W1B 3HH
+            </a>
+          </p>
+        </div>
+
+        <div class="cf-contact__card">
+          <h3>Contact Info</h3>
+          <p>
+            <span class="cf-contact__label">Phone:</span>
+            <a href="tel:+442038932121">+44 (0)203 8932 121</a>
+          </p>
+          <p>
+            <span class="cf-contact__label">WhatsApp:</span>
+            <a href="https://wa.me/4407984046470" target="_blank" rel="noopener">+44 (0) 798 4046 470</a>
+          </p>
+          <p>
+            <span class="cf-contact__label">Support:</span>
+            <a href="mailto:info@121companyformation.co.uk">info@121companyformation.co.uk</a>
+          </p>
+        </div>
+      </aside>
+
+      <div class="cf-contact__form-wrap">
+        <!-- In eFiling CMS this slot is ##PAGE_CONTENT# (Contact Us form node). Static demo uses the live form fields. -->
+        <div class="cf-contact__form" id="efPageContent">
+          <form class="cf-form" method="post" action="/contact-us/" novalidate>
+            <h3>Get in Touch</h3>
+            <label class="cf-sr-only" for="efContactName">Name</label>
+            <input type="text" name="name" id="efContactName" required placeholder="Name" autocomplete="name" />
+
+            <label class="cf-sr-only" for="efContactEmail">Email</label>
+            <input type="email" name="email" id="efContactEmail" required placeholder="Your E-mail" autocomplete="email" />
+
+            <label class="cf-sr-only" for="efContactPhone">Phone</label>
+            <input type="text" name="phone" id="efContactPhone" placeholder="Phone No (Incl Country &amp; Area Code)" autocomplete="tel" />
+
+            <label class="cf-sr-only" for="question">How can we help you?</label>
+            <textarea name="question" id="question" cols="30" rows="8" required placeholder="How can we help you?"></textarea>
+
+            <input type="hidden" id="SendToCustomer" name="SendToCustomer" value="0" />
+            <input type="hidden" id="redir" name="redir" value="0" />
+            <input type="hidden" id="altemail" name="altemail" value="" />
+            <input type="hidden" id="hidden1" name="hidden1" value="1" />
+            <input type="hidden" id="hidden2" name="hidden2" value="1" />
+            <input type="hidden" id="hidden3" name="hidden3" value="1" />
+            <input type="hidden" id="hidden4" name="hidden4" value="1" />
+            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" value="" />
+
+            <button class="cf-btn cf-btn--primary" id="efContactSubmitButton" type="submit">Submit</button>
+          </form>
+
+          <div id="success" class="cf-contact__msg cf-contact__msg--success" hidden>Your message succesfully sent!</div>
+          <div id="error" class="cf-contact__msg cf-contact__msg--error" hidden>Opps! There is something wrong. Please try again</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cf-contact__map mapbox" aria-label="Office location map">
+      <iframe
+        title="121 Company Formation office map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=207%20regent%20street%20london%20w1b%203hh+(001%20Formation%20Agent)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.121companyformation.co.uk/contact-us/"
+  },
+  "url": "https://www.121companyformation.co.uk/contact-us/",
+  "name": "Contact Us - 121 Company Formation",
+  "description": "Get in touch with 121 Company Formation for inquiries on company formation services, business registration, and support. We're here to help.",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.121companyformation.co.uk/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact Us",
+        "item": "https://www.121companyformation.co.uk/contact-us/"
+      }
+    ]
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+44-203-8932-121",
+    "contactType": "Customer Support",
+    "areaServed": "GB",
+    "availableLanguage": ["English"],
+    "email": "info@121companyformation.co.uk"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3rd Floor, 207 Regent Street",
+    "addressLocality": "London",
+    "postalCode": "W1B 3HH",
+    "addressCountry": "GB"
+  }
+}
+</script>
