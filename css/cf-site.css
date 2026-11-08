@@ -178,18 +178,15 @@ html:has(body.cf-redesign) {
   box-shadow: 0 8px 18px rgba(232, 70, 30, 0.25);
 }
 .cf-btn--primary:hover { box-shadow: 0 10px 22px rgba(232, 70, 30, 0.32); color: #fff !important; }
-/* Small CTAs (table/compare) — large shadows read as a dark square behind the pill */
-.cf-btn--sm.cf-btn--primary,
-.cf-table__actions .cf-btn--primary {
-  box-shadow: 0 3px 8px rgba(232, 70, 30, 0.28);
+/* Compare table clips overflow for rounded corners — any button shadow
+   becomes a hard rectangular “square” behind the pill. Keep these flat. */
+.cf-table--compare .cf-btn,
+.cf-table__actions .cf-btn {
+  box-shadow: none !important;
 }
-.cf-btn--sm.cf-btn--primary:hover,
-.cf-table__actions .cf-btn--primary:hover {
-  box-shadow: 0 5px 12px rgba(232, 70, 30, 0.34);
-}
-.cf-btn--sm.cf-btn--outline,
-.cf-table__actions .cf-btn--outline {
-  box-shadow: none;
+.cf-table--compare .cf-btn:hover,
+.cf-table__actions .cf-btn:hover {
+  box-shadow: none !important;
 }
 .cf-btn--ghost {
   background: transparent;
