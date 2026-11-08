@@ -518,7 +518,10 @@ function buildSite() {
     if (slug === "404") urlPath = "/404/";
 
     const pagePath = path.join(PAGES, file);
-    const title = titleFromPageFile(pagePath, slug.replace(/-/g, " "));
+    let title = titleFromPageFile(pagePath, slug.replace(/-/g, " "));
+    if (slug === "online-company-name-search-tool") {
+      title = "Company Name Check | 121 Company Formation";
+    }
     const html = shellPage(title, read(pagePath), "site");
     write(path.join(SITE, urlPath.replace(/^\//, ""), "index.html"), html);
 
