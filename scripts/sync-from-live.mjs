@@ -461,7 +461,9 @@ function buildHomePreview() {
 function titleFromPageFile(file, fallback) {
   try {
     const html = read(file);
-    const m = html.match(/cf-page-hero__title">([^<]+)/);
+    const m =
+      html.match(/cf-page-hero__title">([^<]+)/) ||
+      html.match(/cf-namesearch-hero__title">([^<]+)/);
     if (m) return m[1].trim();
   } catch {
     /* ignore */
@@ -593,7 +595,8 @@ function syncPages() {
       item.url === "/frequently-asked-questions/" ||
       item.url === "/about-us/" ||
       item.url === "/packages/" ||
-      item.url === "/contact-us/"
+      item.url === "/contact-us/" ||
+      item.url === "/online-company-name-search-tool/"
     ) {
       console.log(`KEEP ${item.url} (hand-crafted content)`);
       ok++;

@@ -1,25 +1,34 @@
-<!-- PAGE_CONTENT for /online-company-name-search-tool/ – synced from live HTML -->
-<section class="cf-page-hero" aria-label="Page header">
-  <div class="cf-container cf-page-hero__inner">
-    <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
-      <a href="/">Home</a>
-      <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
-      <span class="cf-breadcrumbs__current">Company Name Check</span>
-    </nav>
-    <h1 class="cf-page-hero__title">Company Name Check</h1>
-    
+<!-- PAGE_CONTENT for /online-company-name-search-tool/ – search hero matches live eFiling -->
+<section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+  <div class="cf-container cf-namesearch-hero__inner">
+    <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">Check if your company name is available</h1>
+    <form class="cf-namecheck cf-namecheck--wide" action="/name-check/" method="GET" novalidate role="search">
+      <input type="hidden" name="gle" value="namecheck" />
+      <label class="cf-sr-only" for="cf_company_name_search">Type a company name</label>
+      <input id="cf_company_name_search" name="name" type="text" placeholder="Type a name" autocomplete="organization" required aria-label="Type a name" />
+      <button class="cf-btn cf-btn--primary" type="submit">Check Now</button>
+    </form>
   </div>
 </section>
+
+<nav class="cf-breadcrumbs cf-breadcrumbs--solo" aria-label="Breadcrumb">
+  <div class="cf-container cf-breadcrumbs__row">
+    <a href="/">Home</a>
+    <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+    <span class="cf-breadcrumbs__current">Company Name Check</span>
+  </div>
+</nav>
+
 <section class="cf-section">
   <div class="cf-container">
     <div class="cf-split">
-    <div class="cf-prose">
-<h2>
- Company Name Check | 121 Company Formation
- </h2>
- Once you have decided on the name you would like to use for your company, simply use our quick search tool above to check its availability straight away</p><p>This quick search tool is connected to the Companies House database and will immediately confirm whether your chosen name is available and approved by Companies House. If the proposed name of the company is too close to or the same as an existing company name Companies House will not approve its use.</p><p>We are pleased to offer our quick search tool free of charge which means that you can try as many variations as many times as you like until you find one that is suitable, available, and approved.
-    </div>
-    ##SERVICE_SIDEBAR#
+      <div class="cf-prose">
+        <h2>Company Name Check | 121 Company Formation</h2>
+        <p>Once you have decided on the name you would like to use for your company, simply use our quick search tool above to check its availability straight away.</p>
+        <p>This quick search tool is connected to the Companies House database and will immediately confirm whether your chosen name is available and approved by Companies House. If the proposed name of the company is too close to or the same as an existing company name Companies House will not approve its use.</p>
+        <p>We are pleased to offer our quick search tool free of charge which means that you can try as many variations as many times as you like until you find one that is suitable, available, and approved.</p>
+      </div>
+      ##SERVICE_SIDEBAR#
     </div>
   </div>
 </section>

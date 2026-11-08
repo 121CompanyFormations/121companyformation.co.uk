@@ -593,6 +593,11 @@ html:has(body.cf-redesign) {
   box-shadow: var(--cf-shadow-lg);
   max-width: 520px;
 }
+.cf-namecheck--wide {
+  max-width: 640px;
+  width: 100%;
+  margin-inline: auto;
+}
 .cf-namecheck input {
   flex: 1;
   border: 0;
@@ -2075,6 +2080,42 @@ body.cf-redesign .footer_area {
 /* ==========================================================================
    INNER PAGES + BLOG + LEGACY PLATFORM HOOKS
    ========================================================================== */
+
+/* ---- Company name search tool hero (matches live search-in-header band) ---- */
+.cf-namesearch-hero {
+  position: relative;
+  color: #fff;
+  padding: 88px 0 72px;
+  overflow: hidden;
+  background:
+    linear-gradient(105deg, rgba(11, 21, 48, 0.88) 0%, rgba(11, 21, 48, 0.62) 48%, rgba(11, 21, 48, 0.35) 100%),
+    url("/assets/home/header-contact-v3.jpg") center / cover no-repeat;
+}
+.cf-namesearch-hero__inner {
+  text-align: center;
+  max-width: 760px;
+}
+.cf-namesearch-hero__title {
+  margin: 0 0 28px;
+  font-family: var(--cf-display);
+  font-size: clamp(1.65rem, 3.4vw, 2.55rem);
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #fff;
+  text-wrap: balance;
+}
+.cf-breadcrumbs__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+@media (max-width: 640px) {
+  .cf-namesearch-hero { padding: 56px 0 48px; }
+  .cf-namesearch-hero .cf-namecheck { flex-direction: column; border-radius: 18px; padding: 10px; }
+  .cf-namesearch-hero .cf-namecheck .cf-btn { width: 100%; border-radius: 12px; }
+}
 
 .cf-page-hero {
   background:
