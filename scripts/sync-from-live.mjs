@@ -377,7 +377,9 @@ ${block("HEADER_NAV")}
 </header>`;
   const skipCta = /<!--\s*CF_SKIP_CTA\s*-->/.test(bodyHtml);
   const footer = `${skipCta ? "" : block("FOOTER_Register") + "\n"}${block("FOOTER")}`;
-  const js = block("JAVASCRIPT");
+  const jsSrc =
+    mode === "site" ? `/js/app_min.js?v=${jsAssetVersion()}` : `../js/app_min.js?v=${jsAssetVersion()}`;
+  const js = block("JAVASCRIPT").replaceAll("##CF_JS_SRC#", jsSrc);
 
   let headerLocal = localizeAssets(header, mode);
   let footerLocal = localizeAssets(footer, mode);
@@ -484,14 +486,26 @@ function copyDir(src, dest) {
   }
 }
 
+function jsAssetVersion() {
+  const jsPath = path.join(ROOT, "js", "app_min.js");
+  if (!fs.existsSync(jsPath)) return "dev";
+  const st = fs.statSync(jsPath);
+  return `${st.size}-${Math.floor(st.mtimeMs)}`;
+}
+
 function buildSite() {
   // Clean and recreate demo site that mirrors live URL paths
   fs.rmSync(SITE, { recursive: true, force: true });
   fs.mkdirSync(SITE, { recursive: true });
 
-  // Static assets for absolute /css and /assets paths
+  // Static assets for absolute /css, /js and /assets paths
   copyDir(path.join(ROOT, "css"), path.join(SITE, "css"));
   copyDir(path.join(ROOT, "assets"), path.join(SITE, "assets"));
+  const jsSrc = path.join(ROOT, "js", "app_min.js");
+  if (fs.existsSync(jsSrc)) {
+    fs.mkdirSync(path.join(SITE, "js"), { recursive: true });
+    fs.copyFileSync(jsSrc, path.join(SITE, "js", "app_min.js"));
+  }
   write(
     path.join(SITE, "serve.json"),
     JSON.stringify({ cleanUrls: true, trailingSlash: true }, null, 2)

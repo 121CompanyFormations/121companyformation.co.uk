@@ -5,8 +5,11 @@ Production-oriented build: a single CSS file + HTML split into `##NAME#` blocks.
 
 ## What you get
 
-- `css/cf-site.css` – all styles, namespaced with the `cf-` prefix
-- `css/cf-site-block.html` – the same CSS, ready to paste into the `##CSS#` block
+- `css/cf-site.css` – source styles (`cf-` prefix)
+- `src/js/cf-app.js` – source JS (nav, package tabs, YouTube, **buy flow**)
+- `dist/app_min.css` + `dist/app_min.js` – **minified eFiling uploads** (`npm run build`)
+- `dist/efiling-css.html` / `dist/efiling-javascript.html` – paste into `##CSS#` / `##JAVASCRIPT#`
+- `css/cf-site-block.html` – link snippet for the CSS block
 - `blocks/*.html` – one file per CMS block (filename = block name)
 - `layout/Layout.html` – updated Layout template (keeps tracking + placeholders)
 - `pages/home-content.html` – PAGE_CONTENT field for the homepage
@@ -21,7 +24,8 @@ Production-oriented build: a single CSS file + HTML split into `##NAME#` blocks.
 | File | Where in CMS |
 |---|---|
 | `layout/Layout.html` | Theme / Templates → **Layout** (Overwrite) |
-| `css/cf-site-block.html` **or** upload `cf-site.css` | Blocks → **CSS** (`##CSS#`) |
+| `dist/app_min.css` (+ `dist/efiling-css.html`) | Asset Manager + Blocks → **CSS** (`##CSS#`) |
+| `dist/app_min.js` (+ `dist/efiling-javascript.html`) | Asset Manager + Blocks → **JAVASCRIPT** |
 | `blocks/HEADER.html` | Blocks → **HEADER** |
 | `blocks/HEADER_TOP.html` | Blocks → **HEADER_TOP** |
 | `blocks/HEADER_NAV.html` | Blocks → **HEADER_NAV** |
@@ -84,13 +88,18 @@ YouTube: facade with thumbnail + play; iframe loads on click (faster, looks good
 1. Upload logo + favicon in Asset Manager (see below).
 2. Save a copy / export of the old Layout + blocks (rollback).
 3. Paste `layout/Layout.html` into Template Layout.
-4. Paste `css/cf-site-block.html` into the CSS block **or** upload `cf-site.css` and put only this in CSS:
-   ```html
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <link rel="stylesheet" href="/assets/custom/files/cf-site.css?v=1" />
-   ```
-5. Update HEADER, HEADER_TOP, HEADER_NAV, HERO_Homepage, Services, packages, help, youtube, footer, javascript.
+4. Run `npm run build` → upload `dist/app_min.css` and `dist/app_min.js` to Asset Manager (`/assets/custom/files/`), then paste `dist/efiling-css.html` into **CSS** and `dist/efiling-javascript.html` into **JAVASCRIPT** (bump `?v=` after each upload).
+5. Update HEADER, HEADER_TOP, HEADER_NAV, HERO_Homepage, Services, packages, help, youtube, footer.
+
+### Buy flow (live-compatible)
+
+`packagesBuyNow(slug)` (from live `app_min.js`):
+
+- with a URL hash (company name from name search) → `/buy/{slug}/`
+- otherwise → `/name-check/{slug}/`
+
+Package CTAs use `href="/name-check/{slug}/"` + `onclick="packagesBuyNow('…')"`.  
+Nav structure links use `/packages/#package-llp` (etc.) so the correct compare tab opens.
 6. Create the new blocks (HOW_IT_WORKS, BANKING_PARTNERS, POPULAR_SERVICES, WHY_US, FAQ_HOME).
 7. Replace homepage PAGE_CONTENT with `pages/home-content.html`.
 8. Hard refresh + test on desktop and mobile: menu, dropdown, name check, Buy now.

@@ -4,13 +4,16 @@
   "private": true,
   "description": "121 Company Formation eFiling redesign – static preview",
   "scripts": {
-    "build": "node scripts/sync-from-live.mjs --site-only",
-    "start": "node scripts/sync-from-live.mjs --site-only && serve site -p 3000 -n",
+    "build:dist": "node scripts/build-dist.mjs",
+    "build:site": "node scripts/sync-from-live.mjs --site-only",
+    "build": "npm run build:dist && npm run build:site",
+    "start": "npm run build && serve site -p 3000 -n",
     "preview": "serve site -p 3000 -n",
     "crawl": "node scripts/crawl-live.mjs",
-    "sync": "node scripts/sync-from-live.mjs"
+    "sync": "npm run build:dist && node scripts/sync-from-live.mjs"
   },
   "devDependencies": {
+    "esbuild": "^0.25.0",
     "serve": "^14.2.4"
   }
 }

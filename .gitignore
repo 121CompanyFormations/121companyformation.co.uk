@@ -6,7 +6,6 @@ Thumbs.db
 .env.*
 !.env.example
 .cache/
-dist/
 tmp/
 *.local
 

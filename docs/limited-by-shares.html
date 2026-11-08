@@ -64,9 +64,9 @@
           <a href="/lbs-gold/" role="menuitem">Gold</a>
           <a href="/lbs-platinum/" role="menuitem">Platinum</a>
           <a href="/lbs-diamond/" role="menuitem">Diamond</a>
-          <a href="/packages/#packages" role="menuitem" data-cf-pkg-goto="llp">LLP</a>
-          <a href="/packages/#packages" role="menuitem" data-cf-pkg-goto="lbg">LBG</a>
-          <a href="/packages/#packages" role="menuitem" data-cf-pkg-goto="intl">International</a>
+          <a href="/packages/#package-llp" role="menuitem" data-cf-pkg-goto="llp">LLP</a>
+          <a href="/packages/#package-lbg" role="menuitem" data-cf-pkg-goto="lbg">LBG</a>
+          <a href="/packages/#package-intl" role="menuitem" data-cf-pkg-goto="intl">International</a>
           <a class="cf-dropdown__cta" href="/packages/#packages" role="menuitem">View all packages</a>
         </div>
       </li>
@@ -363,132 +363,8 @@
   </div>
 </footer>
 
-<!-- Block: JAVASCRIPT – vanilla, no dependencies beyond platform jQuery if present -->
-<script>
-(function () {
-  "use strict";
-
-  function qs(sel, root) { return (root || document).querySelector(sel); }
-  function qsa(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
-
-  function closeAllDropdowns() {
-    qsa(".cf-nav > li.is-open").forEach(function (li) {
-      li.classList.remove("is-open");
-      var btn = qs("[data-cf-dropdown]", li);
-      if (btn) btn.setAttribute("aria-expanded", "false");
-    });
-  }
-
-  function setNavOpen(open) {
-    var wrap = qs("[data-cf-nav]");
-    var backdrop = qs("[data-cf-nav-backdrop]");
-    var burger = qs("[data-cf-burger]");
-    if (!wrap) return;
-    if (open) {
-      /* Keep drawer under <body> so sticky/filter ancestors cannot clip it */
-      if (!wrap._cfHome) {
-        wrap._cfHome = { parent: wrap.parentNode, next: wrap.nextSibling };
-      }
-      if (wrap.parentNode !== document.body) {
-        document.body.appendChild(wrap);
-      }
-      wrap.classList.add("is-open");
-      if (backdrop) {
-        backdrop.hidden = false;
-        backdrop.classList.add("is-open");
-      }
-      if (burger) burger.setAttribute("aria-expanded", "true");
-      document.documentElement.style.overflow = "hidden";
-    } else {
-      wrap.classList.remove("is-open");
-      if (backdrop) {
-        backdrop.classList.remove("is-open");
-        backdrop.hidden = true;
-      }
-      if (burger) burger.setAttribute("aria-expanded", "false");
-      document.documentElement.style.overflow = "";
-      if (wrap._cfHome && wrap._cfHome.parent) {
-        wrap._cfHome.parent.insertBefore(wrap, wrap._cfHome.next);
-      }
-      closeAllDropdowns();
-    }
-  }
-
-  document.addEventListener("click", function (e) {
-    var burger = e.target.closest("[data-cf-burger]");
-    if (burger) {
-      var wrap = qs("[data-cf-nav]");
-      setNavOpen(!(wrap && wrap.classList.contains("is-open")));
-      return;
-    }
-    if (e.target.closest("[data-cf-nav-backdrop]")) {
-      setNavOpen(false);
-      return;
-    }
-    var wrap = e.target.closest("[data-cf-nav]");
-    if (wrap && !e.target.closest(".cf-nav")) {
-      setNavOpen(false);
-      return;
-    }
-    var ddBtn = e.target.closest("[data-cf-dropdown]");
-    if (ddBtn) {
-      var li = ddBtn.parentElement;
-      var open = !li.classList.contains("is-open");
-      closeAllDropdowns();
-      if (open) {
-        li.classList.add("is-open");
-        ddBtn.setAttribute("aria-expanded", "true");
-      }
-      e.preventDefault();
-      return;
-    }
-    if (!e.target.closest(".cf-nav > li")) closeAllDropdowns();
-  });
-
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") {
-      setNavOpen(false);
-      closeAllDropdowns();
-    }
-  });
-
-  // Package structure tabs (packages page comparison table)
-  document.addEventListener("click", function (e) {
-    var tab = e.target.closest("[data-cf-pkg-tab]");
-    if (!tab) return;
-    var key = tab.getAttribute("data-cf-pkg-tab");
-    if (!key) return;
-    var root = tab.closest(".cf-packages") || document;
-    qsa("[data-cf-pkg-tab]", root).forEach(function (btn) {
-      var on = btn === tab;
-      btn.classList.toggle("is-active", on);
-      btn.setAttribute("aria-selected", on ? "true" : "false");
-    });
-    qsa("[data-cf-pkg-panel]", root).forEach(function (panel) {
-      var on = panel.getAttribute("data-cf-pkg-panel") === key;
-      panel.classList.toggle("is-active", on);
-      if (on) panel.removeAttribute("hidden");
-      else panel.setAttribute("hidden", "hidden");
-    });
-  });
-
-  // YouTube click-to-play facade
-  document.addEventListener("click", function (e) {
-    var btn = e.target.closest("[data-cf-yt]");
-    if (!btn || btn.classList.contains("is-playing")) return;
-    var id = btn.getAttribute("data-cf-yt");
-    if (!id) return;
-    var iframe = document.createElement("iframe");
-    iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0";
-    iframe.title = btn.getAttribute("aria-label") || "YouTube video";
-    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    iframe.setAttribute("allowfullscreen", "allowfullscreen");
-    btn.classList.add("is-playing");
-    btn.appendChild(iframe);
-  });
-  if (document.body) document.body.classList.add("cf-redesign");
-})();
-</script>
+<!-- Block: JAVASCRIPT – upload dist/app_min.js to /assets/custom/files/ then use dist/efiling-javascript.html -->
+<script src="/js/app_min.js?v=3992-1794178481169"></script>
 
 </div>
 </body>
