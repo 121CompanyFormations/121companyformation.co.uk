@@ -409,7 +409,9 @@ ${block("HEADER_NAV")}
   footerLocal = footerLocal.replaceAll("##COPY_YEAR#", year);
   body = body.replaceAll("##COPY_YEAR#", year);
 
-  const cssHref = mode === "site" ? "/css/cf-site.css" : "../css/cf-site.css";
+  const cssVer = String(fs.statSync(path.join(ROOT, "css", "cf-site.css")).mtimeMs | 0);
+  const cssHref =
+    mode === "site" ? `/css/cf-site.css?v=${cssVer}` : `../css/cf-site.css?v=${cssVer}`;
   const iconHref = mode === "site" ? "/assets/logo/favicon.svg" : "../assets/logo/favicon.svg";
 
   return `<!DOCTYPE html>
