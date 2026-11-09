@@ -7,11 +7,11 @@
       <p class="cf-hero__price">Packages from <strong>£110.95</strong> · one-off fee</p>
       <p class="cf-lead">121 Company Formation helps you register a UK limited company online, with clear package pricing and support through incorporation and beyond.</p>
 
-      <form class="cf-namecheck" action="/name-check/" method="GET" novalidate>
+      <form class="cf-namecheck" action="/name-check/" method="GET" novalidate role="search">
         <input type="hidden" name="gle" value="namecheck" />
-        <label class="cf-sr-only" for="company_name">Proposed company name</label>
-        <input id="company_name" name="name" type="text" placeholder="Check your company name" autocomplete="organization" required />
-        <button class="cf-btn cf-btn--primary" type="submit">Get started</button>
+        <label class="cf-sr-only" for="company_name">Type a company name</label>
+        <input id="company_name" class="efInputText" name="name" type="text" placeholder="Type a name" autocomplete="organization" required aria-label="Type a name" />
+        <button class="cf-btn cf-btn--primary efSubmitButton" type="submit">Search</button>
       </form>
 
       <p class="cf-hero__note">Electronic filing · typically within 24h* · no hidden fees</p>

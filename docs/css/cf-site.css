@@ -2145,6 +2145,101 @@ body.cf-redesign .footer_area {
   .cf-namesearch-hero .cf-namecheck .cf-btn { width: 100%; border-radius: 12px; }
 }
 
+/* ---- /name-check/ result (matches live eFiling layout) ---- */
+.cf-namecheck-page {
+  padding: 56px 0 72px;
+  background: #fff;
+}
+.cf-namecheck-page__inner {
+  max-width: 990px;
+  text-align: center;
+}
+.cf-namecheck-result { margin: 0 0 8px; }
+.cf-namecheck-result__row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 18px 24px;
+  align-items: center;
+  text-align: left;
+  padding: 8px 0 28px;
+}
+.cf-namecheck-result__row.is-available { color: #198754; }
+.cf-namecheck-result__mark {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #198754;
+}
+.cf-namecheck-result__name {
+  margin: 0;
+  font-family: var(--cf-display);
+  font-size: clamp(1.35rem, 2.6vw, 1.75rem);
+  font-weight: 700;
+  color: inherit;
+  line-height: 1.25;
+}
+.cf-namecheck-result__status {
+  margin: 4px 0 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: inherit;
+}
+.cf-namecheck-result__continue {
+  min-width: 160px;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.cf-namecheck-result__or {
+  margin: 8px 0 18px;
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: #3a4458;
+  letter-spacing: 0.02em;
+}
+.cf-namecheck-result__again {
+  margin: 0 0 28px;
+  font-family: var(--cf-display);
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  font-weight: 700;
+  color: var(--cf-navy);
+  line-height: 1.25;
+}
+.cf-namecheck-search__title {
+  margin: 0 0 28px;
+  font-family: var(--cf-display);
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  font-weight: 700;
+  color: var(--cf-navy);
+  line-height: 1.25;
+}
+.cf-namecheck-search .cf-namecheck {
+  margin-inline: auto;
+}
+.cf-namecheck-package {
+  margin-top: 48px;
+  padding: 28px;
+  border-radius: var(--cf-radius);
+  background: var(--cf-bg);
+  border: 1px solid var(--cf-line);
+  text-align: center;
+}
+.cf-namecheck-package .cf-btn { margin: 6px; }
+body.name-check .cf-namecheck-search__title.name-check-default.is-hidden,
+.name-check-default.is-hidden { display: none !important; }
+@media (max-width: 720px) {
+  .cf-namecheck-page { padding: 36px 0 56px; }
+  .cf-namecheck-result__row {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+  }
+  .cf-namecheck-result__continue { width: 100%; }
+}
+
 .cf-page-hero {
   background:
     radial-gradient(700px 280px at 90% 0%, rgba(255, 154, 31, 0.18), transparent 60%),

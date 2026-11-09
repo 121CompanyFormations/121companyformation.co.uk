@@ -468,7 +468,7 @@ function titleFromPageFile(file, fallback) {
     const html = read(file);
     const m =
       html.match(/cf-page-hero__title">([^<]+)/) ||
-      html.match(/cf-namesearch-hero__title">([^<]+)/);
+      html.match(/cf-namesearch-hero__title[^"]*">([^<]+)/);
     if (m) return m[1].trim();
   } catch {
     /* ignore */
@@ -493,6 +493,23 @@ function jsAssetVersion() {
   return `${st.size}-${Math.floor(st.mtimeMs)}`;
 }
 
+const NAME_CHECK_PACKAGES = [
+  "lbs-bronze",
+  "lbs-gold",
+  "lbs-platinum",
+  "lbs-diamond",
+  "llp-bronze",
+  "llp-gold",
+  "llp-platinum",
+  "llp-diamond",
+  "lbg-bronze",
+  "lbg-gold",
+  "lbg-platinum",
+  "lbg-diamond",
+  "international-package",
+  "international-plus-package",
+];
+
 function buildSite() {
   // Clean and recreate demo site that mirrors live URL paths
   fs.rmSync(SITE, { recursive: true, force: true });
@@ -506,9 +523,18 @@ function buildSite() {
     fs.mkdirSync(path.join(SITE, "js"), { recursive: true });
     fs.copyFileSync(jsSrc, path.join(SITE, "js", "app_min.js"));
   }
+  // Real /name-check/{package}/ folders are written below (Pages has no rewrites)
   write(
     path.join(SITE, "serve.json"),
-    JSON.stringify({ cleanUrls: true, trailingSlash: true }, null, 2)
+    JSON.stringify(
+      {
+        cleanUrls: true,
+        trailingSlash: true,
+        directoryListing: false,
+      },
+      null,
+      2
+    )
   );
 
   // Homepage
@@ -536,7 +562,7 @@ function buildSite() {
 
     const pagePath = path.join(PAGES, file);
     let title = titleFromPageFile(pagePath, slug.replace(/-/g, " "));
-    if (slug === "online-company-name-search-tool") {
+    if (slug === "online-company-name-search-tool" || slug === "name-check") {
       title = "Company Name Check | 121 Company Formation";
     }
     const html = shellPage(title, read(pagePath), "site");
@@ -545,9 +571,18 @@ function buildSite() {
     // Also support links without trailing slash by duplicating .html at path root where useful
     // e.g. /year-end-accounts (no slash) — serve finds folder if cleanUrls; write sibling file too
     const noSlashFile = path.join(SITE, `${slug}.html`);
-    if (slug !== "blog-post-sample" && slug !== "404") {
+    if (slug !== "blog-post-sample" && slug !== "404" && slug !== "name-check") {
       write(noSlashFile, html);
     }
+
+    // eFiling buy-flow uses /name-check/{package}/ — mirror real files for static preview + Pages
+    if (slug === "name-check") {
+      for (const pkg of NAME_CHECK_PACKAGES) {
+        write(path.join(SITE, "name-check", pkg, "index.html"), html);
+      }
+      console.log(`SITE /name-check/{package}/ ×${NAME_CHECK_PACKAGES.length}`);
+    }
+
     console.log(`SITE ${urlPath}`);
   }
 
@@ -573,6 +608,22 @@ function buildSite() {
       "Registration is a native eFiling flow and is not part of this static redesign demo."
     )
   );
+  write(
+    path.join(SITE, "buy", "index.html"),
+    stub(
+      "Buy",
+      "Checkout is a native eFiling flow. On production this route loads the order form after name check."
+    )
+  );
+  for (const pkg of NAME_CHECK_PACKAGES) {
+    write(
+      path.join(SITE, "buy", pkg, "index.html"),
+      stub(
+        "Buy",
+        `Checkout for “${pkg}” is a native eFiling flow and is not part of this static redesign demo.`
+      )
+    );
+  }
   write(
     path.join(SITE, "blog", "index.html"),
     fs.existsSync(path.join(PAGES, "blog-content.html"))
@@ -616,7 +667,8 @@ function syncPages() {
       item.url === "/about-us/" ||
       item.url === "/packages/" ||
       item.url === "/contact-us/" ||
-      item.url === "/online-company-name-search-tool/"
+      item.url === "/online-company-name-search-tool/" ||
+      item.url === "/name-check/"
     ) {
       console.log(`KEEP ${item.url} (hand-crafted content)`);
       ok++;

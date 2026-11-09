@@ -1,0 +1,41 @@
+<!-- PAGE_CONTENT for /name-check/ – mirrors live eFiling result layout -->
+<!-- CF_SKIP_CTA -->
+<div id="efPageContent" class="cf-namecheck-page" data-cf-namecheck>
+  <div class="cf-container cf-namecheck-page__inner">
+
+    <div id="efNameCheckResult" class="cf-namecheck-result" hidden>
+      <div id="efNameCheckResult_GREEN" class="efNameCheckResult cf-namecheck-result__row is-available">
+        <div class="cf-namecheck-result__mark" aria-hidden="true">✓</div>
+        <div class="cf-namecheck-result__copy">
+          <h1 class="cf-namecheck-result__name"><strong data-cf-namecheck-name></strong></h1>
+          <p class="cf-namecheck-result__status">is available for registration!</p>
+        </div>
+        <div class="cf-namecheck-result__action">
+          <a class="cf-btn cf-btn--primary cf-namecheck-result__continue chat_btn" href="javascript:void(0)" onclick="nameSearch();">CONTINUE</a>
+        </div>
+      </div>
+
+      <p class="cf-namecheck-result__or">OR</p>
+      <h2 class="cf-namecheck-result__again">Check for another company name</h2>
+    </div>
+
+    <div class="cf-namecheck-search" id="efNameCheckSearch">
+      <h1 class="cf-namecheck-search__title name-check-default">Check for your company name</h1>
+      <form class="cf-namecheck cf-namecheck--wide" action="/name-check/" method="GET" novalidate role="search">
+        <input type="hidden" name="gle" value="namecheck" />
+        <label class="cf-sr-only" for="company_name">Type a company name</label>
+        <input id="company_name" class="efInputText" name="name" type="text" placeholder="Type a name" autocomplete="organization" required aria-label="Type a name" />
+        <button class="cf-btn cf-btn--primary efSubmitButton" type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="cf-namecheck-package" data-cf-namecheck-package hidden>
+      <h2 class="cf-h2">Continue with your package</h2>
+      <p class="cf-lead" data-cf-namecheck-package-label></p>
+      <p>
+        <a class="cf-btn cf-btn--primary" data-cf-namecheck-buy href="/packages/#packages">Buy now »</a>
+        <a class="cf-btn cf-btn--ghost" href="/packages/#packages">View all packages</a>
+      </p>
+    </div>
+  </div>
+</div>

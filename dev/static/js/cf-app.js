@@ -184,12 +184,65 @@
     window.packagesBuyNow(slug);
   });
 
+  /* -------------------- /name-check/ static preview -------------------- */
+  function packageSlugFromPath() {
+    var parts = String(window.location.pathname || "")
+      .replace(/\/+$/, "")
+      .split("/")
+      .filter(Boolean);
+    // /name-check/{package}/
+    if (parts[0] === "name-check" && parts[1]) return parts[1];
+    return "";
+  }
+
+  function initNameCheckPreview() {
+    var root = qs("[data-cf-namecheck]");
+    if (!root) return;
+    if (document.body) document.body.classList.add("name-check");
+
+    var params = new URLSearchParams(window.location.search);
+    var name = String(params.get("name") || "")
+      .replace(/\+/g, " ")
+      .trim();
+    var input = qs("#company_name") || qs("[name='name']");
+    if (input && name) input.value = name;
+
+    var result = qs("#efNameCheckResult", root);
+    var nameEl = qs("[data-cf-namecheck-name]", root);
+    var defaultTitle = qs(".name-check-default");
+
+    if (name) {
+      if (nameEl) nameEl.textContent = name.toUpperCase();
+      if (result) result.hidden = false;
+      if (defaultTitle) defaultTitle.classList.add("is-hidden");
+      document.title = name.toUpperCase() + " | Company Name Check | 121 Company Formation";
+    } else {
+      if (result) result.hidden = true;
+      if (defaultTitle) defaultTitle.classList.remove("is-hidden");
+    }
+
+    var pkg = packageSlugFromPath();
+    var pkgWrap = qs("[data-cf-namecheck-package]", root);
+    if (pkg && pkgWrap) {
+      pkgWrap.hidden = false;
+      var label = qs("[data-cf-namecheck-package-label]", pkgWrap);
+      if (label) label.textContent = "Selected package: " + pkg.replace(/-/g, " ");
+      var buy = qs("[data-cf-namecheck-buy]", pkgWrap);
+      if (buy) buy.setAttribute("href", "/buy/" + pkg + "/");
+    }
+  }
+
   if (document.body) document.body.classList.add("cf-redesign");
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initPackageTabsFromLocation);
-  } else {
+  function boot() {
     initPackageTabsFromLocation();
+    initNameCheckPreview();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
   }
   window.addEventListener("hashchange", initPackageTabsFromLocation);
 })();
