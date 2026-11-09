@@ -2418,25 +2418,12 @@ body.cf-redesign .footer_area {
   color: var(--cf-muted);
   line-height: 1.35;
 }
-.cf-nc-steps .cf-step { position: relative; padding-top: 8px; }
-.cf-nc-steps__num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  margin: 0 0 10px;
-  border-radius: 50%;
-  background: var(--cf-grad);
-  color: #fff;
-  font-size: 0.82rem;
-  font-weight: 800;
-}
+.cf-nc-steps .cf-nc-steps__num { display: none; } /* avoid double badges with .cf-step::before */
 [data-cf-namecheck].has-result [data-cf-nc-step="1"] {
   outline: 1px solid rgba(21, 128, 61, 0.28);
   background: #f0fdf4;
 }
-[data-cf-namecheck].has-result [data-cf-nc-step="1"] .cf-nc-steps__num {
+[data-cf-namecheck].has-result [data-cf-nc-step="1"]::before {
   background: #16a34a;
 }
 [data-cf-namecheck].has-result [data-cf-nc-step="1"] h3::after {
