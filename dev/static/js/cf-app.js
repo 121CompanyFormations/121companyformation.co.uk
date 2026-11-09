@@ -42,15 +42,31 @@
         backdrop.hidden = false;
         backdrop.classList.add("is-open");
       }
-      if (burger) burger.setAttribute("aria-expanded", "true");
+      if (burger) {
+        burger.classList.add("is-open");
+        burger.setAttribute("aria-expanded", "true");
+        burger.setAttribute("aria-label", "Close menu");
+      }
       document.documentElement.style.overflow = "hidden";
+      var closeBtn = qs("[data-cf-nav-close]", wrap);
+      if (closeBtn && closeBtn.focus) {
+        try {
+          closeBtn.focus({ preventScroll: true });
+        } catch (_) {
+          closeBtn.focus();
+        }
+      }
     } else {
       wrap.classList.remove("is-open");
       if (backdrop) {
         backdrop.classList.remove("is-open");
         backdrop.hidden = true;
       }
-      if (burger) burger.setAttribute("aria-expanded", "false");
+      if (burger) {
+        burger.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+        burger.setAttribute("aria-label", "Open menu");
+      }
       document.documentElement.style.overflow = "";
       if (wrap._cfHome && wrap._cfHome.parent) {
         wrap._cfHome.parent.insertBefore(wrap, wrap._cfHome.next);
@@ -66,12 +82,16 @@
       setNavOpen(!(wrap && wrap.classList.contains("is-open")));
       return;
     }
+    if (e.target.closest("[data-cf-nav-close]")) {
+      setNavOpen(false);
+      return;
+    }
     if (e.target.closest("[data-cf-nav-backdrop]")) {
       setNavOpen(false);
       return;
     }
     var wrap = e.target.closest("[data-cf-nav]");
-    if (wrap && !e.target.closest(".cf-nav")) {
+    if (wrap && !e.target.closest(".cf-nav-panel")) {
       setNavOpen(false);
       return;
     }
