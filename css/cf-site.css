@@ -2240,99 +2240,164 @@ body.cf-redesign .footer_area {
   .cf-namesearch-hero .cf-namecheck .cf-btn { width: 100%; border-radius: 12px; }
 }
 
-/* ---- /name-check/ result (matches live eFiling layout) ---- */
+/* ---- /name-check/ result ---- */
 .cf-namecheck-page {
-  padding: 56px 0 72px;
-  background: #fff;
+  position: relative;
+  padding: 48px 0 80px;
+  overflow: hidden;
+  background:
+    radial-gradient(720px 320px at 12% 0%, rgba(255, 154, 31, 0.1), transparent 55%),
+    radial-gradient(640px 280px at 90% 8%, rgba(25, 135, 84, 0.08), transparent 50%),
+    linear-gradient(180deg, #f7f8fc 0%, #ffffff 42%, #ffffff 100%);
 }
 .cf-namecheck-page__inner {
-  max-width: 990px;
+  max-width: 820px;
   text-align: center;
 }
-.cf-namecheck-result { margin: 0 0 8px; }
-.cf-namecheck-result__row {
+.cf-namecheck-result { margin: 0 0 4px; }
+.cf-namecheck-result__card {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  gap: 18px 24px;
+  gap: 18px 22px;
   align-items: center;
   text-align: left;
-  padding: 8px 0 28px;
+  padding: 26px 28px;
+  border-radius: 18px;
+  background: #fff;
+  border: 1px solid rgba(25, 135, 84, 0.18);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 18px 40px rgba(11, 21, 48, 0.08);
 }
-.cf-namecheck-result__row.is-available { color: #198754; }
+.cf-namecheck-result__card.is-available { color: #0f7a45; }
 .cf-namecheck-result__mark {
-  font-size: 2.4rem;
-  font-weight: 800;
-  line-height: 1;
-  color: #198754;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(145deg, #22c55e, #15803d);
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(21, 128, 61, 0.28);
+}
+.cf-namecheck-result__mark svg { width: 26px; height: 26px; }
+.cf-namecheck-result__eyebrow {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #15803d;
+  opacity: 0.85;
 }
 .cf-namecheck-result__name {
   margin: 0;
   font-family: var(--cf-display);
-  font-size: clamp(1.35rem, 2.6vw, 1.75rem);
-  font-weight: 700;
-  color: inherit;
-  line-height: 1.25;
+  font-size: clamp(1.45rem, 2.8vw, 1.95rem);
+  font-weight: 750;
+  color: #0b1530;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  word-break: break-word;
 }
 .cf-namecheck-result__status {
-  margin: 4px 0 0;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: inherit;
+  margin: 6px 0 0;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #15803d;
+}
+.cf-namecheck-result__action {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  min-width: 168px;
 }
 .cf-namecheck-result__continue {
-  min-width: 160px;
-  padding: 14px 28px;
-  border-radius: 6px;
-  font-size: 1rem;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-size: 0.95rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-.cf-namecheck-result__or {
-  margin: 8px 0 18px;
-  font-size: 1.55rem;
-  font-weight: 800;
-  color: #3a4458;
   letter-spacing: 0.02em;
+  box-shadow: 0 10px 22px rgba(232, 70, 30, 0.28);
+}
+.cf-namecheck-result__hint {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--cf-muted);
+  text-align: center;
+  max-width: 11rem;
+  align-self: center;
+}
+.cf-namecheck-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 28px 0 18px;
+  color: #7a8498;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+.cf-namecheck-divider::before,
+.cf-namecheck-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cf-line), transparent);
 }
 .cf-namecheck-result__again {
-  margin: 0 0 28px;
+  margin: 0 0 18px;
   font-family: var(--cf-display);
-  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
   font-weight: 700;
   color: var(--cf-navy);
   line-height: 1.25;
 }
 .cf-namecheck-search__title {
-  margin: 0 0 28px;
+  margin: 0 0 10px;
   font-family: var(--cf-display);
-  font-size: clamp(1.55rem, 3vw, 2.35rem);
-  font-weight: 700;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  font-weight: 750;
   color: var(--cf-navy);
-  line-height: 1.25;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.cf-namecheck-search__lead {
+  margin: 0 auto 24px;
+  max-width: 42ch;
+  color: var(--cf-muted);
+  font-size: 1rem;
+  line-height: 1.55;
 }
 .cf-namecheck-search .cf-namecheck {
   margin-inline: auto;
 }
 .cf-namecheck-package {
-  margin-top: 48px;
-  padding: 28px;
+  margin-top: 36px;
+  padding: 24px;
   border-radius: var(--cf-radius);
-  background: var(--cf-bg);
+  background: #fff;
   border: 1px solid var(--cf-line);
+  box-shadow: var(--cf-shadow);
   text-align: center;
 }
 .cf-namecheck-package .cf-btn { margin: 6px; }
 body.name-check .cf-namecheck-search__title.name-check-default.is-hidden,
+body.name-check .cf-namecheck-search__lead.name-check-default.is-hidden,
 .name-check-default.is-hidden { display: none !important; }
 @media (max-width: 720px) {
-  .cf-namecheck-page { padding: 36px 0 56px; }
-  .cf-namecheck-result__row {
+  .cf-namecheck-page { padding: 28px 0 56px; }
+  .cf-namecheck-result__card {
     grid-template-columns: 1fr;
     text-align: center;
     justify-items: center;
+    padding: 22px 18px;
   }
+  .cf-namecheck-result__action { width: 100%; min-width: 0; }
   .cf-namecheck-result__continue { width: 100%; }
+  .cf-namecheck-result__hint { max-width: none; }
 }
 
 .cf-page-hero {

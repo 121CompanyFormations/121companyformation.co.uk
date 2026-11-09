@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow"/>
 <title>Company Name Check | 121 Company Formation</title>
 <link rel="icon" href="/assets/logo/favicon.svg"/>
-<link rel="stylesheet" href="/css/cf-site.css?v=64971-1794215406884"/>
+<link rel="stylesheet" href="/css/cf-site.css?v=66794-1794216536013"/>
 </head>
 <body class="cf-redesign">
 <div class="body_wrapper">
@@ -153,28 +153,33 @@
 </div>
 
 </header>
-<!-- PAGE_CONTENT for /name-check/ – mirrors live eFiling result layout -->
+<!-- PAGE_CONTENT for /name-check/ – availability result + search again -->
 <div id="efPageContent" class="cf-namecheck-page" data-cf-namecheck>
   <div class="cf-container cf-namecheck-page__inner">
 
     <div id="efNameCheckResult" class="cf-namecheck-result" hidden>
-      <div id="efNameCheckResult_GREEN" class="efNameCheckResult cf-namecheck-result__row is-available">
-        <div class="cf-namecheck-result__mark" aria-hidden="true">✓</div>
+      <div id="efNameCheckResult_GREEN" class="efNameCheckResult cf-namecheck-result__card is-available">
+        <div class="cf-namecheck-result__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
         <div class="cf-namecheck-result__copy">
+          <p class="cf-namecheck-result__eyebrow">Name available</p>
           <h1 class="cf-namecheck-result__name"><strong data-cf-namecheck-name></strong></h1>
-          <p class="cf-namecheck-result__status">is available for registration!</p>
+          <p class="cf-namecheck-result__status">is available for registration</p>
         </div>
         <div class="cf-namecheck-result__action">
-          <a class="cf-btn cf-btn--primary cf-namecheck-result__continue chat_btn" href="javascript:void(0)" onclick="nameSearch();">CONTINUE</a>
+          <a class="cf-btn cf-btn--primary cf-namecheck-result__continue chat_btn" href="javascript:void(0)" onclick="nameSearch();">Continue</a>
+          <p class="cf-namecheck-result__hint">Choose a package and start your order</p>
         </div>
       </div>
 
-      <p class="cf-namecheck-result__or">OR</p>
+      <div class="cf-namecheck-divider" aria-hidden="true"><span>OR</span></div>
       <h2 class="cf-namecheck-result__again">Check for another company name</h2>
     </div>
 
     <div class="cf-namecheck-search" id="efNameCheckSearch">
       <h1 class="cf-namecheck-search__title name-check-default">Check for your company name</h1>
+      <p class="cf-namecheck-search__lead name-check-default">Enter a proposed name to see if it is free to register with Companies House.</p>
       <form class="cf-namecheck cf-namecheck--wide" action="/name-check/" method="GET" novalidate role="search">
         <input type="hidden" name="gle" value="namecheck" />
         <label class="cf-sr-only" for="company_name">Type a company name</label>
@@ -264,7 +269,7 @@
 </footer>
 
 <!-- Block: JAVASCRIPT – upload dist/app_min.js to /assets/custom/files/ then use dist/efiling-javascript.html -->
-<script src="/js/app_min.js?v=6888-1794215412331"></script>
+<script src="/js/app_min.js?v=6888-1794216544382"></script>
 
 </div>
 </body>
