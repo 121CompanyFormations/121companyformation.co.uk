@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow"/>
 <title>Company Name Check | 121 Company Formation</title>
 <link rel="icon" href="/assets/logo/favicon.svg"/>
-<link rel="stylesheet" href="/css/cf-site.css?v=66794-1794216536013"/>
+<link rel="stylesheet" href="/css/cf-site.css?v=69769-1794216694649"/>
 </head>
 <body class="cf-redesign">
 <div class="body_wrapper">
@@ -153,7 +153,7 @@
 </div>
 
 </header>
-<!-- PAGE_CONTENT for /name-check/ – availability result + search again -->
+<!-- PAGE_CONTENT for /name-check/ – result + engage sections (competitor-style) -->
 <div id="efPageContent" class="cf-namecheck-page" data-cf-namecheck>
   <div class="cf-container cf-namecheck-page__inner">
 
@@ -168,8 +168,8 @@
           <p class="cf-namecheck-result__status">is available for registration</p>
         </div>
         <div class="cf-namecheck-result__action">
-          <a class="cf-btn cf-btn--primary cf-namecheck-result__continue chat_btn" href="javascript:void(0)" onclick="nameSearch();">Continue</a>
-          <p class="cf-namecheck-result__hint">Choose a package and start your order</p>
+          <a class="cf-btn cf-btn--primary cf-namecheck-result__continue" href="#cf-nc-packages">Continue</a>
+          <p class="cf-namecheck-result__hint">Pick a package below to start your order</p>
         </div>
       </div>
 
@@ -179,7 +179,7 @@
 
     <div class="cf-namecheck-search" id="efNameCheckSearch">
       <h1 class="cf-namecheck-search__title name-check-default">Check for your company name</h1>
-      <p class="cf-namecheck-search__lead name-check-default">Enter a proposed name to see if it is free to register with Companies House.</p>
+      <p class="cf-namecheck-search__lead name-check-default">Free live check against the Companies House register — try as many names as you like.</p>
       <form class="cf-namecheck cf-namecheck--wide" action="/name-check/" method="GET" novalidate role="search">
         <input type="hidden" name="gle" value="namecheck" />
         <label class="cf-sr-only" for="company_name">Type a company name</label>
@@ -197,7 +197,170 @@
       </p>
     </div>
   </div>
+
+  <div class="cf-namecheck-engage">
+    <section class="cf-nc-trust" aria-label="Why check with 121">
+      <div class="cf-container">
+        <ul class="cf-nc-trust__list">
+          <li><strong>Free</strong><span>Unlimited name searches</span></li>
+          <li><strong>Live</strong><span>Companies House register</span></li>
+          <li><strong>~24h*</strong><span>Typical incorporation</span></li>
+          <li><strong>From £110.95</strong><span>One-off package fee</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cf-section cf-section--muted" aria-labelledby="cf-nc-steps-title">
+      <div class="cf-container">
+        <div class="cf-sec-head">
+          <p class="cf-eyebrow">Next steps</p>
+          <h2 id="cf-nc-steps-title" class="cf-h2">From name check to incorporated company</h2>
+          <p class="cf-lead">Same flow as leading UK formation agents — name first, then package, then online order.</p>
+        </div>
+        <div class="cf-steps cf-nc-steps">
+          <article class="cf-step" data-cf-nc-step="1">
+            <p class="cf-nc-steps__num">1</p>
+            <h3>Check your name</h3>
+            <p>Confirm the name is free on the Companies House register. Limited / Ltd is added for you at filing.</p>
+          </article>
+          <article class="cf-step" data-cf-nc-step="2">
+            <p class="cf-nc-steps__num">2</p>
+            <h3>Choose a package</h3>
+            <p>Bronze to Diamond for Limited by Shares, plus LLP, LBG and International options.</p>
+          </article>
+          <article class="cf-step" data-cf-nc-step="3">
+            <p class="cf-nc-steps__num">3</p>
+            <h3>Complete your order</h3>
+            <p>Add officers, shares and extras, then pay securely online.</p>
+          </article>
+          <article class="cf-step" data-cf-nc-step="4">
+            <p class="cf-nc-steps__num">4</p>
+            <h3>We file at Companies House</h3>
+            <p>Electronic filing, then your incorporation documents in the admin portal.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cf-section" id="cf-nc-packages" aria-labelledby="cf-nc-pkg-title">
+      <div class="cf-container">
+        <div class="cf-sec-head">
+          <p class="cf-eyebrow">Packages</p>
+          <h2 id="cf-nc-pkg-title" class="cf-h2">Ready to form your company?</h2>
+          <p class="cf-lead">Pick a Limited by Shares package to continue, or compare all structures.</p>
+        </div>
+        <div class="cf-nc-pkgs">
+          <article class="cf-nc-pkg">
+            <h3>Bronze</h3>
+            <p class="cf-nc-pkg__price">£110.95</p>
+            <p class="cf-nc-pkg__meta">Electronic documents · banking referral</p>
+            <a class="cf-btn cf-btn--outline cf-btn--block" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">Start now</a>
+          </article>
+          <article class="cf-nc-pkg cf-nc-pkg--featured">
+            <p class="cf-nc-pkg__badge">Popular</p>
+            <h3>Gold</h3>
+            <p class="cf-nc-pkg__price">£192.99</p>
+            <p class="cf-nc-pkg__meta">Printed docs · 1st confirmation statement</p>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">Start now</a>
+          </article>
+          <article class="cf-nc-pkg">
+            <h3>Platinum</h3>
+            <p class="cf-nc-pkg__price">£242.99</p>
+            <p class="cf-nc-pkg__meta">Everything in Gold · VAT registration</p>
+            <a class="cf-btn cf-btn--outline cf-btn--block" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">Start now</a>
+          </article>
+          <article class="cf-nc-pkg">
+            <h3>Diamond</h3>
+            <p class="cf-nc-pkg__price">£506.99</p>
+            <p class="cf-nc-pkg__meta">VAT + quarterly returns · full support</p>
+            <a class="cf-btn cf-btn--outline cf-btn--block" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">Start now</a>
+          </article>
+        </div>
+        <p class="cf-nc-pkgs__more">
+          <a class="cf-btn cf-btn--ghost" href="/packages/#packages">Compare all packages</a>
+          <a class="cf-btn cf-btn--soft" href="/contact-us/">Talk to our team</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Block: BANKING_PARTNERS -->
+<section class="cf-section" aria-labelledby="cf-bank-title">
+  <div class="cf-container">
+    <div class="cf-sec-head">
+      <p class="cf-eyebrow">Banking</p>
+      <h2 id="cf-bank-title" class="cf-h2">Our banking partners</h2>
+      <p class="cf-lead">Free fast-track referral service for business banking facilities with selected UK partners.</p>
+    </div>
+    <div class="cf-banks">
+      <a href="/business-banking/#bank-counting-up" aria-label="Countingup">
+        <img loading="lazy" src="/assets/banking/counting-up.webp" width="70" height="70" alt="Countingup" />
+      </a>
+      <a href="/business-banking/#bank-cashplus" aria-label="Cashplus">
+        <img loading="lazy" src="/assets/banking/cashplus.webp" width="70" height="70" alt="Cashplus" />
+      </a>
+      <a href="/business-banking/#bank-barclays" aria-label="Barclays">
+        <img loading="lazy" src="/assets/banking/barclays.webp" width="70" height="70" alt="Barclays" />
+      </a>
+      <a href="/business-banking/#bank-tide" aria-label="Tide">
+        <img loading="lazy" src="/assets/banking/tide.webp" width="70" height="70" alt="Tide" />
+      </a>
+      <a href="/business-banking/#bank-anna" aria-label="ANNA Money">
+        <img loading="lazy" src="/assets/banking/anna.webp" width="70" height="70" alt="ANNA Money" />
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <section class="cf-section cf-section--muted" aria-labelledby="cf-nc-faq-title">
+      <div class="cf-container">
+        <div class="cf-sec-head">
+          <p class="cf-eyebrow">Name check FAQ</p>
+          <h2 id="cf-nc-faq-title" class="cf-h2">Before you continue</h2>
+        </div>
+        <div class="cf-faq cf-faq--narrow">
+          <details>
+            <summary>Is the company name check free?</summary>
+            <div class="cf-faq__body">
+              <p>Yes. You can search as many variations as you like, with no account or payment required.</p>
+            </div>
+          </details>
+          <details>
+            <summary>If it says available, is the name guaranteed?</summary>
+            <div class="cf-faq__body">
+              <p>No name can be reserved in the UK. Companies House makes the final decision when your application is reviewed. We check again before filing and will contact you if there is a problem.</p>
+            </div>
+          </details>
+          <details>
+            <summary>Do I need to add Limited or Ltd?</summary>
+            <div class="cf-faq__body">
+              <p>Private limited companies must end in Limited or Ltd. You can type the trading name — we ensure the correct ending is used when we submit to Companies House.</p>
+            </div>
+          </details>
+          <details>
+            <summary>What happens after I click Continue?</summary>
+            <div class="cf-faq__body">
+              <p>Choose a formation package, then complete your online order with director, shareholder and address details. We file electronically and most companies are incorporated within about 24 hours*.</p>
+            </div>
+          </details>
+        </div>
+        <p class="cf-nc-faq-note">*Subject to Companies House workload on working days.</p>
+      </div>
+    </section>
+  </div>
 </div>
+
+<!-- Block: FOOTER_Register -->
+<section class="cf-cta" aria-labelledby="cf-cta-title">
+  <div class="cf-container">
+    <h2 id="cf-cta-title" class="cf-h2">Ready to set up your company?</h2>
+    <p class="cf-lead">Order online, call or live chat with our friendly team to complete your order.</p>
+    <div class="cf-cta__actions">
+      <a class="cf-btn cf-btn--primary" href="/packages/#packages">Get started now</a>
+      <a class="cf-btn cf-btn--ghost" href="/contact-us/">Contact us</a>
+    </div>
+  </div>
+</section>
 
 <!-- Block: FOOTER -->
 <footer class="cf-footer">
@@ -269,7 +432,7 @@
 </footer>
 
 <!-- Block: JAVASCRIPT – upload dist/app_min.js to /assets/custom/files/ then use dist/efiling-javascript.html -->
-<script src="/js/app_min.js?v=6888-1794216544382"></script>
+<script src="/js/app_min.js?v=7016-1794216704374"></script>
 
 </div>
 </body>

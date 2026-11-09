@@ -229,16 +229,21 @@
 
     var result = qs("#efNameCheckResult", root);
     var nameEl = qs("[data-cf-namecheck-name]", root);
-    var defaultTitle = qs(".name-check-default");
 
     if (name) {
       if (nameEl) nameEl.textContent = name.toUpperCase();
       if (result) result.hidden = false;
-      if (defaultTitle) defaultTitle.classList.add("is-hidden");
+      qsa(".name-check-default", root).forEach(function (el) {
+        el.classList.add("is-hidden");
+      });
+      root.classList.add("has-result");
       document.title = name.toUpperCase() + " | Company Name Check | 121 Company Formation";
     } else {
       if (result) result.hidden = true;
-      if (defaultTitle) defaultTitle.classList.remove("is-hidden");
+      qsa(".name-check-default", root).forEach(function (el) {
+        el.classList.remove("is-hidden");
+      });
+      root.classList.remove("has-result");
     }
 
     var pkg = packageSlugFromPath();

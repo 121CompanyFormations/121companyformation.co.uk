@@ -402,6 +402,8 @@ ${block("HEADER_NAV")}
     .replaceAll("##BLOG_SIDEBAR#", block("BLOG_SIDEBAR"))
     .replaceAll("##BLOG_LIST#", block("BLOG_LIST"))
     .replaceAll("##CTA_BAND#", block("CTA_BAND"))
+    .replaceAll("##BANKING_PARTNERS#", block("BANKING_PARTNERS"))
+    .replaceAll("##HOW_IT_WORKS#", block("HOW_IT_WORKS"))
     .replaceAll("##WHATSAPP_NUMBER#", "+44 (0) 798 4046 470");
   body = applyPackagePrices(body);
   body = localizeAssets(body, mode);

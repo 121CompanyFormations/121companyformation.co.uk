@@ -2384,11 +2384,149 @@ body.cf-redesign .footer_area {
   text-align: center;
 }
 .cf-namecheck-package .cf-btn { margin: 6px; }
-body.name-check .cf-namecheck-search__title.name-check-default.is-hidden,
-body.name-check .cf-namecheck-search__lead.name-check-default.is-hidden,
+.cf-namecheck-engage { margin-top: 28px; }
+.cf-namecheck-engage .cf-container { max-width: var(--cf-container); }
+.cf-nc-trust {
+  padding: 0 0 8px;
+}
+.cf-nc-trust__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.cf-nc-trust__list li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--cf-line);
+  box-shadow: 0 8px 24px rgba(11, 21, 48, 0.05);
+  text-align: left;
+}
+.cf-nc-trust__list strong {
+  font-family: var(--cf-display);
+  font-size: 1.05rem;
+  color: var(--cf-navy);
+}
+.cf-nc-trust__list span {
+  font-size: 0.88rem;
+  color: var(--cf-muted);
+  line-height: 1.35;
+}
+.cf-nc-steps .cf-step { position: relative; padding-top: 8px; }
+.cf-nc-steps__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin: 0 0 10px;
+  border-radius: 50%;
+  background: var(--cf-grad);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+[data-cf-namecheck].has-result [data-cf-nc-step="1"] {
+  outline: 1px solid rgba(21, 128, 61, 0.28);
+  background: #f0fdf4;
+}
+[data-cf-namecheck].has-result [data-cf-nc-step="1"] .cf-nc-steps__num {
+  background: #16a34a;
+}
+[data-cf-namecheck].has-result [data-cf-nc-step="1"] h3::after {
+  content: " · done";
+  color: #15803d;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+.cf-nc-pkgs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.cf-nc-pkg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px 18px 18px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid var(--cf-line);
+  text-align: left;
+  box-shadow: 0 10px 28px rgba(11, 21, 48, 0.06);
+}
+.cf-nc-pkg h3 {
+  margin: 0;
+  font-family: var(--cf-display);
+  font-size: 1.15rem;
+  color: var(--cf-navy);
+}
+.cf-nc-pkg__price {
+  margin: 0;
+  font-family: var(--cf-display);
+  font-size: 1.55rem;
+  font-weight: 800;
+  background: var(--cf-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.cf-nc-pkg__meta {
+  margin: 0 0 8px;
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--cf-muted);
+  line-height: 1.45;
+}
+.cf-nc-pkg--featured {
+  border-color: rgba(232, 70, 30, 0.35);
+  box-shadow: 0 16px 36px rgba(232, 70, 30, 0.12);
+}
+.cf-nc-pkg__badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  margin: 0;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--cf-grad);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.cf-nc-pkgs__more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 28px 0 0;
+}
+.cf-faq--narrow {
+  max-width: 760px;
+  margin-inline: auto;
+}
+.cf-nc-faq-note {
+  margin: 18px 0 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--cf-muted);
+}
 .name-check-default.is-hidden { display: none !important; }
+@media (max-width: 980px) {
+  .cf-nc-trust__list,
+  .cf-nc-pkgs { grid-template-columns: 1fr 1fr; }
+}
 @media (max-width: 720px) {
-  .cf-namecheck-page { padding: 28px 0 56px; }
+  .cf-namecheck-page { padding: 28px 0 40px; }
   .cf-namecheck-result__card {
     grid-template-columns: 1fr;
     text-align: center;
@@ -2398,6 +2536,8 @@ body.name-check .cf-namecheck-search__lead.name-check-default.is-hidden,
   .cf-namecheck-result__action { width: 100%; min-width: 0; }
   .cf-namecheck-result__continue { width: 100%; }
   .cf-namecheck-result__hint { max-width: none; }
+  .cf-nc-trust__list,
+  .cf-nc-pkgs { grid-template-columns: 1fr; }
 }
 
 .cf-page-hero {
