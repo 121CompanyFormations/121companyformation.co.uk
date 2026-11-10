@@ -184,12 +184,67 @@
     window.packagesBuyNow(slug);
   });
 
+  /* -------------------- Formation checklist progress -------------------- */
+  function initChecklists() {
+    qsa("[data-cf-checklist]").forEach(function (root) {
+      var key = "cf-checklist:" + (location.pathname || "/");
+      var items = qsa("[data-cf-checklist-item]", root);
+      var doneEl = qs("[data-cf-checklist-done]", root);
+      var totalEl = qs("[data-cf-checklist-total]", root);
+      var bar = qs("[data-cf-checklist-bar]", root);
+      var fill = qs("[data-cf-checklist-fill]", root);
+      var total = items.length;
+      if (totalEl) totalEl.textContent = String(total);
+
+      var saved = {};
+      try {
+        saved = JSON.parse(localStorage.getItem(key) || "{}") || {};
+      } catch (_) {
+        saved = {};
+      }
+
+      function render() {
+        var done = 0;
+        items.forEach(function (input) {
+          var id = input.getAttribute("data-cf-checklist-item");
+          if (input.checked) done += 1;
+          var wrap = input.closest(".cf-checklist__tab-wrap");
+          if (wrap) wrap.classList.toggle("is-done", !!input.checked);
+          if (id) saved[id] = !!input.checked;
+        });
+        if (doneEl) doneEl.textContent = String(done);
+        if (bar) {
+          bar.setAttribute("aria-valuenow", String(done));
+          bar.setAttribute("aria-valuemax", String(total));
+        }
+        if (fill) fill.style.width = total ? Math.round((done / total) * 100) + "%" : "0%";
+        try {
+          localStorage.setItem(key, JSON.stringify(saved));
+        } catch (_) {
+          /* ignore */
+        }
+      }
+
+      items.forEach(function (input) {
+        var id = input.getAttribute("data-cf-checklist-item");
+        if (id && saved[id]) input.checked = true;
+        input.addEventListener("change", render);
+      });
+      render();
+    });
+  }
+
   if (document.body) document.body.classList.add("cf-redesign");
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initPackageTabsFromLocation);
-  } else {
+  function boot() {
     initPackageTabsFromLocation();
+    initChecklists();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
   }
   window.addEventListener("hashchange", initPackageTabsFromLocation);
 })();

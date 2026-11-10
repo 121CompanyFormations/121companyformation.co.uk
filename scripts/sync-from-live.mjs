@@ -678,6 +678,7 @@ function syncPages() {
       item.url === "/registered-office-address/" ||
       item.url === "/service-address/" ||
       item.url === "/trade-mail-forwarding/" ||
+      item.url === "/renewals/" ||
       item.url === "/confirmation-statement-service/" ||
       item.url === "/company-closure/" ||
       item.url === "/company-name-change/" ||
@@ -693,7 +694,9 @@ function syncPages() {
       item.url === "/bookkeeping/" ||
       item.url === "/vat-returns/" ||
       item.url === "/payroll-and-paye/" ||
-      item.url === "/dormant-company-account/"
+      item.url === "/dormant-company-account/" ||
+      item.url === "/our-4-step-guide-to-setting-up-a-company/" ||
+      item.url === "/company-formation-checklist/"
     ) {
       console.log(`KEEP ${item.url} (hand-crafted content)`);
       ok++;

@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow"/>
 <title>Contact Us</title>
 <link rel="icon" href="/assets/logo/favicon.svg"/>
-<link rel="stylesheet" href="/css/cf-site.css?v=82057-1794334248278"/>
+<link rel="stylesheet" href="/css/cf-site.css?v=102447-1794352838825"/>
 </head>
 <body class="cf-redesign">
 <div class="body_wrapper">
@@ -159,7 +159,7 @@
 </div>
 
 </header>
-<!-- PAGE_CONTENT for /contact-us/ – redesign of eFiling contact page -->
+<!-- PAGE_CONTENT for /contact-us/ – redesigned contact page + form -->
 <section class="cf-page-hero" aria-label="Page header">
   <div class="cf-container cf-page-hero__inner">
     <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
@@ -168,7 +168,7 @@
       <span class="cf-breadcrumbs__current">Contact Us</span>
     </nav>
     <h1 class="cf-page-hero__title">Contact Us</h1>
-    <p class="cf-page-hero__lead">Speak to our team about UK company formation, packages and ongoing compliance.</p>
+    <p class="cf-page-hero__lead">Questions about UK company formation, packages or compliance? Reach us by phone, WhatsApp, email or the form below — we usually reply within 24–48 business hours.</p>
   </div>
 </section>
 
@@ -176,52 +176,87 @@
   <div class="cf-container">
     <h2 id="cf-contact-title" class="cf-sr-only">Contact details and enquiry form</h2>
 
+    <div class="cf-contact__channels" aria-label="Quick contact options">
+      <a class="cf-contact__channel" href="tel:+442038932121">
+        <span class="cf-contact__channel-label">Phone</span>
+        <strong>+44 (0)203 8932 121</strong>
+        <span class="cf-contact__channel-hint">Speak to the team</span>
+      </a>
+      <a class="cf-contact__channel" href="https://wa.me/4407984046470" target="_blank" rel="noopener">
+        <span class="cf-contact__channel-label">WhatsApp</span>
+        <strong>+44 (0) 798 4046 470</strong>
+        <span class="cf-contact__channel-hint">Message us anytime</span>
+      </a>
+      <a class="cf-contact__channel" href="mailto:info@121companyformation.co.uk">
+        <span class="cf-contact__channel-label">Email</span>
+        <strong>info@121companyformation.co.uk</strong>
+        <span class="cf-contact__channel-hint">Support &amp; sales</span>
+      </a>
+      <button
+        type="button"
+        class="cf-contact__channel cf-contact__channel--btn"
+        onclick="if (window.Freshbots &amp;&amp; Freshbots.showWidget) { Freshbots.showWidget(true); } else if (typeof openChat === 'function') { openChat(); }"
+      >
+        <span class="cf-contact__channel-label">Live chat</span>
+        <strong>Chat for free</strong>
+        <span class="cf-contact__channel-hint">Instant answers online</span>
+      </button>
+    </div>
+
     <div class="cf-contact__grid">
-      <aside class="cf-contact__info" aria-label="Office and contact details">
+      <aside class="cf-contact__info" aria-label="Office details">
         <div class="cf-contact__card">
-          <h3>Office Address</h3>
+          <p class="cf-eyebrow">Registered office</p>
+          <h3>Visit or write to us</h3>
           <p>
             <a href="https://www.google.com/maps/place/Hold+Everything/@51.5132068,-0.1438285,17.13z/data=!3m1!5s0x48761b2cab03f1df:0x588fabaca8473c91!4m5!3m4!1s0x48761ad574cf495d:0x737f5960ced46d6d!8m2!3d51.5132459!4d-0.1411087" target="_blank" rel="noopener">
-              3rd Floor,<br />
-              207 Regent Street<br />
+              121 Company Formation Limited<br />
+              3rd Floor, 207 Regent Street<br />
               London W1B 3HH
             </a>
           </p>
+          <a class="cf-btn cf-btn--outline cf-btn--sm" href="https://www.google.com/maps/place/Hold+Everything/@51.5132068,-0.1438285,17.13z/data=!3m1!5s0x48761b2cab03f1df:0x588fabaca8473c91!4m5!3m4!1s0x48761ad574cf495d:0x737f5960ced46d6d!8m2!3d51.5132459!4d-0.1411087" target="_blank" rel="noopener">Open in Google Maps</a>
         </div>
 
-        <div class="cf-contact__card">
-          <h3>Contact Info</h3>
-          <p>
-            <span class="cf-contact__label">Phone:</span>
-            <a href="tel:+442038932121">+44 (0)203 8932 121</a>
-          </p>
-          <p>
-            <span class="cf-contact__label">WhatsApp:</span>
-            <a href="https://wa.me/4407984046470" target="_blank" rel="noopener">+44 (0) 798 4046 470</a>
-          </p>
-          <p>
-            <span class="cf-contact__label">Support:</span>
-            <a href="mailto:info@121companyformation.co.uk">info@121companyformation.co.uk</a>
-          </p>
+        <div class="cf-contact__card cf-contact__card--soft">
+          <h3>Before you write</h3>
+          <ul class="cf-contact__tips">
+            <li>Include your company name or order reference if you have one</li>
+            <li>For package questions, see <a href="/packages/#packages">our packages</a></li>
+            <li>For common queries, check the <a href="/frequently-asked-questions/">FAQs</a></li>
+          </ul>
         </div>
       </aside>
 
       <div class="cf-contact__form-wrap">
-        <!-- In eFiling CMS this slot is ##PAGE_CONTENT# (Contact Us form node). Static demo uses the live form fields. -->
+        <!-- In eFiling CMS this slot is ##PAGE_CONTENT# (Contact Us form node). Keep field names for the platform. -->
         <div class="cf-contact__form" id="efPageContent">
           <form class="cf-form" method="post" action="/contact-us/" novalidate>
-            <h3>Get in Touch</h3>
-            <label class="cf-sr-only" for="efContactName">Name</label>
-            <input type="text" name="name" id="efContactName" required placeholder="Name" autocomplete="name" />
+            <div class="cf-form__head">
+              <h3>Send a message</h3>
+              <p>Tell us how we can help and we’ll get back to you by email.</p>
+            </div>
 
-            <label class="cf-sr-only" for="efContactEmail">Email</label>
-            <input type="email" name="email" id="efContactEmail" required placeholder="Your E-mail" autocomplete="email" />
+            <div class="cf-form__row">
+              <div class="cf-field">
+                <label for="efContactName">Full name <span aria-hidden="true">*</span></label>
+                <input type="text" name="name" id="efContactName" required placeholder="Jane Smith" autocomplete="name" />
+              </div>
+              <div class="cf-field">
+                <label for="efContactEmail">Email <span aria-hidden="true">*</span></label>
+                <input type="email" name="email" id="efContactEmail" required placeholder="you@company.com" autocomplete="email" />
+              </div>
+            </div>
 
-            <label class="cf-sr-only" for="efContactPhone">Phone</label>
-            <input type="text" name="phone" id="efContactPhone" placeholder="Phone No (Incl Country &amp; Area Code)" autocomplete="tel" />
+            <div class="cf-field">
+              <label for="efContactPhone">Phone <span class="cf-field__optional">(optional)</span></label>
+              <input type="tel" name="phone" id="efContactPhone" placeholder="Incl. country &amp; area code" autocomplete="tel" />
+            </div>
 
-            <label class="cf-sr-only" for="question">How can we help you?</label>
-            <textarea name="question" id="question" cols="30" rows="8" required placeholder="How can we help you?"></textarea>
+            <div class="cf-field">
+              <label for="question">How can we help? <span aria-hidden="true">*</span></label>
+              <textarea name="question" id="question" cols="30" rows="6" required placeholder="Package advice, renewals, registered office, accounts…"></textarea>
+            </div>
 
             <input type="hidden" id="SendToCustomer" name="SendToCustomer" value="0" />
             <input type="hidden" id="redir" name="redir" value="0" />
@@ -232,21 +267,24 @@
             <input type="hidden" id="hidden4" name="hidden4" value="1" />
             <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" value="" />
 
-            <button class="cf-btn cf-btn--primary" id="efContactSubmitButton" type="submit">Submit</button>
+            <div class="cf-form__foot">
+              <button class="cf-btn cf-btn--primary" id="efContactSubmitButton" type="submit">Send message</button>
+              <p class="cf-form__note">We aim to reply within 24–48 business hours.</p>
+            </div>
           </form>
 
-          <div id="success" class="cf-contact__msg cf-contact__msg--success" hidden>Your message succesfully sent!</div>
-          <div id="error" class="cf-contact__msg cf-contact__msg--error" hidden>Opps! There is something wrong. Please try again</div>
+          <div id="success" class="cf-contact__msg cf-contact__msg--success" hidden>Your message was sent successfully.</div>
+          <div id="error" class="cf-contact__msg cf-contact__msg--error" hidden>Something went wrong. Please try again, or email us directly.</div>
         </div>
       </div>
     </div>
 
     <div class="cf-contact__map mapbox" aria-label="Office location map">
       <iframe
-        title="121 Company Formation office map"
+        title="121 Company Formation office map — 207 Regent Street, London"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=207%20regent%20street%20london%20w1b%203hh+(001%20Formation%20Agent)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=207%20regent%20street%20london%20w1b%203hh+(121%20Company%20Formation)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       ></iframe>
     </div>
   </div>
@@ -380,7 +418,7 @@
 </footer>
 
 <!-- Block: JAVASCRIPT – upload dist/app_min.js to /assets/custom/files/ then use dist/efiling-javascript.html -->
-<script src="/js/app_min.js?v=12956-1794326512608"></script>
+<script src="/js/app_min.js?v=13927-1794352680100"></script>
 
 </div>
 </body>
