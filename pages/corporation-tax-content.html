@@ -1,13 +1,18 @@
-<!-- PAGE_CONTENT for /corporation-tax/ – synced from live HTML -->
-<section class="cf-page-hero" aria-label="Page header">
-  <div class="cf-container cf-page-hero__inner">
+<!-- PAGE_CONTENT for /corporation-tax/ – service detail with price CTA -->
+<section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+  <div class="cf-container">
     <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Home</a>
       <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
       <span class="cf-breadcrumbs__current">Corporation Tax</span>
     </nav>
-    <h1 class="cf-page-hero__title">Corporation Tax</h1>
-    
+    <div class="cf-page-hero__row">
+    <div class="cf-page-hero__copy">
+      <h1 class="cf-page-hero__title">Corporation Tax</h1>
+      <p class="cf-page-hero__price">Corporation tax return from <strong>£595</strong></p>
+    </div>
+    <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+  </div>
   </div>
 </section>
 <section class="cf-section">
@@ -75,7 +80,79 @@
  info@121companyformation.co.uk
  </a></p>
     </div>
-    ##SERVICE_SIDEBAR#
+    <aside class="cf-sidebar" aria-label="Service pricing and help">
+      <div class="cf-pkg-summary">
+        <div class="cf-pkg-summary__head">
+          <h2 class="cf-pkg-summary__name">Corporation tax</h2>
+          <p class="cf-pkg-summary__price">£595</p>
+        </div>
+        <div class="cf-pkg-summary__body">
+          <h3 class="cf-pkg-summary__label">Purchase this service to</h3>
+          
+          <ul>
+            <li>Have 121 Company Formation seamlessly file your corporation tax return</li>
+          </ul>
+          <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+        </div>
+      </div>
+<div class="cf-sidebar__card">
+    <h2 class="cf-sidebar__title">Need help?</h2>
+    <p>Our team can guide you through company formation and compliance.</p>
+    <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+    <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+    <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+<div class="cf-sidebar__card cf-sidebar__card--packages">
+    <h2 class="cf-sidebar__title">Popular packages</h2>
+    <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+    <ul class="cf-sidebar-pkgs">
+      <li>
+        <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+          <span class="cf-sidebar-pkg__meta">
+            <span class="cf-sidebar-pkg__name">Bronze</span>
+            <span class="cf-sidebar-pkg__hint">Essential formation</span>
+          </span>
+          <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+          <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+        </a>
+      </li>
+      <li>
+        <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+          <span class="cf-sidebar-pkg__badge">Popular</span>
+          <span class="cf-sidebar-pkg__meta">
+            <span class="cf-sidebar-pkg__name">Gold</span>
+            <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+          </span>
+          <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+          <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+        </a>
+      </li>
+      <li>
+        <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+          <span class="cf-sidebar-pkg__meta">
+            <span class="cf-sidebar-pkg__name">Platinum</span>
+            <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+          </span>
+          <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+          <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+        </a>
+      </li>
+      <li>
+        <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+          <span class="cf-sidebar-pkg__meta">
+            <span class="cf-sidebar-pkg__name">Diamond</span>
+            <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+          </span>
+          <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+          <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+        </a>
+      </li>
+    </ul>
+    <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+  </div>
+
+    </aside>
     </div>
   </div>
 </section>

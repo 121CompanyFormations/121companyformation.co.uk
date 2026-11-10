@@ -670,7 +670,30 @@ function syncPages() {
       item.url === "/packages/" ||
       item.url === "/contact-us/" ||
       item.url === "/online-company-name-search-tool/" ||
-      item.url === "/name-check/"
+      item.url === "/name-check/" ||
+      item.url === "/lbs-bronze/" ||
+      item.url === "/lbs-gold/" ||
+      item.url === "/lbs-platinum/" ||
+      item.url === "/lbs-diamond/" ||
+      item.url === "/registered-office-address/" ||
+      item.url === "/service-address/" ||
+      item.url === "/trade-mail-forwarding/" ||
+      item.url === "/confirmation-statement-service/" ||
+      item.url === "/company-closure/" ||
+      item.url === "/company-name-change/" ||
+      item.url === "/vat-registration/" ||
+      item.url === "/director-appointment-and-resignation/" ||
+      item.url === "/business-telephone-service/" ||
+      item.url === "/transfer-of-shares/" ||
+      item.url === "/allocation-of-shares/" ||
+      item.url === "/certificate-of-good-standing/" ||
+      item.url === "/business-banking/" ||
+      item.url === "/year-end-accounts/" ||
+      item.url === "/corporation-tax/" ||
+      item.url === "/bookkeeping/" ||
+      item.url === "/vat-returns/" ||
+      item.url === "/payroll-and-paye/" ||
+      item.url === "/dormant-company-account/"
     ) {
       console.log(`KEEP ${item.url} (hand-crafted content)`);
       ok++;

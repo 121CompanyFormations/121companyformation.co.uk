@@ -205,6 +205,201 @@
   });
 
   /* -------------------- /name-check/ static preview -------------------- */
+  var NAMECHECK_PACKAGES = {
+    "lbs-bronze": {
+      title: "Bronze Package",
+      type: "Limited by Shares",
+      price: "£110.95",
+      blurb: "Fast, economical company formation with electronic documents and free banking referral.",
+      more: "/lbs-bronze/",
+      features: [
+        "Incorporated limited company ready to trade",
+        "Officers appointed and ordinary shares issued",
+        "PDF Certificate of Incorporation &amp; constitutional docs",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbs-gold": {
+      title: "Gold Package",
+      type: "Limited by Shares",
+      price: "£192.99",
+      blurb: "Everything in Bronze, plus free filing of your first year’s Confirmation Statement.",
+      more: "/lbs-gold/",
+      features: [
+        "Everything in the Bronze Package",
+        "Free first-year Confirmation Statement filing",
+        "Electronic company documents",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbs-platinum": {
+      title: "Platinum Package",
+      type: "Limited by Shares",
+      price: "£242.99",
+      blurb: "Gold inclusions plus VAT registration with HMRC — ideal if you’ll need a VAT number.",
+      more: "/lbs-platinum/",
+      features: [
+        "Everything in the Gold Package",
+        "VAT registration with HMRC",
+        "Free first-year Confirmation Statement filing",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbs-diamond": {
+      title: "Diamond Package",
+      type: "Limited by Shares",
+      price: "£506.99",
+      blurb: "All-inclusive first year: formation, VAT, Confirmation Statement and year-end accounts support.",
+      more: "/lbs-diamond/",
+      features: [
+        "Everything in the Platinum Package",
+        "First-year accounts &amp; Corporation Tax return*",
+        "Optional quarterly VAT returns at a special rate",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "llp-bronze": {
+      title: "LLP Bronze",
+      type: "Limited Liability Partnership",
+      price: "£135.95",
+      blurb: "Straightforward LLP registration with electronic documents and portal access.",
+      more: "/packages/#package-llp",
+      features: [
+        "LLP registration at Companies House",
+        "Members appointed",
+        "Electronic incorporation documents",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "llp-gold": {
+      title: "LLP Gold",
+      type: "Limited Liability Partnership",
+      price: "£212.99",
+      blurb: "LLP formation with extra first-year filing support.",
+      more: "/packages/#package-llp",
+      features: [
+        "Everything in LLP Bronze",
+        "Free first-year Confirmation Statement filing",
+        "Electronic incorporation documents",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "llp-platinum": {
+      title: "LLP Platinum",
+      type: "Limited Liability Partnership",
+      price: "£262.99",
+      blurb: "Enhanced LLP package with VAT registration included.",
+      more: "/packages/#package-llp",
+      features: [
+        "Everything in LLP Gold",
+        "VAT registration with HMRC",
+        "Free first-year Confirmation Statement filing",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "llp-diamond": {
+      title: "LLP Diamond",
+      type: "Limited Liability Partnership",
+      price: "£526.99",
+      blurb: "Premium LLP setup covering first-year statutory filings and accountancy support.",
+      more: "/packages/#package-llp",
+      features: [
+        "Everything in LLP Platinum",
+        "First-year accounts support*",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbg-bronze": {
+      title: "LBG Bronze",
+      type: "Limited by Guarantee",
+      price: "£135.95",
+      blurb: "Company limited by guarantee formation for non-profit and membership structures.",
+      more: "/packages/#package-lbg",
+      features: [
+        "LBG registration at Companies House",
+        "Officers / members set up",
+        "Electronic incorporation documents",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbg-gold": {
+      title: "LBG Gold",
+      type: "Limited by Guarantee",
+      price: "£212.99",
+      blurb: "LBG formation plus free filing of the first year’s Confirmation Statement.",
+      more: "/packages/#package-lbg",
+      features: [
+        "Everything in LBG Bronze",
+        "Free first-year Confirmation Statement filing",
+        "Electronic incorporation documents",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbg-platinum": {
+      title: "LBG Platinum",
+      type: "Limited by Guarantee",
+      price: "£262.99",
+      blurb: "LBG package with VAT registration included.",
+      more: "/packages/#package-lbg",
+      features: [
+        "Everything in LBG Gold",
+        "VAT registration with HMRC",
+        "Free first-year Confirmation Statement filing",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "lbg-diamond": {
+      title: "LBG Diamond",
+      type: "Limited by Guarantee",
+      price: "£526.99",
+      blurb: "Premium LBG package with first-year statutory and accountancy support.",
+      more: "/packages/#package-lbg",
+      features: [
+        "Everything in LBG Platinum",
+        "First-year accounts support*",
+        "Free admin portal access",
+        "Free business banking referral",
+      ],
+    },
+    "international-package": {
+      title: "International Package",
+      type: "International formation",
+      price: "£286.99",
+      blurb: "UK company formation support tailored for international founders.",
+      more: "/packages/#package-intl",
+      features: [
+        "UK company registration support",
+        "Electronic incorporation documents",
+        "Guidance for overseas directors / shareholders",
+        "Free admin portal access",
+      ],
+    },
+    "international-plus-package": {
+      title: "International Plus",
+      type: "International formation",
+      price: "£501.99",
+      blurb: "Enhanced international package with broader first-year support.",
+      more: "/packages/#package-intl",
+      features: [
+        "Everything in International Package",
+        "Extra first-year compliance support",
+        "Electronic incorporation documents",
+        "Free admin portal access",
+      ],
+    },
+  };
+
   function packageSlugFromPath() {
     var parts = String(window.location.pathname || "")
       .replace(/\/+$/, "")
@@ -213,6 +408,44 @@
     // /name-check/{package}/
     if (parts[0] === "name-check" && parts[1]) return parts[1];
     return "";
+  }
+
+  function fillNameCheckPackage(pkgWrap, slug) {
+    var info = NAMECHECK_PACKAGES[slug] || {
+      title: slug
+        .split("-")
+        .map(function (w) {
+          return w.charAt(0).toUpperCase() + w.slice(1);
+        })
+        .join(" "),
+      type: "Formation package",
+      price: "",
+      blurb: "Continue your order with the package you selected.",
+      more: "/packages/#packages",
+      features: ["Company registration support", "Electronic documents", "Free admin portal access"],
+    };
+
+    var title = qs("[data-cf-namecheck-package-title]", pkgWrap);
+    var type = qs("[data-cf-namecheck-package-type]", pkgWrap);
+    var price = qs("[data-cf-namecheck-package-price]", pkgWrap);
+    var blurb = qs("[data-cf-namecheck-package-blurb]", pkgWrap);
+    var features = qs("[data-cf-namecheck-package-features]", pkgWrap);
+    var buy = qs("[data-cf-namecheck-buy]", pkgWrap);
+    var more = qs("[data-cf-namecheck-more]", pkgWrap);
+
+    if (title) title.textContent = info.title;
+    if (type) type.textContent = info.type;
+    if (price) price.textContent = info.price || "See packages";
+    if (blurb) blurb.textContent = info.blurb;
+    if (features) {
+      features.innerHTML = (info.features || [])
+        .map(function (item) {
+          return "<li>" + item + "</li>";
+        })
+        .join("");
+    }
+    if (buy) buy.setAttribute("href", "/buy/" + slug + "/");
+    if (more) more.setAttribute("href", info.more || "/packages/#packages");
   }
 
   function initNameCheckPreview() {
@@ -250,10 +483,7 @@
     var pkgWrap = qs("[data-cf-namecheck-package]", root);
     if (pkg && pkgWrap) {
       pkgWrap.hidden = false;
-      var label = qs("[data-cf-namecheck-package-label]", pkgWrap);
-      if (label) label.textContent = "Selected package: " + pkg.replace(/-/g, " ");
-      var buy = qs("[data-cf-namecheck-buy]", pkgWrap);
-      if (buy) buy.setAttribute("href", "/buy/" + pkg + "/");
+      fillNameCheckPackage(pkgWrap, pkg);
     }
   }
 

@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow"/>
 <title>Company Name Check | 121 Company Formation</title>
 <link rel="icon" href="/assets/logo/favicon.svg"/>
-<link rel="stylesheet" href="/css/cf-site.css?v=69537-1794216785551"/>
+<link rel="stylesheet" href="/css/cf-site.css?v=82057-1794334248278"/>
 </head>
 <body class="cf-redesign">
 <div class="body_wrapper">
@@ -86,31 +86,37 @@
         <button type="button" class="cf-nav__toggle-btn" aria-expanded="false" data-cf-dropdown role="menuitem">
           Services <span class="cf-nav__caret" aria-hidden="true"></span>
         </button>
-        <div class="cf-dropdown cf-dropdown--wide" role="menu">
-          <div class="cf-dropdown__label">Address services</div>
-          <a href="/registered-office-address/" role="menuitem">Registered Office</a>
-          <a href="/service-address/" role="menuitem">Service Address</a>
-          <a href="/trade-mail-forwarding/" role="menuitem">Trade Mail Forwarding</a>
-          <a href="/renewals/" role="menuitem">Renewals</a>
-          <div class="cf-dropdown__label">Company services</div>
-          <a href="/confirmation-statement-service/" role="menuitem">Confirmation Statement</a>
-          <a href="/company-closure/" role="menuitem">Company Closure</a>
-          <a href="/company-name-change" role="menuitem">Company Name Change</a>
-          <a href="/vat-registration/" role="menuitem">VAT Registration</a>
-          <a href="/director-appointment-and-resignation/" role="menuitem">Director Appointment &amp; Resignation</a>
-          <a href="/business-telephone-service/" role="menuitem">Business Telephone</a>
-          <a href="/transfer-of-shares/" role="menuitem">Transfer of Shares</a>
-          <a href="/allocation-of-shares/" role="menuitem">Allocation of Shares</a>
-          <a href="/certificate-of-good-standing/" role="menuitem">Certificate of Good Standing</a>
-          <a href="/business-banking/" role="menuitem">Business Banking</a>
-          <div class="cf-dropdown__label">Accountancy</div>
-          <a href="/year-end-accounts" role="menuitem">Year-end Accounts</a>
-          <a href="/corporation-tax" role="menuitem">Corporation Tax</a>
-          <a href="/bookkeeping/" role="menuitem">Bookkeeping</a>
-          <a href="/vat-returns/" role="menuitem">VAT Returns</a>
-          <a href="/payroll-and-paye/" role="menuitem">Payroll &amp; PAYE</a>
-          <a href="/dormant-company-account/" role="menuitem">Dormant Company Accounts</a>
-          <a href="/director-salary-and-dividends" role="menuitem">Director Salary &amp; Dividends</a>
+        <div class="cf-dropdown cf-dropdown--mega" role="menu">
+          <div class="cf-dropdown__col">
+            <div class="cf-dropdown__label">Address services</div>
+            <a href="/registered-office-address/" role="menuitem">Registered Office</a>
+            <a href="/service-address/" role="menuitem">Service Address</a>
+            <a href="/trade-mail-forwarding/" role="menuitem">Trade Mail Forwarding</a>
+            <a href="/renewals/" role="menuitem">Renewals</a>
+          </div>
+          <div class="cf-dropdown__col">
+            <div class="cf-dropdown__label">Company services</div>
+            <a href="/confirmation-statement-service/" role="menuitem">Confirmation Statement</a>
+            <a href="/company-closure/" role="menuitem">Company Closure</a>
+            <a href="/company-name-change/" role="menuitem">Company Name Change</a>
+            <a href="/vat-registration/" role="menuitem">VAT Registration</a>
+            <a href="/director-appointment-and-resignation/" role="menuitem">Director Appointment &amp; Resignation</a>
+            <a href="/business-telephone-service/" role="menuitem">Business Telephone</a>
+            <a href="/transfer-of-shares/" role="menuitem">Transfer of Shares</a>
+            <a href="/allocation-of-shares/" role="menuitem">Allocation of Shares</a>
+            <a href="/certificate-of-good-standing/" role="menuitem">Certificate of Good Standing</a>
+            <a href="/business-banking/" role="menuitem">Business Banking</a>
+          </div>
+          <div class="cf-dropdown__col">
+            <div class="cf-dropdown__label">Accountancy</div>
+            <a href="/year-end-accounts/" role="menuitem">Year-end Accounts</a>
+            <a href="/corporation-tax/" role="menuitem">Corporation Tax</a>
+            <a href="/bookkeeping/" role="menuitem">Bookkeeping</a>
+            <a href="/vat-returns/" role="menuitem">VAT Returns</a>
+            <a href="/payroll-and-paye/" role="menuitem">Payroll &amp; PAYE</a>
+            <a href="/dormant-company-account/" role="menuitem">Dormant Company Accounts</a>
+            <a href="/director-salary-and-dividends/" role="menuitem">Director Salary &amp; Dividends</a>
+          </div>
         </div>
       </li>
       <li role="none">
@@ -189,12 +195,34 @@
     </div>
 
     <div class="cf-namecheck-package" data-cf-namecheck-package hidden>
-      <h2 class="cf-h2">Continue with your package</h2>
-      <p class="cf-lead" data-cf-namecheck-package-label></p>
-      <p>
-        <a class="cf-btn cf-btn--primary" data-cf-namecheck-buy href="/packages/#packages">Buy now »</a>
-        <a class="cf-btn cf-btn--ghost" href="/packages/#packages">View all packages</a>
-      </p>
+      <div class="cf-namecheck-package__grid">
+        <div class="cf-namecheck-package__main">
+          <p class="cf-namecheck-package__eyebrow">Continue with your package</p>
+          <h2 class="cf-namecheck-package__title" data-cf-namecheck-package-title>Package</h2>
+          <p class="cf-namecheck-package__type" data-cf-namecheck-package-type></p>
+          <p class="cf-namecheck-package__price"><span data-cf-namecheck-package-price></span> <small>one-off fee</small></p>
+          <p class="cf-namecheck-package__blurb" data-cf-namecheck-package-blurb></p>
+          <div class="cf-namecheck-package__actions">
+            <a class="cf-btn cf-btn--primary" data-cf-namecheck-buy href="/packages/#packages">Buy now</a>
+            <a class="cf-btn cf-btn--outline" data-cf-namecheck-more href="/packages/#packages">Package details</a>
+          </div>
+        </div>
+        <aside class="cf-namecheck-package__aside" aria-label="Package details and contact">
+          <div class="cf-namecheck-package__panel">
+            <h3 class="cf-namecheck-package__panel-title">What’s included</h3>
+            <ul class="cf-namecheck-package__features" data-cf-namecheck-package-features></ul>
+          </div>
+          <div class="cf-namecheck-package__panel cf-namecheck-package__panel--contact">
+            <h3 class="cf-namecheck-package__panel-title">Need help?</h3>
+            <p>Questions about this package? Our team can help before you order.</p>
+            <div class="cf-namecheck-package__contact-actions">
+              <a class="cf-btn cf-btn--primary cf-btn--sm" href="/contact-us/">Contact us</a>
+              <a class="cf-btn cf-btn--outline cf-btn--sm" href="tel:+442038932121">+44 (0)203 8932 121</a>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   </div>
 
@@ -428,7 +456,7 @@
 </footer>
 
 <!-- Block: JAVASCRIPT – upload dist/app_min.js to /assets/custom/files/ then use dist/efiling-javascript.html -->
-<script src="/js/app_min.js?v=7016-1794216704374"></script>
+<script src="/js/app_min.js?v=12956-1794326512608"></script>
 
 </div>
 </body>

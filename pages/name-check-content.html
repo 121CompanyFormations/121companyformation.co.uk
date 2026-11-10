@@ -34,12 +34,34 @@
     </div>
 
     <div class="cf-namecheck-package" data-cf-namecheck-package hidden>
-      <h2 class="cf-h2">Continue with your package</h2>
-      <p class="cf-lead" data-cf-namecheck-package-label></p>
-      <p>
-        <a class="cf-btn cf-btn--primary" data-cf-namecheck-buy href="/packages/#packages">Buy now »</a>
-        <a class="cf-btn cf-btn--ghost" href="/packages/#packages">View all packages</a>
-      </p>
+      <div class="cf-namecheck-package__grid">
+        <div class="cf-namecheck-package__main">
+          <p class="cf-namecheck-package__eyebrow">Continue with your package</p>
+          <h2 class="cf-namecheck-package__title" data-cf-namecheck-package-title>Package</h2>
+          <p class="cf-namecheck-package__type" data-cf-namecheck-package-type></p>
+          <p class="cf-namecheck-package__price"><span data-cf-namecheck-package-price></span> <small>one-off fee</small></p>
+          <p class="cf-namecheck-package__blurb" data-cf-namecheck-package-blurb></p>
+          <div class="cf-namecheck-package__actions">
+            <a class="cf-btn cf-btn--primary" data-cf-namecheck-buy href="/packages/#packages">Buy now</a>
+            <a class="cf-btn cf-btn--outline" data-cf-namecheck-more href="/packages/#packages">Package details</a>
+          </div>
+        </div>
+        <aside class="cf-namecheck-package__aside" aria-label="Package details and contact">
+          <div class="cf-namecheck-package__panel">
+            <h3 class="cf-namecheck-package__panel-title">What’s included</h3>
+            <ul class="cf-namecheck-package__features" data-cf-namecheck-package-features></ul>
+          </div>
+          <div class="cf-namecheck-package__panel cf-namecheck-package__panel--contact">
+            <h3 class="cf-namecheck-package__panel-title">Need help?</h3>
+            <p>Questions about this package? Our team can help before you order.</p>
+            <div class="cf-namecheck-package__contact-actions">
+              <a class="cf-btn cf-btn--primary cf-btn--sm" href="/contact-us/">Contact us</a>
+              <a class="cf-btn cf-btn--outline cf-btn--sm" href="tel:+442038932121">+44 (0)203 8932 121</a>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   </div>
 

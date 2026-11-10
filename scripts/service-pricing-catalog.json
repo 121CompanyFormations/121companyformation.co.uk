@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "registered-office-address",
+    "title": "Registered Office Address",
+    "cardTitle": "Registered office address",
+    "price": "£89.99",
+    "priceLabel": "Use our Central London address from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Use our prestigious Central London address as your registered office",
+      "Enhance the professional image of your company",
+      "Retain privacy of your personal address",
+      "Maintain separation between private and company affairs",
+      "Have statutory documents and official correspondence forwarded to an address of your choice"
+    ]
+  },
+  {
+    "slug": "service-address",
+    "title": "Service Address",
+    "cardTitle": "Service Address",
+    "price": "£89.99",
+    "priceLabel": "Director service address from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Protect the privacy and private residential addresses of company officers",
+      "Maintain separation between private and company affairs",
+      "Have statutory documents and official correspondence forwarded to an address of your choice"
+    ]
+  },
+  {
+    "slug": "trade-mail-forwarding",
+    "title": "Trade Mail Forwarding",
+    "cardTitle": "Trade Mail Forwarding",
+    "price": "£195.00",
+    "priceLabel": "Forward all business mail from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have customers and other key stakeholders contact you using our prestigious Central London address",
+      "Enhance the professional image of your company",
+      "Retain privacy of your personal address",
+      "Maintain separation between private and company affairs",
+      "Have all correspondence forwarded to an address of your choice, anywhere in the world"
+    ]
+  },
+  {
+    "slug": "confirmation-statement-service",
+    "title": "Confirmation Statement Service",
+    "cardTitle": "Confirmation Statement",
+    "price": "£84.99",
+    "priceLabel": "File your confirmation statement from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Ensure the filing is done in a timely manner to remain legally compliant",
+      "Ensure your company information held by Companies House is accurate and up-to-date"
+    ]
+  },
+  {
+    "slug": "company-closure",
+    "title": "Company Closure",
+    "cardTitle": "Company Closure",
+    "price": "£74.99",
+    "priceLabel": "Close your company from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation entirely manage the company closure process on your behalf"
+    ]
+  },
+  {
+    "slug": "company-name-change",
+    "title": "Company Name Change",
+    "cardTitle": "Company Name Change",
+    "price": "£59.99",
+    "priceLabel": "Change your company name from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Change a company name and have 121 Company Formation manage the process on your behalf"
+    ]
+  },
+  {
+    "slug": "vat-registration",
+    "title": "VAT Registration",
+    "cardTitle": "VAT Registration",
+    "price": "£145",
+    "priceLabel": "Register for VAT from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Who is it for?",
+    "blurb": "For companies whose VAT taxable revenue exceeds £85,000 per annum.",
+    "benefits": [
+      "Have 121 Company Formation handle your VAT registration with HMRC",
+      "Stay compliant as your turnover grows"
+    ]
+  },
+  {
+    "slug": "director-appointment-and-resignation",
+    "title": "Director Appointment & Resignation",
+    "cardTitle": "Appointing And Resigning Directors",
+    "price": "£30.99",
+    "priceLabel": "Update company officers from just",
+    "ctaLabel": "Login now",
+    "ctaHref": "/login/",
+    "benefitsLabel": "This service is for companies",
+    "benefits": [
+      "Whose director(s) are resigning",
+      "Looking to appoint a new director"
+    ]
+  },
+  {
+    "slug": "business-telephone-service",
+    "title": "Business Telephone Service",
+    "cardTitle": "Business Telephone Services",
+    "price": "From £120",
+    "priceNote": "per year",
+    "priceLabel": "Business phone answering from",
+    "ctaLabel": "Get a quote",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have your business calls forwarded or answered by our excellent customer service team",
+      "Reduce overhead costs (e.g. receptionist)"
+    ]
+  },
+  {
+    "slug": "transfer-of-shares",
+    "title": "Transfer of Shares",
+    "cardTitle": "Transfer of Shares",
+    "price": "£79.99",
+    "priceLabel": "Transfer shares from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation ensure all the necessary paperwork for your Transfer of Shares is completed correctly and submitted to Companies House on your behalf"
+    ]
+  },
+  {
+    "slug": "allocation-of-shares",
+    "title": "Allocation of Shares",
+    "cardTitle": "Allocation of Shares",
+    "price": "£89.99",
+    "priceLabel": "Allocate shares from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Ensure your company's share capital structure is correct and suits your needs"
+    ]
+  },
+  {
+    "slug": "certificate-of-good-standing",
+    "title": "Certificate of Good Standing",
+    "cardTitle": "Certificate of Good Standing",
+    "price": "£59.99",
+    "priceLabel": "Order a certificate from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation process your order for a Certificate of Good Standing on your behalf"
+    ]
+  },
+  {
+    "slug": "business-banking",
+    "title": "Business Banking",
+    "cardTitle": "Business Banking",
+    "price": "Free",
+    "priceLabel": "Business banking referral is",
+    "ctaLabel": "See packages",
+    "ctaHref": "/packages/#packages",
+    "benefitsLabel": "What you get",
+    "benefits": [
+      "Purchase our company formation service and get a complimentary fast-track referral with one of our business banking partners"
+    ]
+  },
+  {
+    "slug": "year-end-accounts",
+    "title": "Year-End Accounts",
+    "cardTitle": "Year End Accounts and Tax",
+    "price": "£595",
+    "priceLabel": "Year-end accounts from",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have your company's accounts expertly prepared",
+      "Get the annual financial report filed on your behalf",
+      "Remain compliant"
+    ]
+  },
+  {
+    "slug": "corporation-tax",
+    "title": "Corporation Tax",
+    "cardTitle": "Corporation tax",
+    "price": "£595",
+    "priceLabel": "Corporation tax return from",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation seamlessly file your corporation tax return"
+    ]
+  },
+  {
+    "slug": "bookkeeping",
+    "title": "Bookkeeping",
+    "cardTitle": "Bookkeeping",
+    "price": "£595",
+    "priceNote": "per annum",
+    "priceLabel": "Bookkeeping from",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation provide professional bookkeeping so you can focus on growing your business"
+    ]
+  },
+  {
+    "slug": "vat-returns",
+    "title": "VAT Returns",
+    "cardTitle": "VAT Returns",
+    "price": "£295",
+    "priceNote": "per annum",
+    "priceLabel": "VAT returns from",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation prepare and file your company's VAT Return on your behalf"
+    ]
+  },
+  {
+    "slug": "payroll-and-paye",
+    "title": "Payroll & PAYE",
+    "cardTitle": "Payroll & PAYE",
+    "price": "£295",
+    "priceLabel": "Payroll & PAYE from",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation seamlessly manage your Payroll & PAYE services so you can focus on growing your business"
+    ]
+  },
+  {
+    "slug": "dormant-company-account",
+    "title": "Dormant Company Accounts",
+    "cardTitle": "Dormant company account (LTD/ LLP)",
+    "price": "£155",
+    "priceLabel": "Dormant accounts from just",
+    "ctaLabel": "Order now",
+    "ctaHref": "/contact-us/",
+    "benefitsLabel": "Purchase this service to",
+    "benefits": [
+      "Have 121 Company Formation process and file your dormant accounts to ensure you remain legally compliant and avoid any penalties"
+    ]
+  }
+]
