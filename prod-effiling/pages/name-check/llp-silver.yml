@@ -1,0 +1,45 @@
+"##PAGE_TITLE#": LLP Silver - Check name availability | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "The Silver Package is the best option for those who are looking to set up a company along with printed company documents for a relatively low cost - just ##LLP-PACKAGE_SILVER_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": LLP Silver Package
+"##CUSTOM3#": llp-silver
+"##CUSTOM5#": 
+"URL": /name-check/llp-silver/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+    <div class="cf-container cf-namesearch-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <a href="/name-check/">Name Check</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">##CUSTOM1#</span>
+      </nav>
+      <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">##CUSTOM1#</h1>
+      <p class="cf-namesearch-hero__lead">Choose your new company name</p>
+      ##NAME_CHECK_FORM#
+    </div>
+  </section>
+
+  ##HELP_SECTION#
+  <script>
+    fbq('trackCustom', 'NameSearch');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "LLP Silver - Check name availability",
+    "description": "The Silver Package is the best option for those who are looking to set up a company along with printed company documents for a relatively low cost - just ##LLP-PACKAGE_SILVER_Price#",
+    "url": "https://www.121companyformation.co.uk/name-check/llp-silver/",
+    "mainEntity": {
+      "@type": "WebPageElement",
+      "name": "Company Name Search Form",
+      "url": "https://www.121companyformation.co.uk/name-check/llp-silver/",
+      "description": "Fill in the form to check the availability of your desired company name."
+    }
+  }
+  </script>

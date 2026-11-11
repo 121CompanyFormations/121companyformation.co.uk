@@ -1,0 +1,112 @@
+"##PAGE_TITLE#": LLP Platinum | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "The Platinum LLP Package offers just that little bit more help with setting up a company by taking away the hassle of registering for VAT with HMRC, for only ##LLP-PACKAGE_PLATINUM_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": LLP Platinum Package
+"##CUSTOM2#": "##LLP-PACKAGE_PLATINUM_Price#"
+"##CUSTOM5#": "##HERO_PAGE_Services#"
+"URL": /llp-platinum/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>The Platinum Package offers just that little bit more help with setting up an LLP by taking away the worry of registering for VAT with HMRC which means that your LLP really will be good to go. This leaves you free to get on with making the business a success knowing that everything that needs to be done to set the company up has been handled by a highly experienced company formation facility.</p>
+          <h3>What does the Platinum Package include?</h3>
+          <ul>
+          <li>An incorporated private LLP company that is ready to begin trading</li>
+          <li>A PDF file of the Certificate of Registration</li>
+          <li>A PDF file of the draft LLP agreement&nbsp;</li>
+          <li>A printed copy of the Certificate of Registration</li>
+          <li>A printed copy of the draft LLP Agreement</li>
+          <li>Registration for VAT with HMRC</li>
+          <li>Free filing of the company&rsquo;s Confirmation Statement for the first year</li>
+          <li>Free fast-track referral service for business banking facilities</li>
+          <li>Free access to your company management portal</li>
+          </ul>
+          <h3>Limited Liability Partnership Package</h3>
+          <p>A limited liability partnership is the formation package most usually used by those offering professional services such as accountants, consultants and solicitors because, whilst they are still able to operate like a traditional partnership, they have the added benefit of the protection that limited liability brings.<br /></p>
+          <h5>121 Company Formation offers five different types of LLP formation packages which all include the following basic elements</h5>
+          <ul>
+          <li>A draft LLP agreement (while not a legal requirement, this is a useful document should you wish to divide shares, profits or capital at a later date)</li>
+          <li>A full set of company incorporation documents</li>
+          <li>Free access to your company management portal</li>
+          </ul>
+          <p>We offer a very quick service &ndash; your LLP will be usually formed within 3-24 hours of placing your order subject to Companies House activity.<br /> All you have to do is choose the package that best suits your needs and the time you have available to devote to setting up the LLP.</p>
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
+          <div class="cf-faq cf-faq--page">
+          <details>
+          <summary>What sort of businesses form a Limited Liability Partnership?</summary>
+          <div class="cf-faq__body">
+          <p>Many professional businesses, such as solicitors, accountants, consultants and doctors, have traditionally operated in partnerships form a Limited Liability Partnership to reduce their exposure to personal financial loss.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Who can be a member of a Limited Liability Partnership?</summary>
+          <div class="cf-faq__body">
+          <p>A member can be a resident of any nationality or a corporate entity and, in the case of an individual they must neither be an undischarged bankrupt nor a disqualified director.</p>
+          </div>
+          </details>
+          <details>
+          <summary>What are members and designated members?</summary>
+          <div class="cf-faq__body">
+          <p>Whilst they both have the same duties and rights, a designated member has the added responsibility for ensuring that both the LLP and its members meet the statutory requirements required of them and they would also manage these requirements should the partnership be dissolved at any time.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Can non-profit organisations use the Limited Liability Partnership structure?</summary>
+          <div class="cf-faq__body">
+          <p>This company structure is only for businesses that intend to trade as profit making and therefore are required to pay tax whereas non-profit organisations need a different structure since they will not generally use the same taxation process.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Is a Limited Liability Partnership Agreement necessary?</summary>
+          <div class="cf-faq__body">
+          <p>While not a legal requirement, this is a useful document to define each member&rsquo;s share of the rights, responsibilities and profits of the business which may or may not be equal or may change over time. An LLP agreement is also useful should you wish to divide shares, profits or capital at a later date and it allows.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Do LLP members pay tax?</summary>
+          <div class="cf-faq__body">
+          <p>Yes, as for limited company directors, LLP members are required to register for self-assessment with HMRC and pay any tax due on the profits that are drawn from the LLP by each filing an annual tax return. However, unlike private limited companies, a Limited Liability Partnership does not corporation tax on any profits the partnership makes.</p>
+          </div>
+          </details>
+          </div>
+          <p><a class="cf-btn cf-btn--primary" href="/name-check/llp-platinum/" onclick="packagesBuyNow('llp-platinum'); return false;">Buy now</a></p>
+        </div>
+        <aside class="cf-sidebar" aria-label="Package summary and contact">
+          <div class="cf-pkg-summary">
+            <div class="cf-pkg-summary__head">
+              <h2 class="cf-pkg-summary__name">##CUSTOM1#</h2>
+              <p class="cf-pkg-summary__price">##CUSTOM2#</p>
+            </div>
+            <div class="cf-pkg-summary__body">
+              <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/llp-platinum/" onclick="packagesBuyNow('llp-platinum'); return false;">Buy Now</a>
+            </div>
+          </div>
+          ##SIDEBAR_CONTACT#
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Platinum Package",
+    "description": "The Platinum Package offers enhanced support for setting up an LLP, including VAT registration with HMRC and other key services.",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "262.99",
+      "url": "https://www.121companyformation.co.uk/llp-platinum/",
+      "eligibleRegion": {
+        "@type": "Place",
+        "name": "UK"
+      },
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>

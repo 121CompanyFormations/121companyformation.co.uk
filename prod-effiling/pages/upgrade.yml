@@ -1,0 +1,48 @@
+"##PAGE_TITLE#": Upgrade | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "##BRAND_NAME# - Upgrades"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": 
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /upgrade/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  ##PAGE_CONTENT#
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Upgrade Your Services | 121 Company Formation",
+    "description": "Explore upgrade options for your 121 Company Formation services. Enhance your business setup with additional features and premium support.",
+    "url": "https://www.121companyformation.co.uk/upgrade/",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "url": "https://www.121companyformation.co.uk/upgrade/"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.121companyformation.co.uk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Upgrade",
+          "item": "https://www.121companyformation.co.uk/upgrade/"
+        }
+      ]
+    },
+    "potentialAction": {
+      "@type": "Action",
+      "name": "Upgrade Now",
+      "target": "https://www.121companyformation.co.uk/upgrade/",
+      "description": "Select an upgraded package to enhance your business services with 121 Company Formation."
+    }
+  }
+  </script>

@@ -1,0 +1,44 @@
+"##PAGE_TITLE#": LBS Gold - Check name availability | 121 Company Formation
+"##PAGE_DESCRIPTION#": "The Gold Package is the best option for those looking for a superior experience when setting up their Private Limited Company - only ##LBS-PACKAGE_GOLD_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Gold Package
+"##CUSTOM3#": lbs-gold
+"##CUSTOM5#": 
+"URL": /name-check/lbs-gold/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+    <div class="cf-container cf-namesearch-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <a href="/name-check/">Name Check</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">##CUSTOM1#</span>
+      </nav>
+      <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">##CUSTOM1#</h1>
+      <p class="cf-namesearch-hero__lead">Choose your new company name</p>
+      ##NAME_CHECK_FORM#
+    </div>
+  </section>
+
+  ##HELP_SECTION#
+  <script>
+    fbq('trackCustom', 'NameSearch');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "LBS Gold - Check name availability | 121CompanyFormation.co.uk",
+    "description": "The Gold Package is the best option for those looking for a superior experience when setting up their Private Limited Company - only ##LBS-PACKAGE_GOLD_Price#",
+    "url": "https://www.121companyformation.co.uk/name-check/lbs-gold/",
+    "mainEntity": {
+      "@type": "WebPageElement",
+      "name": "Company Name Search",
+      "url": "https://www.121companyformation.co.uk/name-check/lbs-gold/"
+    }
+  }
+  </script>

@@ -1,0 +1,104 @@
+"##PAGE_TITLE#": LBS Bronze | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Get your business started with our LBS Bronze Package. Enjoy essential services for your limited by shares company, all in one affordable plan.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Bronze Package
+"##CUSTOM2#": "##LBS-PACKAGE_BRONZE_Price#"
+"##CUSTOM5#": 
+"URL": /lbs-bronze/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Bronze Package</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Bronze Package</h1>
+        <p class="cf-page-hero__price">The one-off fee for the Bronze Package is just <strong>##LBS-PACKAGE_BRONZE_Price#</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">Buy Now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>The Bronze Package is perfect for any UK or International companies or individuals who are looking to set up a company quickly and efficiently.</p>
+  <p>Our Bronze Package is simple and economical and provides you with all your incorporation documents in PDF format which we will email to you once your company has been formed.</p>
+  <h3>What does the Bronze Package include?</h3>
+  <p>The Bronze Package is economically priced and offers optimum value including:</p>
+  <ul>
+  <li>An incorporated limited company that is ready to begin trading</li>
+  <li>Officers of the company appointed</li>
+  <li>Ordinary shares issued</li>
+  <li>A PDF file containing the Certificate of Incorporation, the Memorandum and Articles of Association and the share certificate/s</li>
+  <li>Free access to your company management portal</li>
+  <li>Free fast-track referral service for <a href="/business-banking/">business banking</a> facilities</li>
+  </ul>
+  <p>We offer a very quick service &ndash; your company will be usually formed within three to four hours of placing your order, subject to Companies House response times.</p>
+  <h3>The process</h3>
+  <ol>
+  <li>Use our free tool to do a company name search to check that your chosen company name is available. If it is not, we will recommend a few alternatives</li>
+  <li>Complete the self-guided company incorporation application form with details of the company secretary, directors, shareholders, <a href="/registered-office-address/">registered address</a> and <a href="/service-address/">director service address</a>, if applicable</li>
+  <li>We’ll submit the application to Companies House on your behalf, along with the appropriate fee</li>
+  <li>We will contact you via email (typically within 24 business hours), once your company has been incorporated and registered at Companies House.</li>
+  </ol>
+  <p><a class="cf-btn cf-btn--primary" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">Buy now</a></p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Package summary and contact">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Bronze Package</h2>
+            <p class="cf-pkg-summary__price">##LBS-PACKAGE_BRONZE_Price#</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Who is it for?</h3>
+            <p>UK and international companies and individuals looking to set up a for-profit company in the UK.</p>
+            <h3 class="cf-pkg-summary__label">What you’ll get</h3>
+            <ul>
+              <li>A fast, hassle-free service (typically within 24 business hours)</li>
+              <li>A full set of incorporation documents</li>
+              <li>Free access to our Admin portal to manage your company details in our system</li>
+            </ul>
+            <p class="cf-pkg-summary__note">All our formation packages include <a href="/business-banking/">a free business bank account referral</a> for UK residents!</p>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">Buy Now</a>
+          </div>
+        </div>
+        <div class="cf-sidebar__card">
+          <h2 class="cf-sidebar__title">Need help?</h2>
+          <p>Our team can guide you through company formation and compliance.</p>
+          <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+          <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+          <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Bronze Package",
+    "description": "The Bronze Package is an economical option for setting up a company, providing full incorporation documents in PDF format.",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "110.95",
+      "url": "https://www.121companyformation.co.uk/lbs-bronze/",
+      "eligibleRegion": {
+        "@type": "Place",
+        "name": "United Kingdom"
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "mainEntityOfPage": "https://www.121companyformation.co.uk/lbs-bronze/",
+    "additionalType": "https://www.121companyformation.co.uk/packages/"
+  }
+  </script>

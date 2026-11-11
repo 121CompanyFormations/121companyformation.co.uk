@@ -1,0 +1,126 @@
+"##PAGE_TITLE#": International | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": The International package is designed to offer a full range of services to clients who are based anywhere in the world
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": International Package
+"##CUSTOM2#": "##INTERNATIONAL-PACKAGE_Price#"
+"##CUSTOM5#": "##HERO_PAGE_Services#"
+"URL": /international/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>The International Package offered by 121 Company Formation has been designed to offer a full range of services to clients who are based anywhere in the world. It includes the incorporation of a new company as well as the preparation and submission of the first year&rsquo;s Confirmation Statement, and the use of our prestigious London address as their Registered Office and Director Service Address.</p>
+          <h3>What does the international package include?</h3>
+          <p>A highly personalised service that will not only take care of all the necessary documentation at the time of incorporation but, at the end of the first year of trading, the company&rsquo;s annual accounts, confirmation statement and corporate tax return will be prepared. The International Package takes care of every single aspect of setting up a company and dealing with the first year&rsquo;s statutory filing requirements leaving you free to focus on getting the company up and running. The International Package includes:</p>
+          <ul>
+          <li>An incorporated limited company that is ready to begin trading</li>
+          <li>Officers of the company appointed</li>
+          <li>Ordinary shares issued&nbsp;</li>
+          <li>A PDF file containing the Certificate of Incorporation, the Memorandum and Articles of Association and the share certificate/s</li>
+          <li>Printed copies of the above documents</li>
+          <li>Filing of the company&rsquo;s Confirmation Statement for the first year</li>
+          <li>Optional VAT Registration</li>
+          <li>Registered Office address service for one year using our prestigious London address for receipt of all statutory documents and official correspondence from HMRC and Companies House&nbsp;</li>
+          <li>Director service address service for one year using our prestigious London address for receipt of all statutory documents and official correspondence from HMRC and Companies House addressed to the directors of the company</li>
+          <li>Free access to your company management portal</li>
+          </ul>
+          <p>We offer a very quick service &ndash; your company will be usually formed within 3-24 hours of placing your order subject to Companies House activity.</p>
+          <h3>What we do to incorporate your company</h3>
+          <ul>
+          <li>We check that your chosen company name is available for use and suggest alternatives if this is not the case</li>
+          <li>Complete the company incorporation application form with details of the company secretary, directors, shareholders, Registered Address and Director Service Address, if applicable. Please see below for a detailed explanation of these.</li>
+          <li>Submit the application to Companies House together with the appropriate fee</li>
+          <li>You will then receive a confirmation by email, usually within 24 hours, that your company has been incorporated and registered at Companies House</li>
+          </ul>
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
+          <div class="cf-faq cf-faq--page">
+          <details>
+          <summary>If I live outside the UK, can I set up a UK registered limited company?</summary>
+          <div class="cf-faq__body">
+          <p>Yes, anyone can form a UK registered limited company. Providing the registered address is within the UK, neither the directors nor shareholders are required to be UK residents. This is another advantage of using our International Packages because they include the use of our registered address service.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Does every company have to file a confirmation statement every year?</summary>
+          <div class="cf-faq__body">
+          <p>Yes, even if there have been no changes throughout the year or if the company is dormant, a confirmation statement must still be filed every year.</p>
+          </div>
+          </details>
+          </div>
+          <p><a class="cf-btn cf-btn--primary" href="/name-check/international-package/" onclick="packagesBuyNow('international-package'); return false;">Buy now</a></p>
+        </div>
+        <aside class="cf-sidebar" aria-label="Package summary and contact">
+          <div class="cf-pkg-summary">
+            <div class="cf-pkg-summary__head">
+              <h2 class="cf-pkg-summary__name">##CUSTOM1#</h2>
+              <p class="cf-pkg-summary__price">##CUSTOM2#</p>
+            </div>
+            <div class="cf-pkg-summary__body">
+              <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/international-package/" onclick="packagesBuyNow('international-package'); return false;">Buy Now</a>
+            </div>
+          </div>
+          ##SIDEBAR_CONTACT#
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "International Package - 121 Company Formation",
+    "description": "The International Package offered by 121 Company Formation provides a comprehensive service for international clients looking to establish a company in the UK, including incorporation, registered office address, and first-year filing requirements.",
+    "mainEntity": {
+      "@type": "Service",
+      "serviceType": "International Company Formation Package",
+      "provider": {
+        "@type": "Organization",
+        "name": "121 Company Formation",
+        "url": "https://www.121companyformation.co.uk",
+        "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "description": "The International Package includes full incorporation services, registered office and director address in London, VAT registration, company management portal access, and preparation of the company’s annual accounts, confirmation statement, and tax return.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "GBP",
+        "url": "https://www.121companyformation.co.uk/international/",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "International Company Formation Package",
+          "description": "Comprehensive package for international clients to establish and manage a UK company, with filing and support for the first year."
+        },
+        "price": "286.99",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "If I live outside the UK, can I set up a UK registered limited company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, anyone can form a UK registered limited company. The registered address must be within the UK, but directors and shareholders are not required to be UK residents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does every company have to file a confirmation statement every year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, a confirmation statement is required every year, even if there have been no changes or if the company is dormant."
+          }
+        }
+      ]
+    }
+  }
+  </script>

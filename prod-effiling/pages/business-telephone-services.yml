@@ -1,0 +1,134 @@
+"##PAGE_TITLE#": Business Telephone Services | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Improve your corporate image and never miss a customer call again with one of our professional  Business Phone Numbers, from £6.99 per month
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Business Telephone Services
+"##CUSTOM2#": 
+"##CUSTOM5#": "##HERO_PAGE#"
+"URL": /business-telephone-services/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>First impressions count! That&rsquo;s why 1st Formations provides an affordable business telephone number and call answering service for our clients. Having your calls answered promptly and professionally, may mean the difference between capturing a new client or losing them. And most importantly of all, you will be able to concentrate on your business, while we take care of your calls.</p>
+          <h2>Why do I need call answering service?</h2>
+          <ul>
+          <li>Never miss another sales call.</li>
+          <li>Saves you money on hiring a full time receptionist.</li>
+          <li>Frees up your time to focus on your business.</li>
+          <li>Makes you look much bigger and more professional.</li>
+          <li>No set up fee.</li>
+          <li>You can have a London 020 or regional landline, even if you only have a mobile number.</li>
+          <li>Ensures all calls are answered promptly and professionally &ndash; even when you are busy.</li>
+          </ul>
+          <h2>Business Telephone Number</p>
+          <p>&pound;6.99 +VAT per month</p>
+          <p>Improve your corporate image</h2>
+          <p>We will provide you with your own unique 020 London or regional telephone number. You can use this number as your new business number on your company stationery, website, advertising, etc., and we will forward all calls to your mobile or landline handset for you to answer. The business telephone number service costs &pound;6.99 plus VAT per month. Call forwarding will be charged at BT Standard Rates.</p>
+          <h2>Details &amp; Costs</h2>
+          <ul>
+          <li>020 London or regional telephone number:Free</li>
+          <li>24/7 call divert charges:At BT Standard Rates</li>
+          <li>Contract period:Month-to-month</li>
+          </ul>
+          <h2>Business Telephone Number + Call Answering</p>
+          <p>&pound;19.99 +VAT per month</p>
+          <p>Never miss another call</h2>
+          <p>We will provide you with your own unique 020 London or regional telephone number. This can be used as your new business telephone number or to simply divert your calls to your new receptionists. We will supply easy to understand call divert instructions and be on hand at all times to provide assistance if required.</p>
+          <h2>Call answering</h2>
+          <p>Two dedicated receptionists will be assigned to your company and will answer your business calls during normal working hours (8.30am - 5.30pm, Monday - Friday). Your receptionists will answer all of your calls in your company name and will follow the call instructions provided by you. After receiving a call, your receptionist will transfer and announce the call to you, or alternatively take a message and forward it to you by email or SMS, at no further cost. Messages are sent within 10 minutes of the call.</p>
+          <h2>After hours</h2>
+          <p>Outside normal working hours (8.30am - 5.30pm, Monday - Friday), we can provide you with a personal voicemail service which your receptionists will manage for you. Callers will be greeted with a personal voicemail message recorded by one of your receptionists. This will include your company name and a short message requesting the caller&#39;s details. Messages will be sent to you by email the following working day. Alternatively, if you wish to answer out of hours calls yourself, we can easily divert the calls to a number of your choice.</p>
+          <h2>Details &amp; Costs</h2>
+          <ul>
+          <li>020 London or regional telephone number:Free</li>
+          <li>Call answering:30 calls per month at a cost of &pound;19.99 +VAT</li>
+          <li>Additional calls answered:45p per call after the first 30 calls</li>
+          <li>Call forwarding charges:At BT Standard Rates</li>
+          <li>Email messages:Free</li>
+          <li>SMS messages:Free</li>
+          <li>Voicemail messages:Free</li>
+          <li>After hours divert charges:At BT Standard Rates</li>
+          <li>Contract period:Month-to-month</li>
+          </ul>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Business Telephone Number & Call Answering Service",
+    "description": "121 Company Formation provides an affordable business telephone number and call answering service to ensure all customer calls are answered promptly and professionally, allowing you to focus on your business. Includes a unique 020 London or regional number, call forwarding, and call answering during business hours.",
+    "brand": {
+      "@type": "Brand",
+      "name": "121 Company Formation"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "url": "https://www.121companyformation.co.uk/business-telephone-services/",
+        "priceCurrency": "GBP",
+        "price": "6.99",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "121 Company Formation",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+44-203-8932-121",
+            "contactType": "Customer Service",
+            "areaServed": "GB",
+            "availableLanguage": "English"
+          }
+        },
+        "additionalType": "https://schema.org/Service",
+        "serviceType": "Business Telephone Number",
+        "features": [
+          "020 London or regional number",
+          "No setup fee",
+          "Call forwarding to mobile or landline",
+          "Price: £6.99 + VAT per month"
+        ]
+      },
+      {
+        "@type": "Offer",
+        "url": "https://www.121companyformation.co.uk/business-telephone-services/",
+        "priceCurrency": "GBP",
+        "price": "19.99",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "121 Company Formation",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+44-203-8932-121",
+            "contactType": "Customer Service",
+            "areaServed": "GB",
+            "availableLanguage": "English"
+          }
+        },
+        "additionalType": "https://schema.org/Service",
+        "serviceType": "Business Telephone Number + Call Answering",
+        "features": [
+          "Dedicated receptionists answering calls",
+          "Up to 30 calls per month",
+          "Call forwarding to mobile or landline",
+          "Call answering during business hours (8:30 am - 5:30 pm, Mon-Fri)",
+          "Email and SMS message forwarding",
+          "Voicemail service outside of business hours",
+          "Price: £19.99 + VAT per month"
+        ]
+      }
+    ],
+    "additionalType": "https://schema.org/Service",
+    "serviceType": "Call Answering Service"
+  }
+  </script>

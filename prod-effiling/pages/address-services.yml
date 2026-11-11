@@ -1,0 +1,48 @@
+"##PAGE_TITLE#": Address Services | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": 
+"##CUSTOM5#": 
+"URL": /address-services/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  ##PAGE_CONTENT#
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "121 Company Formation",
+    "url": "https://www.121companyformation.co.uk/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3rd Floor, 207 Regent Street",
+      "addressLocality": "London",
+      "postalCode": "W1B 3HH",
+      "addressCountry": "GB"
+    },
+    "telephone": "+44-203-8932-121",
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Company Formation",
+          "description": "Comprehensive company formation solutions with seamless integration with Companies House."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mail Forwarding",
+          "description": "Professional mail forwarding services to support business operations."
+        }
+      }
+    ],
+    "priceRange": "££",
+    "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg",
+    "@id": "https://www.121companyformation.co.uk/#localbusiness"
+  }
+  </script>

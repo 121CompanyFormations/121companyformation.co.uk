@@ -1,0 +1,178 @@
+"##PAGE_TITLE#": Service Address | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Safeguard your privacy with a professional service address in London. Ideal for protecting your personal details while running your business.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Service Address
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /service-address/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Service Address</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Service Address</h1>
+        <p class="cf-page-hero__price">Director service address from just <strong>£89.99</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>At the time of incorporation, all officers of a company must provide both their home address and a service address. These addresses can be one and the same.</p><p>Legally, unlike the company’s registered office address, officers’ home addresses and service addresses do not need to be based in the UK.</p>
+  <h3>
+   WHY USE A SERVICE ADDRESS:
+   </h3>
+  <ul>
+  <li>
+   The service address serves as an alternative to company officers using their personal residential address for the receipt of official or statutory company documents
+   </li>
+  <li>
+   Protect the privacy of company officers’ residential addresses and instead have company correspondence, and unsolicited mail sent to the service address
+   </li>
+  <li>
+   Have the company’s official correspondence forwarded to an address of your choice, or sent to you via email
+   </li>
+  </ul>
+  <h3>
+   WHAT IS INCLUDED IN THE SERVICE ADDRESS SERVICE?
+   </h3>
+  <p>All statutory correspondence addressed to an individual officer of the company and received at the service address will be scanned and forwarded immediately by e-mail or by post to the address nominated on the order form</p><p>There is an annual fee payable for the service address service of &pound;59.99 for each individual officer of the company. We will automatically invite you to renew your subscription at the appropriate time. If the individual is an officer of more than one company, then the fee of &pound;59.99 applies to each company.</p>
+  <ul>
+  <li>
+   A copy of the page of your passport bearing your photograph and personal data
+   </li>
+  <li>
+   A copy of either a bank statement or utility bill dated within the last 3 months that shows your name and address
+   </li>
+  </ul>
+  <h3>
+   HOW IT WORKS
+   </h3>
+  <ol>
+  <li>
+   Purchase the service and attach the required documentation (A copy of your passport and a copy of either a bank statement or utility bill that shows your name and address and is dated within the last 3 months). We will send you an email confirming your order, and with your invoice attached
+   </li>
+  <li>
+   Once all your contacts have been notified and we start receiving your mail on your behalf, we will immediately begin forwarding all statutory documents and official correspondence to an address of your choice, anywhere in the world. Alternatively, you can choose to have your mail scanned and emailed to you on the same day it is received at your service address.
+   </li>
+  <li>
+   Renew the service on an annual basis to retain use of the service address.
+   </li>
+  </ol>
+  <p>Interested in having all your general correspondence, not just official company correspondence, forwarded to your chosen address? Upgrade to our trade mail forwarding service.</p>
+  <h3>
+   PURCHASE SERVICE ADDRESS SERVICE
+   </h3>
+  <p>For just &pound;89.99 purchase the Service Address service through our website or for further information email us at 
+   <a href="mailto:info@121companyformation.co.uk">
+   info@121companyformation.co.uk 
+   </a></p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Service pricing and help">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Service Address</h2>
+            <p class="cf-pkg-summary__price">£89.99</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Purchase this service to</h3>
+            
+            <ul>
+              <li>Protect the privacy and private residential addresses of company officers</li>
+              <li>Maintain separation between private and company affairs</li>
+              <li>Have statutory documents and official correspondence forwarded to an address of your choice</li>
+            </ul>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+          </div>
+        </div>
+  <div class="cf-sidebar__card">
+      <h2 class="cf-sidebar__title">Need help?</h2>
+      <p>Our team can guide you through company formation and compliance.</p>
+      <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+      <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+      <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+  <div class="cf-sidebar__card cf-sidebar__card--packages">
+      <h2 class="cf-sidebar__title">Popular packages</h2>
+      <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+      <ul class="cf-sidebar-pkgs">
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Bronze</span>
+              <span class="cf-sidebar-pkg__hint">Essential formation</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+            <span class="cf-sidebar-pkg__badge">Popular</span>
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Gold</span>
+              <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Platinum</span>
+              <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Diamond</span>
+              <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+      </ul>
+      <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+    </div>
+
+      </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Service Address",
+    "description": "In the UK, a service address is a mandatory address provided to Companies House where statutory mail is sent. This address can be different from your office or trading address.",
+    "brand": {
+      "@type": "Brand",
+      "name": "121 Company Formation"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.121companyformation.co.uk/service-address/",
+      "priceCurrency": "GBP",
+      "price": "89.99",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>

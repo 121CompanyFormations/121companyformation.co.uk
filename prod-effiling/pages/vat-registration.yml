@@ -1,0 +1,200 @@
+"##PAGE_TITLE#": UK VAT Registration | 121 Company Formation
+"##PAGE_DESCRIPTION#": Get VAT registered quickly and efficiently. Expert assistance ensures compliance and correct setup. Start charging VAT and expand your business.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Vat Registration
+"##CUSTOM3#": 
+"##CUSTOM5#": 
+"URL": /vat-registration/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Vat Registration</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">VAT Registration</h1>
+        <p class="cf-page-hero__price">Register for VAT from just <strong>£145</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>Value added tax is the tax that is added to goods and services
+   that are provided or sold in the UK and which currently stands at
+   20% for 2022.</p><p>Providing your company’s turnover is more than &pound;85,000
+   for the 2021/21 financial year, then you must register for VAT.
+   This threshold can, and often does, change every year so it is
+   important to be aware of the current threshold and whether your
+   company’s turnover will reach or exceed this in the relevant
+   financial year. For the purpose of the VAT registration threshold,
+   this refers to the level of turnover, i.e. sales, and not
+   profit.</p><p>When a company registers for VAT with HM Revenue and Customs, it
+   will be issued with a VAT registration number and will be obliged
+   by law to
+   <a href="/vat-returns/">
+   submit regular VAT returns
+   </a>
+   , paying any tax due after deducting any VAT that it can
+   legitimately claim on its own purchases from other suppliers.</p>
+  <h3>
+   Who must register for VAT?
+   </h3>
+  <p>Any trading entity that exceeds the VAT threshold in any financial
+   year must register for VAT and this includes:</p>
+  <ul>
+  <li>A private limited company</li>
+  <li>A limited liability partnership</li>
+  <li>A sole trader or individual</li>
+  <li>A club or society</li>
+  </ul>
+  <h3>
+   I need to register for VAT, how do I do that?
+   </h3>
+  <p>If you prefer not to register for VAT with HMRC directly yourself,
+   121 Company Formation offers a VAT registration service for
+   limited companies which will take approximately two to three weeks
+   to complete.</p><p>We will send the necessary registration forms to you
+   electronically which you will need to complete and return to us
+   with the following documentation:</p>
+  <ul>
+  <li>
+   One document bearing a photograph:
+   <ul>
+  <li>Passport</li>
+  <li>Driver’s license</li>
+  <li>Government issued identity</li>
+  </ul>
+  </li>
+  <li>
+   Two documents to further authenticate your identity which can
+   include:
+   <ul>
+  <li>Birth certificate</li>
+  <li>Marriage/civil partnership certificate</li>
+  <li>National Insurance number</li>
+  <li>Rental or lease agreement in your own name</li>
+  <li>Mortgage statement</li>
+  <li>
+   P60/P45 or similar from an employer that bears your name,
+   and date of birth
+   </li>
+  </ul>
+  </li>
+  </ul>
+   Once we have received this documentation and the completed
+   registration form, we will thoroughly check these before submission
+   to HMRC on your behalf.
+   
+
+   
+   <h3>
+   How can I order the VAT registration service and how much does
+   this cost?
+   </h3>
+  <p>You can order this service directly from our website or, if you
+   would prefer to seek further advice, please email us at
+   <a href="mailto:info@121companyformation.co.uk">
+   info@121companyformation.co.uk
+   </a></p><p>The one-off cost of the VAT registration service is &pound;145.</p>
+  <h3>
+   Can you briefly explain how VAT is calculated?
+   </h3>
+  <p>When you calculate the cost of the goods and services you have
+   supplied to a customer and raise an invoice, you must add the VAT
+   element (currently 20%) to the subtotal to arrive at the total
+   amount payable for the invoice. This is the output VAT that you
+   must pay to HMRC.</p><p>However, you will also have received invoices from suppliers that
+   you have purchased goods and services from and these will also
+   contain the VAT element which is the amount that you can claim
+   back from HMRC. Therefore the total VAT payable in any given
+   period is the amount of VAT you have charged on sales less the
+   amount of VAT you can claim back on purchases.</p><p>121 Company Formation offers a VAT return service which will take
+   much of the burden of filing VAT returns from you, allowing you to
+   concentrate on more important aspects of running the company.</p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Service pricing and help">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">VAT Registration</h2>
+            <p class="cf-pkg-summary__price">£145</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Who is it for?</h3>
+            <p class="cf-pkg-summary__note">For companies whose VAT taxable revenue exceeds £85,000 per annum.</p>
+            <ul>
+              <li>Have 121 Company Formation handle your VAT registration with HMRC</li>
+              <li>Stay compliant as your turnover grows</li>
+            </ul>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+          </div>
+        </div>
+  <div class="cf-sidebar__card">
+      <h2 class="cf-sidebar__title">Need help?</h2>
+      <p>Our team can guide you through company formation and compliance.</p>
+      <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+      <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+      <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+  <div class="cf-sidebar__card cf-sidebar__card--packages">
+      <h2 class="cf-sidebar__title">Popular packages</h2>
+      <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+      <ul class="cf-sidebar-pkgs">
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Bronze</span>
+              <span class="cf-sidebar-pkg__hint">Essential formation</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+            <span class="cf-sidebar-pkg__badge">Popular</span>
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Gold</span>
+              <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Platinum</span>
+              <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Diamond</span>
+              <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+      </ul>
+      <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+    </div>
+
+      </aside>
+      </div>
+    </div>
+  </section>

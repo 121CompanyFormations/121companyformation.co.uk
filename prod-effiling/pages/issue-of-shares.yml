@@ -1,0 +1,61 @@
+"##PAGE_TITLE#": Issuance of Shares | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": 
+"##CUSTOM1#": Issue of Shares
+"##CUSTOM2#": 
+"##CUSTOM5#": "##HERO_PAGE#"
+"URL": /issue-of-shares/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <h2>Shareholders</h2>
+          <p>A shareholder is the name given to an individual who owns &lsquo;shares&rsquo; in a limited by shares company. Companies are managed by directors and owned by shareholders (also referred to as &lsquo;members&rsquo;). An individual can be both a director and a shareholder. A company can have just one shareholder or many shareholders. Each one is entitled to receive a portion of profits in relation to the number and value of their shares. Shares are issued (or allotted) to shareholders to ultimately define their liability should the company fold, and at least one share must be issued from the outset &ndash; although variations can be made later down the line. On a day-to-day basis, the number of shares also denotes the shareholders&rsquo; entitlement to dividends and votes in shareholder meetings. They normally receive a percentage of trading profits that correlates with their percentage of ownership as explained below.</p>
+          <ul>
+          <li>One issued share = 100% ownership of the company.</li>
+          <li>Two of equal value = 50% ownership per share.</li>
+          <li>10 of equal value = 10% ownership per share.</li>
+          <li>100 of equal value = 1% ownership per share.</li>
+          </ul>
+          <p>Shares have both nominal value and a market value. The nominal value, which is usually &pound;1, is the sum that a member has paid, or agreed to pay, for their portion of the company. This is the sum the member is legally required to pay toward company debts or contribute when the business is wound up. Therefore, the nominal value represents the &#39;limited liability&#39; of a company&#39;s owners. The market value of a share is the amount it is worth when it is sold. This will vary from the nominal value.</p>
+          <h2>Types of shares</h2>
+          <ul>
+          <li>Ordinary shares<br /> Normally, ordinary shares are issued by small companies, which will have full rights to dividends, voting at meetings and entitlement to capital should the company fold.</li>
+          <li>Preference shares<br /> However, the company could issue &lsquo;preference shares&rsquo;, which have a fixed right to dividends and no voting rights. In addition, ordinary share capital could be sub-divided into segments denoted by A, B, C etc. This set-up facilitates the payment of dividends at different rates.</li>
+          <li>Alphabet Shares<br /> You may come across this where shares are being issued to employees, for instance, where the company wants to reward its staff with dividends according to their seniority or performance. However, these so-called &lsquo;alphabet shares&rsquo; are complex and beyond the scope of this article.</li>
+          </ul>
+          <h2>Share capital</h2>
+          <p>Share capital is the total value of the different types of shares that have been issued to shareholders. For example, if you have decided to issue one hundred ordinary shares at a nominal value of &pound;1 each, then the aggregate nominal value of share capital will be &pound;100.</p>
+          <h2>Transfer of Shares</h2>
+          <p>Shares can also be transferred or sold just like any other form of property. Filing a confirmation statement immediately or until the next confirmation statement will update the information about the transferred shares on the Companies House register.</p>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Issue of Shares",
+    "description": "Information about issuing shares in a company, including share ownership, nominal and market value, and the types of shares that can be issued such as ordinary shares, preference shares, and alphabet shares.",
+    "brand": {
+      "@type": "Organization",
+      "name": "121 Company Formation"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.121companyformation.co.uk/issue-of-shares/",
+      "priceCurrency": "GBP",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    },
+    "category": "Company Formation",
+    "keywords": "Issue of Shares, Share Capital, Ordinary Shares, Preference Shares, Alphabet Shares, Transfer of Shares, Nominal Value, Market Value, Company Ownership",
+    "additionalType": "https://schema.org/FinancialProduct"
+  }
+  </script>

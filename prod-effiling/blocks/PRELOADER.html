@@ -1,0 +1,51 @@
+<div id="preloaderbody" class="preloader-body" aria-hidden="true">
+  <div class="preloader">
+    <span class="whirly-loader"
+      ><img
+        src="/assets/custom/images/logo-wordmark-dark.svg"
+        alt=""
+        width="266"
+        height="58"
+    /></span>
+  </div>
+</div>
+
+<style>
+  .preloader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .preloader-body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background: #ffffff;
+    top: 0;
+  }
+
+  .whirly-loader img {
+    display: block;
+    max-width: min(266px, 70vw);
+    height: auto;
+    animation: cf-preloader-pulse 1.2s ease-in-out infinite;
+  }
+
+  @keyframes cf-preloader-pulse {
+    0%,
+    100% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+</style>
+<script>
+  window.addEventListener("load", function () {
+    document.querySelector("#preloaderbody").style.display = "none";
+  });
+</script>

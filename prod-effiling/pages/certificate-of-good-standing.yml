@@ -1,0 +1,213 @@
+"##PAGE_TITLE#": Certificate of Good Standing | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Companies House will issue a Certificate of Good Standing to a company that has continued in existence from the day it was incorporated to date.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Certificate of Good Standing
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /certificate-of-good-standing/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Certificate of Good Standing</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Certificate of Good Standing</h1>
+        <p class="cf-page-hero__price">Order a certificate from just <strong>£59.99</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>Upon request and payment of the appropriate fee, Companies House will send a Certificate of Good Standing to your company’s 
+   <a href="/registered-office-address/">
+   registered address 
+   </a>
+   (electronic copies are also available if it is required more expediently but it will not include the signature of a Companies House officer).</p><p>To qualify for a Certificate of Good Standing (also known as a Letter of Good Standing) the company must:</p>
+  <ul>
+  <li>
+   Have operated continuously since the day it was first incorporated
+   </li>
+  <li>
+   Be up to date with the filing of all its statutory documents
+   </li>
+  <li>
+   Have at least one director who is an individual (not a corporate entity), and
+   </li>
+  <li>
+   Be in good standing (i.e. no action is currently being taken to strike it off the register).
+   </li>
+  </ul>
+  <h3>
+   WHAT DOES THE CERTIFICATE OF GOOD STANDING VERIFY?
+   </h3>
+  <ul>
+  <li>
+   Your company’s name and number
+   </li>
+  <li>
+   Date of incorporation
+   </li>
+  <li>
+  <a href="/registered-office-address/">
+   Registered office address 
+   </a>
+  </li>
+  <li>
+   Details of the company’s secretary and directors
+   </li>
+  <li>
+   Confirm that the company has been in continuous existence from the day it was incorporated
+   </li>
+  <li>
+   Confirm that no action is being to strike the company of the register or place it in liquidation
+   </li>
+  <li>
+   Confirm that the company is up to date in filing its statutory documents
+   </li>
+  </ul>
+  <h3>
+   WHY MIGHT I NEED A CERTIFICATE OF GOOD STANDING?
+   </h3>
+  <p>There are various reasons why a company might require a Certificate of Good Standing. Some examples are to:</p>
+  <ul>
+  <li>
+   Access UK business banking facilities, particularly if the company directors are not UK residents
+   </li>
+  <li>
+   Access overseas business banking facilities for the UK registered limited company
+   </li>
+  <li>
+   Trade with overseas suppliers
+   </li>
+  <li>
+   Set up an overseas office
+   </li>
+  <li>
+   Reassure potential investors, suppliers, clients and financial resources of the company’s credibility
+   </li>
+  </ul>
+  <p>For just &pound;59.99 order a Certificate of Good Standing through our website or for further information email us at: 
+   <a href="mailto:info@121companyformation.co.uk">
+   info@121companyformation.co.uk 
+   </a>
+   .</p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Service pricing and help">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Certificate of Good Standing</h2>
+            <p class="cf-pkg-summary__price">£59.99</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Purchase this service to</h3>
+            
+            <ul>
+              <li>Have 121 Company Formation process your order for a Certificate of Good Standing on your behalf</li>
+            </ul>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+          </div>
+        </div>
+  <div class="cf-sidebar__card">
+      <h2 class="cf-sidebar__title">Need help?</h2>
+      <p>Our team can guide you through company formation and compliance.</p>
+      <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+      <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+      <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+  <div class="cf-sidebar__card cf-sidebar__card--packages">
+      <h2 class="cf-sidebar__title">Popular packages</h2>
+      <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+      <ul class="cf-sidebar-pkgs">
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Bronze</span>
+              <span class="cf-sidebar-pkg__hint">Essential formation</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+            <span class="cf-sidebar-pkg__badge">Popular</span>
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Gold</span>
+              <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Platinum</span>
+              <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Diamond</span>
+              <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+      </ul>
+      <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+    </div>
+
+      </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Certificate of Good Standing",
+    "provider": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk/",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg",
+      "sameAs": [
+        "https://www.facebook.com/121companyformation"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+44-203-8932-121",
+        "contactType": "Customer Service"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "59.99",
+      "priceCurrency": "GBP",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Certificate of Good Standing Service"
+      }
+    },
+    "description": "Obtain a Certificate of Good Standing to confirm your company's compliance and credibility.",
+    "additionalType": "https://www.121companyformation.co.uk/certificate-of-good-standing/"
+  }
+  </script>

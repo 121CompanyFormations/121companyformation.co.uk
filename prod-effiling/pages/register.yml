@@ -1,0 +1,91 @@
+"##PAGE_TITLE#": Register | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Secure your company registration swiftly online with expert assistance. Begin your business journey in the UK today with reliable support.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": 
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /register/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  ##PAGE_CONTENT#
+  <style type="text/css">
+    #error-message,
+    #success-message {
+      width: 96%;
+      padding: 5px;
+    }
+  </style>
+  <script>
+  fbq('trackCustom', 'Register');
+  </script><script>
+
+  jQuery(function($) {
+
+    var s = $("#Country");
+
+    // add empty value to the country drop down
+    var o = $("<option></option>").prop("selected", "selected");
+    s.prepend(o);
+
+    // add form handler to show error when form is not set
+    function show_error(text, $field = null) {
+          $("#error-text").text('Please provide a "'+text+'"');
+          $("#error-message").show();
+          if ($field) {
+              var $r = $field.parents("tr");
+              $("td:nth-child(1)", $r).css({color: "#d34d17"});
+              $("td:nth-child(2)", $r).css({background: "#d34d17"});
+          }
+          setTimeout(function() {
+              $("#efRegisterSubmitButton button").html('<span class="ui-button-text">Submit Registration</span>');
+          }, 100);
+    }
+    var f = $("#register");
+    f.on("submit", function() {
+      if(s.val() == "") {
+        show_error("Country", s);
+        return false;
+      }
+        return true;      
+      
+    });
+
+  });
+  </script><!-- Add Pixel Events to the button's click handler --><script type="text/javascript">
+    var button = document.getElementById('register');
+    button.addEventListener(
+      'click', 
+      function() { 
+        fbq('track', 'CompleteRegistration', { 
+        content_name: $('#Email').val(),
+        status: 'form submitted'
+        });       
+      },
+      false
+    );
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "User Registration Page | 121 Company Formation",
+    "description": "Register on the 121 Company Formation website to access our services. Provide your details such as email, country, and other information to complete the registration.",
+    "url": "https://www.121companyformation.co.uk/register/",
+    "potentialAction": {
+      "@type": "RegisterAction",
+      "name": "Complete Registration",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.121companyformation.co.uk/register",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/AndroidPlatform",
+          "http://schema.org/IOSPlatform"
+        ]
+      },
+      "description": "Submit your registration details to create an account and access 121 Company Formation services."
+    }
+  }
+  </script>

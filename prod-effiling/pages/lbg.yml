@@ -1,0 +1,132 @@
+"##PAGE_TITLE#": LBG  | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "Choose one of our limited by guarantee formation packages and register your company name for as low as ##LBG-PACKAGE_BRONZE_Price#"
+"##PAGE_KEYWORDS#": Limited by Guarantee (LBG)
+"##CUSTOM1#": 
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /lbg/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Limited by Guarantee packages</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Limited by Guarantee packages</h1>
+      <p class="cf-page-hero__lead">Choose one of our limited by guarantee formation packages and register your company name now.</p>
+    </div>
+  </section>
+  <section class="cf-section cf-packages cf-packages-desktop cf-packages-compare" id="packages" aria-label="Package comparison">
+    <div class="cf-container">
+      <div class="cf-sec-head">
+        <p class="cf-eyebrow">Packages</p>
+        <h2 class="cf-h2">What we are offering</h2>
+        <p class="cf-lead">Compare live package prices and inclusions side by side.</p>
+      </div>
+      <div class="cf-pkg-panel is-active">
+  ##PACKAGE_PAGE_LBG_Desktop#
+      </div>
+    </div>
+  </section>
+  <section class="cf-section cf-packages cf-packages-mobile" id="packages-mobile" aria-label="Package comparison">
+    <div class="cf-container">
+      <div class="cf-pkg-panel is-active">
+  ##PACKAGE_PAGE_LBG_Mobile#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Limited by Guarantee formation packages",
+    "url": "https://www.121companyformation.co.uk/lbg/",
+    "numberOfItems": 4,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Limited by Guarantee – Bronze Package",
+          "url": "https://www.121companyformation.co.uk/lbg-bronze/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/lbg-bronze/",
+            "priceCurrency": "GBP",
+            "price": "135.95",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Limited by Guarantee – Gold Package",
+          "url": "https://www.121companyformation.co.uk/lbg-gold/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/lbg-gold/",
+            "priceCurrency": "GBP",
+            "price": "212.99",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Limited by Guarantee – Platinum Package",
+          "url": "https://www.121companyformation.co.uk/lbg-platinum/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/lbg-platinum/",
+            "priceCurrency": "GBP",
+            "price": "262.99",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Product",
+          "name": "Limited by Guarantee – Diamond Package",
+          "url": "https://www.121companyformation.co.uk/lbg-diamond/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/lbg-diamond/",
+            "priceCurrency": "GBP",
+            "price": "526.99",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }
+    ]
+  }
+  </script>

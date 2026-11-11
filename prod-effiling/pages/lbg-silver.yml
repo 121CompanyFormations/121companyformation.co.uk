@@ -1,0 +1,169 @@
+"##PAGE_TITLE#": LBG Silver | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "While it may be the least expensive package in our LBG range, the silver limited by guarantee package offers optimum value for your company formation - just ##LBG-PACKAGE_SILVER_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Limited By Guarantee Silver Package
+"##CUSTOM2#": "##LBG-PACKAGE_SILVER_Price#"
+"##CUSTOM5#": "##HERO_PAGE_Services#"
+"URL": /lbg-silver/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>The Silver Package is the best option for those who are looking to set up a company for a relatively low cost but who would like to receive hard copies of the company&rsquo;s incorporation documents as well as an electronic copy.</p>
+          <h3>What does the Silver Package include?</h3>
+          <p>While it may be the least expensive package in our range, this package offers optimum value and includes</p>
+          <ul>
+          <li>An incorporated private limited by guarantee company that is ready to begin trading</li>
+          <li>Officers of the company appointed</li>
+          <li>Ordinary shares issued&nbsp;</li>
+          <li>A PDF file containing the Certificate of Incorporation, the Memorandum and Articles of Association and guarantor certificate/s</li>
+          <li>Printed copies of the above documents</li>
+          <li>Free fast-track referral service for business banking facilities</li>
+          <li>Free access to your company management portal</li>
+          </ul>
+          <p>We offer a very quick service &ndash; your company will be usually formed within three to four hours of placing your order subject to Companies House activity</p>
+          <p>121 Company Formation will be happy to advise if the Bronze Limited by Guarantee package is right for you providing you can confirm that the proposed company is not:</p>
+          <ul>
+          <li>A charity</li>
+          <li>Profit-making businesses</li>
+          <li>Intending to operate as a Right to Manage company</li>
+          </ul>
+          <h3>What we do to incorporate your company</h3>
+          <ul>
+          <li>We check that your chosen company name is available for use and suggest alternatives if this is not the case</li>
+          <li>Complete the company incorporation application form with details of the company secretary, directors and registered address.</li>
+          <li>Details of the members must also be included and this must include a minimum of one member and one guarantor either of whom can also be a director</li>
+          <li>Submit the application to Companies House together with the appropriate fee</li>
+          <li>You will then receive a confirmation by email, usually within 24 hours, that your company has been incorporated and registered at Companies House</li>
+          </ul>
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
+          <div class="cf-faq cf-faq--page">
+          <details>
+          <summary>What does limited by guarantee mean?</summary>
+          <div class="cf-faq__body">
+          <p>This type of company has guarantees and guarantors instead of shares and shareholders and it is generally a non-profit or not-for-profit organisation.</p>
+          </div>
+          </details>
+          <details>
+          <summary>When would you choose to be a limited by guarantee company instead of a private limited company?</summary>
+          <div class="cf-faq__body">
+          <p>Examples of when to use this type of company formation would be when you want to set up a sports club or association, an organisation that entails membership or a workers&rsquo; co-operative, i.e. one that does not intend to make a profit.</p>
+          </div>
+          </details>
+          <details>
+          <summary>What are the advantages of this?</summary>
+          <div class="cf-faq__body">
+          <p>Because a limited by guarantee company is owned by its guarantors rather than shareholders, this means there is limited financial liability for the guarantors&rsquo; own personal finances which remain protected should the company face financial difficulties or any legal process.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Why is a guarantor different to a shareholder?</summary>
+          <div class="cf-faq__body">
+          <p>Unlike shareholders who often take a dividend out of a company, guarantors do not take any share of the profits of a limited by guarantee company allowing any such profits to remain in the company to further its objectives.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Can a charity use this type of company incorporation?</summary>
+          <div class="cf-faq__body">
+          <p>No, because to incorporate a charitable company, the standard Memorandum and Article of Association cannot be used. A charity would require a special set of these that clearly state the specific objectives of the company.</p>
+          </div>
+          </details>
+          </div>
+          <p><a class="cf-btn cf-btn--primary" href="/name-check/lbg-silver/" onclick="packagesBuyNow('lbg-silver'); return false;">Buy now</a></p>
+        </div>
+        <aside class="cf-sidebar" aria-label="Package summary and contact">
+          <div class="cf-pkg-summary">
+            <div class="cf-pkg-summary__head">
+              <h2 class="cf-pkg-summary__name">##CUSTOM1#</h2>
+              <p class="cf-pkg-summary__price">##CUSTOM2#</p>
+            </div>
+            <div class="cf-pkg-summary__body">
+              <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/lbg-silver/" onclick="packagesBuyNow('lbg-silver'); return false;">Buy Now</a>
+            </div>
+          </div>
+          ##SIDEBAR_CONTACT#
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Limited By Guarantee Silver Package",
+    "provider": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk/"
+    },
+    "description": "The Silver Package offers a low-cost company formation service with both electronic and printed copies of incorporation documents.",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.121companyformation.co.uk/lbg-silver/",
+      "price": "95.99",
+      "priceCurrency": "GBP",
+      "eligibleRegion": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "One-off fee for the Silver Package, including printed and electronic copies of company incorporation documents.",
+      "availability": "https://schema.org/InStock"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    "serviceType": "Company Formation with Printed Documents",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Silver Package Features",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Incorporated private limited by guarantee company ready to trade"
+        },
+        {
+          "@type": "Offer",
+          "name": "Appointment of company officers"
+        },
+        {
+          "@type": "Offer",
+          "name": "Issuance of ordinary shares"
+        },
+        {
+          "@type": "Offer",
+          "name": "PDF copies of Certificate of Incorporation, Memorandum and Articles of Association, and guarantor certificates"
+        },
+        {
+          "@type": "Offer",
+          "name": "Printed copies of incorporation documents"
+        },
+        {
+          "@type": "Offer",
+          "name": "Free fast-track referral for business banking facilities"
+        },
+        {
+          "@type": "Offer",
+          "name": "Free access to the company management portal"
+        }
+      ]
+    },
+    "termsOfService": "Subject to Companies House activity and availability of chosen company name.",
+    "potentialAction": {
+      "@type": "RegisterAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.121companyformation.co.uk/register-company/"
+      },
+      "result": {
+        "@type": "Thing",
+        "name": "Registered Company with Printed Documents"
+      },
+      "description": "Register a company with printed and electronic incorporation documents included."
+    }
+  }
+  </script>

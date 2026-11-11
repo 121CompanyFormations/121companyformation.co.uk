@@ -1,0 +1,205 @@
+"##PAGE_TITLE#": Confirmation Statements UK | 121 Company Formation
+"##PAGE_DESCRIPTION#": Stay compliant with our Confirmation Statement service. Accurate, timely submissions to Companies House. Avoid penalties and legal issues.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Confirmation Statement Service
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /confirmation-statement-service/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Confirmation Statement Service</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Confirmation Statement Service</h1>
+        <p class="cf-page-hero__price">File your confirmation statement from just <strong>£84.99</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>Every year, your company is required to file a confirmation
+   statement at Companies House. This document verifies the
+   information that Companies House holds about the company’s
+   directors, company secretary, registered office, share capital and
+   its shareholders including persons with significant control.</p><p>Legally a company must file a company confirmation statement every
+   year even if none of the company’s information has changed,
+   or if the company is dormant.</p><p>It is important that confirmation statements are filed promptly.
+   Failure to file confirmation statements will lead to the company
+   getting struck off the register</p>
+  <h3>
+   WHAT YOU NEED TO KNOW ABOUT THE CONFIRMATION STATEMENT:
+   </h3>
+  <ul>
+  <li>
+   You must submit a confirmation statement at least once every 12
+   months. The due date is referred to as the 'confirmation
+   date', which usually coincides with the date that your
+   company was incorporated, or the date you previously filed your
+   confirmation statement (if this differs from your company
+   incorporation date)
+   </li>
+  <li>
+   Every year you will automatically receive a reminder from
+   Companies House either via email or by letter to your registered
+   company address that your company is due to file its
+   confirmation statement
+   </li>
+  <li>
+   Your annual confirmation statement will confirm and/or update
+   the following information about your company:
+   <ul>
+  <li>
+   The company’s
+   <a
+   href="/registered-office-address/"
+   >
+   registered company address
+   </a>
+  </li>
+  <li>
+   The SAIL address (Single Alternative Inspection Location
+   where a company or LLP can keep its statutory records and
+   make them available for public inspection)
+   </li>
+  <li>The SIC code which identifies what the company does</li>
+  <li>
+   Details of the directors such as the director’s first
+   name, last name, title, occupation, home address,
+   <a
+   href="/service-address/"
+   >
+   service address
+   </a>
+   , date of birth etc.
+   </li>
+  <li>Details of the company secretary</li>
+  <li>Statement of capital</li>
+  <li>
+   Details of the shareholders and the number and class of
+   shares held
+   </li>
+  </ul>
+  </li>
+  <li>
+   Any information that is incorrect or has changed since the last
+   confirmation statement was filed must be updated before filing
+   at Companies House. This must be done no later than 14 days
+   after the due date
+   </li>
+  </ul>
+  <h3>
+   PURCHASE THE CONFIRMATION STATEMENT SERVICE
+   </h3>
+  <ul>
+  <li>
+   For just &pound;84.99 order the confirmation statement service
+   through our website or email us at
+   info@121companyformation.co.uk
+   </li>
+  <li>
+   Once we have received all the required confirmation statement
+   details from you, we will file and submit the confirmation
+   statement online on your behalf to either report any changes or
+   confirm that there has been none.
+   </li>
+  <li>
+   Companies House will confirm receipt and acceptance of the
+   filing
+   </li>
+  </ul>
+  <h3>
+   HOW MUCH DOES THE CONFIRMATION STATEMENT FILING SERVICE COST?
+   </h3>
+  <p>This annual service costs &pound;84.99 including the Companies
+   House fee. We will automatically send you a reminder when the next
+   filing date is imminent so that you will not forget to file this
+   important document.</p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Service pricing and help">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Confirmation Statement</h2>
+            <p class="cf-pkg-summary__price">£84.99</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Purchase this service to</h3>
+            
+            <ul>
+              <li>Ensure the filing is done in a timely manner to remain legally compliant</li>
+              <li>Ensure your company information held by Companies House is accurate and up-to-date</li>
+            </ul>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+          </div>
+        </div>
+  <div class="cf-sidebar__card">
+      <h2 class="cf-sidebar__title">Need help?</h2>
+      <p>Our team can guide you through company formation and compliance.</p>
+      <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+      <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+      <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+  <div class="cf-sidebar__card cf-sidebar__card--packages">
+      <h2 class="cf-sidebar__title">Popular packages</h2>
+      <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+      <ul class="cf-sidebar-pkgs">
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Bronze</span>
+              <span class="cf-sidebar-pkg__hint">Essential formation</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+            <span class="cf-sidebar-pkg__badge">Popular</span>
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Gold</span>
+              <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Platinum</span>
+              <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Diamond</span>
+              <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+      </ul>
+      <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+    </div>
+
+      </aside>
+      </div>
+    </div>
+  </section>

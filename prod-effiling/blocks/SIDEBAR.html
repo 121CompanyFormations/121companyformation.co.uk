@@ -1,0 +1,26 @@
+<aside id="right_nav" class="cf-sidebar" aria-label="Account">
+  ##SIDEBAR_TOP#
+
+  <div class="cf-sidebar__card" id="SidebarLoginBox">
+    <form action="/login/" method="post">
+      <input type="hidden" name="pa" value="login" />
+      <input type="hidden" name="k" value="" />
+      <h2 class="cf-sidebar__title" id="efLoginBoxHeader">Login</h2>
+      <div id="efLoginBoxContent">
+        <p>
+          <label for="efUsernameField">Email</label>
+          <input class="efTextInput" name="un" type="text" id="efUsernameField" />
+        </p>
+        <p>
+          <label for="efPasswordField">Password</label>
+          <input class="efTextInput" type="password" name="pd" id="efPasswordField" />
+        </p>
+        <p><button type="submit" class="cf-btn cf-btn--primary cf-btn--block">Login</button></p>
+        <p><a href="/login">Forgotten password?</a></p>
+        <p>New user? <a href="/register"><strong>Register now</strong></a></p>
+      </div>
+    </form>
+  </div>
+
+  ##SIDEBAR_BANNERS#
+</aside>

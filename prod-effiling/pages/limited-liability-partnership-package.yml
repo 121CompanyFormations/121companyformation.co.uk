@@ -1,0 +1,146 @@
+"##PAGE_TITLE#": Limited Liability Partnership | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": package
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /limited-liability-partnership-package/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Limited Liability Partnership Package</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Limited Liability Partnership Package</h1>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-prose">
+        <p>A limited liability partnership is the formation package most usually used by those offering professional services such as accountants, consultants and solicitors because, whilst they are still able to operate like a traditional partnership, they have the added benefit of the protection that limited liability brings.</p>
+        <p>121 Company Formation offers five different types of LLP formation packages which all include the following basic elements:</p>
+        <ul>
+        <li>A draft LLP agreement (while not a legal requirement, this is a useful document should you wish to divide shares, profits or capital at a later date)</li>
+        <li>A full set of company incorporation documents</li>
+        <li>Free access to your company management portal</li>
+        </ul>
+        <p>We offer a very quick service &ndash; your LLP will be usually formed within 3-24 hours of placing your order subject to Companies House activity.</p>
+        <p>All you have to do is choose the package that best suits your needs and the time you have available to devote to setting up the LLP.</p>
+      </div>
+    </div>
+  </section>
+  <section class="cf-section cf-packages cf-packages-desktop cf-packages-compare" id="packages" aria-label="Package comparison">
+    <div class="cf-container">
+      <div class="cf-sec-head">
+        <p class="cf-eyebrow">Packages</p>
+        <h2 class="cf-h2">What we are offering</h2>
+        <p class="cf-lead">Compare live package prices and inclusions side by side.</p>
+      </div>
+      <div class="cf-pkg-panel is-active">
+  ##PACKAGE_PAGE_LLP_Desktop#
+      </div>
+    </div>
+  </section>
+  <section class="cf-section cf-packages cf-packages-mobile" id="packages-mobile" aria-label="Package comparison">
+    <div class="cf-container">
+      <div class="cf-pkg-panel is-active">
+  ##PACKAGE_PAGE_LLP_Mobile#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Limited Liability Partnership formation packages",
+    "url": "https://www.121companyformation.co.uk/limited-liability-partnership-package/",
+    "numberOfItems": 4,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Limited Liability Partnership – Bronze Package",
+          "url": "https://www.121companyformation.co.uk/llp-bronze/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/llp-bronze/",
+            "priceCurrency": "GBP",
+            "price": "135.95",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Limited Liability Partnership – Gold Package",
+          "url": "https://www.121companyformation.co.uk/llp-gold/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/llp-gold/",
+            "priceCurrency": "GBP",
+            "price": "212.99",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Limited Liability Partnership – Platinum Package",
+          "url": "https://www.121companyformation.co.uk/llp-platinum/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/llp-platinum/",
+            "priceCurrency": "GBP",
+            "price": "262.99",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Product",
+          "name": "Limited Liability Partnership – Diamond Package",
+          "url": "https://www.121companyformation.co.uk/llp-diamond/",
+          "brand": {
+            "@type": "Brand",
+            "name": "121 Company Formation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.121companyformation.co.uk/llp-diamond/",
+            "priceCurrency": "GBP",
+            "price": "526.99",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }
+    ]
+  }
+  </script>

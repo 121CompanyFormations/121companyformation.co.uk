@@ -1,0 +1,1314 @@
+"##PAGE_TITLE#": SIC Codes Help | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": 
+"##CUSTOM1#": "Help: SIC codes table"
+"##CUSTOM4#": 
+"##CUSTOM5#": 
+"URL": /help-sic-codes/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">SIC codes</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Help: SIC codes table</h1>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-prose">
+        <p>Principal Business Activities.</p>
+        <p>This classification is based on the UK Standard Industrial Classification (SIC 07) Codes including sub-class revisions effective from 1 January 2007</p>
+        <p>Page 1 &nbsp;&nbsp; <a href="/help-sic-codes-2">Page 2</a></p>
+        <div class="cf-table-wrap">
+        <table class="cf-table">
+        <tbody>
+        <tr>
+        <th scope="col"><strong>Trade Code</strong></th>
+        <th scope="col"><strong>Group A - Agriculture, Hunting and Forestry</strong></th>
+        </tr>
+        <tr>
+        <td>01110</td>
+        <td>Growing of cereals (except rice), leguminous crops and oil seeds</td>
+        </tr>
+        <tr>
+        <td>01130</td>
+        <td>Growing of vegetables and melons, roots and tubers</td>
+        </tr>
+        <tr>
+        <td>01240</td>
+        <td>Growing of pome fruits and stone fruits</td>
+        </tr>
+        <tr>
+        <td>01410</td>
+        <td>Raising of dairy cattle</td>
+        </tr>
+        <tr>
+        <td>01450</td>
+        <td>Raising of sheep and goats</td>
+        </tr>
+        <tr>
+        <td>01460</td>
+        <td>Raising of swine/pigs</td>
+        </tr>
+        <tr>
+        <td>01470</td>
+        <td>Raising of poultry</td>
+        </tr>
+        <tr>
+        <td>01490</td>
+        <td>Raising of other animals</td>
+        </tr>
+        <tr>
+        <td>01500</td>
+        <td>Mixed farming</td>
+        </tr>
+        <tr>
+        <td>81300</td>
+        <td>Landscape service activities</td>
+        </tr>
+        <tr>
+        <td>01629</td>
+        <td>Support activities for animal production (other than farm animal boarding and care) n.e.c.</td>
+        </tr>
+        <tr>
+        <td>01700</td>
+        <td>Hunting, trapping and related service activities</td>
+        </tr>
+        <tr>
+        <td>02100</td>
+        <td>Silviculture and other forestry activities</td>
+        </tr>
+        <tr>
+        <td>02400</td>
+        <td>Support services to forestry</td>
+        </tr>
+        <tr>
+        <th scope="col"><strong>Trade Code</strong></th>
+        <th scope="col"><strong>Group B - Fishing</strong></th>
+        </tr>
+        <tr>
+        <td>03110</td>
+        <td>Marine fishing</td>
+        </tr>
+        <tr>
+        <td>03210</td>
+        <td>Marine aquaculture</td>
+        </tr>
+        <tr>
+        <th scope="col"><strong>Trade Code</strong></th>
+        <th scope="col"><strong>Group C - Mining &amp; Quarrying</strong></th>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>CA Mining &amp; Quarrying Energy Materials</strong></th>
+        </tr>
+        <tr>
+        <td>05102</td>
+        <td>Mining of hard coal from open cast coal working (surface mining)</td>
+        </tr>
+        <tr>
+        <td>05200</td>
+        <td>Mining of lignite</td>
+        </tr>
+        <tr>
+        <td>08920</td>
+        <td>Extraction of peat</td>
+        </tr>
+        <tr>
+        <td>06100</td>
+        <td>Extraction of crude petroleum</td>
+        </tr>
+        <tr>
+        <td>09100</td>
+        <td>Support activities for petroleum and natural gas extraction</td>
+        </tr>
+        <tr>
+        <td>07210</td>
+        <td>Mining of uranium and thorium ores</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>CB Mine &amp; Quarry, Not Energy Materials</strong></th>
+        </tr>
+        <tr>
+        <td>07100</td>
+        <td>Mining of iron ores</td>
+        </tr>
+        <tr>
+        <td>07290</td>
+        <td>Mining of other non-ferrous metal ores</td>
+        </tr>
+        <tr>
+        <td>08110</td>
+        <td>Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate</td>
+        </tr>
+        <tr>
+        <td>08120</td>
+        <td>Operation of gravel and sand pits; mining of clays and kaolin</td>
+        </tr>
+        <tr>
+        <td>08910</td>
+        <td>Mining of chemical and fertiliser minerals</td>
+        </tr>
+        <tr>
+        <td>08930</td>
+        <td>Extraction of salt</td>
+        </tr>
+        <tr>
+        <td>08990</td>
+        <td>Other mining and quarrying n.e.c.</td>
+        </tr>
+        <tr>
+        <th scope="col"><strong>Trade Code</strong></th>
+        <th scope="col"><strong>Group D - Manufacturing</strong></th>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DA Manufacture of Food; Beverages &amp; Tobacco</strong></th>
+        </tr>
+        <tr>
+        <td>10110</td>
+        <td>Processing and preserving of meat</td>
+        </tr>
+        <tr>
+        <td>10120</td>
+        <td>Processing and preserving of poultry meat</td>
+        </tr>
+        <tr>
+        <td>10130</td>
+        <td>Production of meat and poultry meat products</td>
+        </tr>
+        <tr>
+        <td>10200</td>
+        <td>Processing and preserving of fish, crustaceans and molluscs</td>
+        </tr>
+        <tr>
+        <td>10310</td>
+        <td>Processing and preserving of potatoes</td>
+        </tr>
+        <tr>
+        <td>10320</td>
+        <td>Manufacture of fruit and vegetable juice</td>
+        </tr>
+        <tr>
+        <td>10390</td>
+        <td>Other processing and preserving of fruit and vegetables</td>
+        </tr>
+        <tr>
+        <td>10410</td>
+        <td>Manufacture of oils and fats</td>
+        </tr>
+        <tr>
+        <td>10420</td>
+        <td>Manufacture of margarine and similar edible fats</td>
+        </tr>
+        <tr>
+        <td>10511</td>
+        <td>Liquid milk and cream production</td>
+        </tr>
+        <tr>
+        <td>10520</td>
+        <td>Manufacture of ice crea</td>
+        </tr>
+        <tr>
+        <td>10611</td>
+        <td>Grain milling</td>
+        </tr>
+        <tr>
+        <td>10620</td>
+        <td>Manufacture of starches and starch products</td>
+        </tr>
+        <tr>
+        <td>10910</td>
+        <td>Manufacture of prepared feeds for farm animals</td>
+        </tr>
+        <tr>
+        <td>10920</td>
+        <td>Manufacture of prepared pet foods</td>
+        </tr>
+        <tr>
+        <td>10710</td>
+        <td>Manufacture of bread; manufacture of fresh pastry goods and cakes</td>
+        </tr>
+        <tr>
+        <td>10720</td>
+        <td>Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes</td>
+        </tr>
+        <tr>
+        <td>10810</td>
+        <td>Manufacture of sugar</td>
+        </tr>
+        <tr>
+        <td>10821</td>
+        <td>Manufacture of cocoa, and chocolate confectionery</td>
+        </tr>
+        <tr>
+        <td>10730</td>
+        <td>Manufacture of macaroni, noodles, couscous and similar farinaceous products</td>
+        </tr>
+        <tr>
+        <td>10832</td>
+        <td>Production of coffee and coffee substitutes</td>
+        </tr>
+        <tr>
+        <td>10840</td>
+        <td>Manufacture of condiments and seasonings</td>
+        </tr>
+        <tr>
+        <td>10860</td>
+        <td>Manufacture of homogenised food preparations and dietetic food</td>
+        </tr>
+        <tr>
+        <td>10890</td>
+        <td>Manufacture of other food products n.e.c.</td>
+        </tr>
+        <tr>
+        <td>11010</td>
+        <td>Distilling, rectifying and blending of spirits</td>
+        </tr>
+        <tr>
+        <td>20140</td>
+        <td>Manufacture of other organic basic chemicals</td>
+        </tr>
+        <tr>
+        <td>11020</td>
+        <td>Manufacture of wine from grape</td>
+        </tr>
+        <tr>
+        <td>11030</td>
+        <td>Manufacture of cider and other fruit wines</td>
+        </tr>
+        <tr>
+        <td>11040</td>
+        <td>Manufacture of other non-distilled fermented beverages</td>
+        </tr>
+        <tr>
+        <td>11050</td>
+        <td>Manufacture of beer</td>
+        </tr>
+        <tr>
+        <td>11060</td>
+        <td>Manufacture of malt</td>
+        </tr>
+        <tr>
+        <td>11070</td>
+        <td>Manufacture of soft drinks; production of mineral waters and other bottled waters</td>
+        </tr>
+        <tr>
+        <td>12000</td>
+        <td>Manufacture of tobacco products</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DB Manufacture of Textiles &amp; Textile Products</strong></th>
+        </tr>
+        <tr>
+        <td>13100</td>
+        <td>Preparation and spinning of textile fibres</td>
+        </tr>
+        <tr>
+        <td>13200</td>
+        <td>Weaving of textiles</td>
+        </tr>
+        <tr>
+        <td>13921</td>
+        <td>Manufacture of soft furnishings</td>
+        </tr>
+        <tr>
+        <td>13939</td>
+        <td>Manufacture of carpets and rugs (other than woven or tufted) n.e.c.</td>
+        </tr>
+        <tr>
+        <td>13940</td>
+        <td>Manufacture of cordage, rope, twine and netting</td>
+        </tr>
+        <tr>
+        <td>13950</td>
+        <td>Manufacture of non-wovens and articles made from non-wovens, except apparel</td>
+        </tr>
+        <tr>
+        <td>13990</td>
+        <td>Manufacture of other textiles n.e.c.</td>
+        </tr>
+        <tr>
+        <td>13910</td>
+        <td>Manufacture of knitted and crocheted fabrics</td>
+        </tr>
+        <tr>
+        <td>14310</td>
+        <td>Manufacture of knitted and crocheted hosiery</td>
+        </tr>
+        <tr>
+        <td>14390</td>
+        <td>Manufacture of other knitted and crocheted apparel</td>
+        </tr>
+        <tr>
+        <td>14110</td>
+        <td>Manufacture of leather clothes</td>
+        </tr>
+        <tr>
+        <td>14120</td>
+        <td>Manufacture of workwear</td>
+        </tr>
+        <tr>
+        <td>14132</td>
+        <td>Manufacture of women&#39;s outerwear, other than leather clothes and workwear</td>
+        </tr>
+        <tr>
+        <td>14142</td>
+        <td>Manufacture of women&#39;s underwear</td>
+        </tr>
+        <tr>
+        <td>14190</td>
+        <td>Manufacture of other wearing apparel and accessories</td>
+        </tr>
+        <tr>
+        <td>15110</td>
+        <td>Tanning and dressing of leather; dressing and dyeing of fur</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DC Manufacture of Leather &amp; Leather Products</strong></th>
+        </tr>
+        <tr>
+        <td>15110</td>
+        <td>Tanning and dressing of leather; dressing and dyeing of fur</td>
+        </tr>
+        <tr>
+        <td>15120</td>
+        <td>Manufacture of luggage, handbags and the like, saddlery and harness</td>
+        </tr>
+        <tr>
+        <td>15200</td>
+        <td>Manufacture of footwear</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DD Manufacture of Wood &amp; Wood Products</strong></th>
+        </tr>
+        <tr>
+        <td>16100</td>
+        <td>Sawmilling and planing of wood</td>
+        </tr>
+        <tr>
+        <td>16210</td>
+        <td>Manufacture of veneer sheets and wood-based panels</td>
+        </tr>
+        <tr>
+        <td>16230</td>
+        <td>Manufacture of other builders&#39; carpentry and joinery</td>
+        </tr>
+        <tr>
+        <td>16240</td>
+        <td>Manufacture of wooden containers</td>
+        </tr>
+        <tr>
+        <td>16290</td>
+        <td>Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DE Manufacture Paper; Publishing; Printing</strong></th>
+        </tr>
+        <tr>
+        <td>17110</td>
+        <td>Manufacture of pulp</td>
+        </tr>
+        <tr>
+        <td>17120</td>
+        <td>Manufacture of paper and paperboard</td>
+        </tr>
+        <tr>
+        <td>17219</td>
+        <td>Manufacture of paper and paperboard containers other than sacks and bags</td>
+        </tr>
+        <tr>
+        <td>17220</td>
+        <td>Manufacture of household and sanitary goods and of toilet requisites</td>
+        </tr>
+        <tr>
+        <td>17230</td>
+        <td>Manufacture of paper stationery</td>
+        </tr>
+        <tr>
+        <td>17240</td>
+        <td>Manufacture of wallpaper</td>
+        </tr>
+        <tr>
+        <td>17290</td>
+        <td>Manufacture of other articles of paper and paperboard n.e.c.</td>
+        </tr>
+        <tr>
+        <td>58110</td>
+        <td>Book publishing</td>
+        </tr>
+        <tr>
+        <td>58130</td>
+        <td>Publishing of newspapers</td>
+        </tr>
+        <tr>
+        <td>58142</td>
+        <td>Publishing of consumer, business and professional journals and periodicals</td>
+        </tr>
+        <tr>
+        <td>59200</td>
+        <td>Sound recording and music publishing activities</td>
+        </tr>
+        <tr>
+        <td>58190</td>
+        <td>Other publishing activities</td>
+        </tr>
+        <tr>
+        <td>18110</td>
+        <td>Printing of newspapers</td>
+        </tr>
+        <tr>
+        <td>18129</td>
+        <td>Printing (other than printing of newspapers and printing on labels and tags) n.e.c.</td>
+        </tr>
+        <tr>
+        <td>18140</td>
+        <td>Binding and related services</td>
+        </tr>
+        <tr>
+        <td>18130</td>
+        <td>Pre-press and pre-media services</td>
+        </tr>
+        <tr>
+        <td>18201</td>
+        <td>Reproduction of sound recording</td>
+        </tr>
+        <tr>
+        <td>18202</td>
+        <td>Reproduction of video recording</td>
+        </tr>
+        <tr>
+        <td>18203</td>
+        <td>Reproduction of computer media</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DF Manufacture Coke, Petroleum Products &amp; Nuclear</strong></th>
+        </tr>
+        <tr>
+        <td>19100</td>
+        <td>Manufacture of coke oven products</td>
+        </tr>
+        <tr>
+        <td>19201</td>
+        <td>Mineral oil refining</td>
+        </tr>
+        <tr>
+        <td>24460</td>
+        <td>Processing of nuclear fuel</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DG Manufacture Chemicals, Prods &amp; Man-Madeh</strong></th>
+        </tr>
+        <tr>
+        <td>20110</td>
+        <td>Manufacture of industrial gases</td>
+        </tr>
+        <tr>
+        <td>20120</td>
+        <td>Manufacture of dyes and pigments</td>
+        </tr>
+        <tr>
+        <td>20130</td>
+        <td>Manufacture of other inorganic basic chemicals</td>
+        </tr>
+        <tr>
+        <td>20140</td>
+        <td>Manufacture of other organic basic chemicals</td>
+        </tr>
+        <tr>
+        <td>20150</td>
+        <td>Manufacture of fertilisers and nitrogen compounds</td>
+        </tr>
+        <tr>
+        <td>20160</td>
+        <td>Manufacture of plastics in primary forms</td>
+        </tr>
+        <tr>
+        <td>20170</td>
+        <td>Manufacture of synthetic rubber in primary forms</td>
+        </tr>
+        <tr>
+        <td>20200</td>
+        <td>Manufacture of pesticides and other agrochemical products</td>
+        </tr>
+        <tr>
+        <td>20301</td>
+        <td>Manufacture of paints, varnishes and similar coatings, mastics and sealants</td>
+        </tr>
+        <tr>
+        <td>21100</td>
+        <td>Manufacture of basic pharmaceutical products</td>
+        </tr>
+        <tr>
+        <td>21200</td>
+        <td>Manufacture of pharmaceutical preparations</td>
+        </tr>
+        <tr>
+        <td>20411</td>
+        <td>Manufacture of soap and detergents</td>
+        </tr>
+        <tr>
+        <td>20420</td>
+        <td>Manufacture of perfumes and toilet preparations</td>
+        </tr>
+        <tr>
+        <td>20510</td>
+        <td>Manufacture of explosives</td>
+        </tr>
+        <tr>
+        <td>20520</td>
+        <td>Manufacture of glues</td>
+        </tr>
+        <tr>
+        <td>20530</td>
+        <td>Manufacture of essential oils</td>
+        </tr>
+        <tr>
+        <td>20590</td>
+        <td>Manufacture of other chemical products n.e.c.</td>
+        </tr>
+        <tr>
+        <td>26800</td>
+        <td>Manufacture of magnetic and optical media</td>
+        </tr>
+        <tr>
+        <td>20590</td>
+        <td>Manufacture of other chemical products n.e.c.</td>
+        </tr>
+        <tr>
+        <td>20600</td>
+        <td>Manufacture of man-made fibres</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DH Manufacture of Rubber &amp; Plastic Products</strong></th>
+        </tr>
+        <tr>
+        <td>22110</td>
+        <td>Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres</td>
+        </tr>
+        <tr>
+        <td>22190</td>
+        <td>Manufacture of other rubber products</td>
+        </tr>
+        <tr>
+        <td>22210</td>
+        <td>Manufacture of plastic plates, sheets, tubes and profiles</td>
+        </tr>
+        <tr>
+        <td>22220</td>
+        <td>Manufacture of plastic packing goods</td>
+        </tr>
+        <tr>
+        <td>22230</td>
+        <td>Manufacture of builders&#39; ware of plastic</td>
+        </tr>
+        <tr>
+        <td>22290</td>
+        <td>Manufacture of other plastic products</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DI Manufacture Other Non-Metal Mineral Products</strong></th>
+        </tr>
+        <tr>
+        <td>23110</td>
+        <td>Manufacture of flat glass</td>
+        </tr>
+        <tr>
+        <td>23120</td>
+        <td>Shaping and processing of flat glass</td>
+        </tr>
+        <tr>
+        <td>23130</td>
+        <td>Manufacture of hollow glass</td>
+        </tr>
+        <tr>
+        <td>23140</td>
+        <td>Manufacture of glass fibres</td>
+        </tr>
+        <tr>
+        <td>23190</td>
+        <td>Manufacture and processing of other glass, including technical glassware</td>
+        </tr>
+        <tr>
+        <td>23410</td>
+        <td>Manufacture of ceramic household and ornamental articles</td>
+        </tr>
+        <tr>
+        <td>23420</td>
+        <td>Manufacture of ceramic sanitary fixtures</td>
+        </tr>
+        <tr>
+        <td>23430</td>
+        <td>Manufacture of ceramic insulators and insulating fittings</td>
+        </tr>
+        <tr>
+        <td>23440</td>
+        <td>Manufacture of other technical ceramic products</td>
+        </tr>
+        <tr>
+        <td>23490</td>
+        <td>Manufacture of other ceramic products</td>
+        </tr>
+        <tr>
+        <td>23200</td>
+        <td>Manufacture of refractory products</td>
+        </tr>
+        <tr>
+        <td>23310</td>
+        <td>Manufacture of ceramic tiles and flags</td>
+        </tr>
+        <tr>
+        <td>23320</td>
+        <td>Manufacture of bricks, tiles and construction products, in baked clay</td>
+        </tr>
+        <tr>
+        <td>23510</td>
+        <td>Manufacture of cement</td>
+        </tr>
+        <tr>
+        <td>23520</td>
+        <td>Manufacture of lime and plaster</td>
+        </tr>
+        <tr>
+        <td>23610</td>
+        <td>Manufacture of concrete products for construction purposes</td>
+        </tr>
+        <tr>
+        <td>23620</td>
+        <td>Manufacture of plaster products for construction purposes</td>
+        </tr>
+        <tr>
+        <td>23630</td>
+        <td>Manufacture of ready-mixed concrete</td>
+        </tr>
+        <tr>
+        <td>23640</td>
+        <td>Manufacture of mortars</td>
+        </tr>
+        <tr>
+        <td>23650</td>
+        <td>Manufacture of fibre cement</td>
+        </tr>
+        <tr>
+        <td>23690</td>
+        <td>Manufacture of other articles of concrete, plaster and cement</td>
+        </tr>
+        <tr>
+        <td>23700</td>
+        <td>Cutting, shaping and finishing of stone</td>
+        </tr>
+        <tr>
+        <td>23910</td>
+        <td>Production of abrasive products</td>
+        </tr>
+        <tr>
+        <td>23990</td>
+        <td>Manufacture of other non-metallic mineral products n.e.c.</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DJ Basic Metals &amp; Fabricated Products</strong></th>
+        </tr>
+        <tr>
+        <td>24100</td>
+        <td>Manufacture of basic iron and steel and of ferro-alloys</td>
+        </tr>
+        <tr>
+        <td>24510</td>
+        <td>Casting of iron</td>
+        </tr>
+        <tr>
+        <td>24200</td>
+        <td>Casting of steel</td>
+        </tr>
+        <tr>
+        <td>24310</td>
+        <td>Cold drawing of bars</td>
+        </tr>
+        <tr>
+        <td>24320</td>
+        <td>Cold rolling of narrow strip</td>
+        </tr>
+        <tr>
+        <td>24330</td>
+        <td>Cold forming or folding</td>
+        </tr>
+        <tr>
+        <td>24340</td>
+        <td>Cold drawing of wire</td>
+        </tr>
+        <tr>
+        <td>24410</td>
+        <td>Precious metals production</td>
+        </tr>
+        <tr>
+        <td>24420</td>
+        <td>Aluminium production</td>
+        </tr>
+        <tr>
+        <td>24430</td>
+        <td>Lead, zinc and tin production</td>
+        </tr>
+        <tr>
+        <td>24440</td>
+        <td>Copper production</td>
+        </tr>
+        <tr>
+        <td>24450</td>
+        <td>Other non-ferrous metal production</td>
+        </tr>
+        <tr>
+        <td>24510</td>
+        <td>Casting of iron</td>
+        </tr>
+        <tr>
+        <td>24520</td>
+        <td>Casting of steel</td>
+        </tr>
+        <tr>
+        <td>24530</td>
+        <td>Casting of light metals</td>
+        </tr>
+        <tr>
+        <td>24540</td>
+        <td>Casting of other non-ferrous metal</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Manufacture Fabricated Metal, Not Machines</strong></th>
+        </tr>
+        <tr>
+        <td>25110</td>
+        <td>Manufacture of metal structures and parts of structures</td>
+        </tr>
+        <tr>
+        <td>25120</td>
+        <td>Manufacture of doors and windows of metal</td>
+        </tr>
+        <tr>
+        <td>25290</td>
+        <td>Manufacture of tanks, reservoirs and containers of metal</td>
+        </tr>
+        <tr>
+        <td>25210</td>
+        <td>Manufacture of central heating radiators and boilers</td>
+        </tr>
+        <tr>
+        <td>25300</td>
+        <td>Manufacture of steam generators, except central heating hot water boilers</td>
+        </tr>
+        <tr>
+        <td>25500</td>
+        <td>Forging, pressing, stamping and roll-forming of metal; powder metallurgy</td>
+        </tr>
+        <tr>
+        <td>25610</td>
+        <td>Treatment and coating of metals</td>
+        </tr>
+        <tr>
+        <td>25620</td>
+        <td>Machining</td>
+        </tr>
+        <tr>
+        <td>25710</td>
+        <td>Manufacture of cutlery</td>
+        </tr>
+        <tr>
+        <td>25730</td>
+        <td>Manufacture of tools</td>
+        </tr>
+        <tr>
+        <td>25720</td>
+        <td>Manufacture of locks and hinges</td>
+        </tr>
+        <tr>
+        <td>25910</td>
+        <td>Manufacture of steel drums and similar containers</td>
+        </tr>
+        <tr>
+        <td>25920</td>
+        <td>Manufacture of light metal packaging</td>
+        </tr>
+        <tr>
+        <td>25930</td>
+        <td>Manufacture of wire products, chain and springs</td>
+        </tr>
+        <tr>
+        <td>25930</td>
+        <td>Manufacture of wire products, chain and springs</td>
+        </tr>
+        <tr>
+        <td>25990</td>
+        <td>Manufacture of other fabricated metal products n.e.c.</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DK Manufacture of Machinery &amp; Equipment</strong></th>
+        </tr>
+        <tr>
+        <td>28110</td>
+        <td>Manufacture of engines and turbines, except aircraft, vehicle and cycle engines</td>
+        </tr>
+        <tr>
+        <td>28131</td>
+        <td>Manufacture of pumps</td>
+        </tr>
+        <tr>
+        <td>28140</td>
+        <td>Manufacture of pumps</td>
+        </tr>
+        <tr>
+        <td>28150</td>
+        <td>Manufacture of bearings, gears, gearing and driving elements</td>
+        </tr>
+        <tr>
+        <td>28210</td>
+        <td>Manufacture of ovens, furnaces and furnace burners</td>
+        </tr>
+        <tr>
+        <td>28220</td>
+        <td>Manufacture of lifting and handling equipment</td>
+        </tr>
+        <tr>
+        <td>28250</td>
+        <td>Manufacture of non-domestic cooling and ventilation equipment</td>
+        </tr>
+        <tr>
+        <td>28290</td>
+        <td>Manufacture of other general-purpose machinery n.e.c.</td>
+        </tr>
+        <tr>
+        <td>28301</td>
+        <td>Manufacture of agricultural tractors</td>
+        </tr>
+        <tr>
+        <td>33120</td>
+        <td>Repair of machinery</td>
+        </tr>
+        <tr>
+        <td>28240</td>
+        <td>Manufacture of power-driven hand tools</td>
+        </tr>
+        <tr>
+        <td>28410</td>
+        <td>Manufacture of metal forming machinery</td>
+        </tr>
+        <tr>
+        <td>28490</td>
+        <td>Manufacture of other machine tools</td>
+        </tr>
+        <tr>
+        <td>28910</td>
+        <td>Manufacture of machinery for metallurgy</td>
+        </tr>
+        <tr>
+        <td>28921</td>
+        <td>Manufacture of machinery for mining</td>
+        </tr>
+        <tr>
+        <td>28930</td>
+        <td>Manufacture of machinery for food, beverage and tobacco processing</td>
+        </tr>
+        <tr>
+        <td>28940</td>
+        <td>Manufacture of machinery for textile, apparel and leather production</td>
+        </tr>
+        <tr>
+        <td>28950</td>
+        <td>Manufacture of machinery for paper and paperboard production</td>
+        </tr>
+        <tr>
+        <td>28960</td>
+        <td>Manufacture of plastics and rubber machinery</td>
+        </tr>
+        <tr>
+        <td>25400</td>
+        <td>Manufacture of weapons and ammunition</td>
+        </tr>
+        <tr>
+        <td>27510</td>
+        <td>Manufacture of electric domestic appliances</td>
+        </tr>
+        <tr>
+        <td>27520</td>
+        <td>Manufacture non-electric domestic appliances</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DL Manufacture Electrical &amp; Optical Equipment</strong></th>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Manufacture of Office Machinery &amp; Computers</strong></th>
+        </tr>
+        <tr>
+        <td>28230</td>
+        <td>Manufacture of office machinery and equipment (except computers and peripheral</td>
+        </tr>
+        <tr>
+        <td>26200</td>
+        <td>Manufacture of computers and peripheral equipment</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Manufacture of Electrical Machinery etc.</strong></th>
+        </tr>
+        <tr>
+        <td>33140</td>
+        <td>Manufacture of electric motors, generators and transformers</td>
+        </tr>
+        <tr>
+        <td>27120</td>
+        <td>Manufacture of electricity distribution and control apparatus</td>
+        </tr>
+        <tr>
+        <td>27320</td>
+        <td>Manufacture of other electronic and electric wires and cables</td>
+        </tr>
+        <tr>
+        <td>27200</td>
+        <td>Manufacture of batteries and accumulators</td>
+        </tr>
+        <tr>
+        <td>27400</td>
+        <td>Manufacture of electric lighting equipment</td>
+        </tr>
+        <tr>
+        <td>29310</td>
+        <td>Manufacture of electrical and electronic equipment for motor vehicles</td>
+        </tr>
+        <tr>
+        <td>26301</td>
+        <td>Manufacture of telegraph and telephone apparatus and equipment</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Manufacture of Radio, TV &amp; Equipment</strong></th>
+        </tr>
+        <tr>
+        <td>26110</td>
+        <td>Manufacture of electronic components</td>
+        </tr>
+        <tr>
+        <td>33200</td>
+        <td>Installation of industrial machinery and equipment</td>
+        </tr>
+        <tr>
+        <td>26400</td>
+        <td>Manufacture of consumer electronics</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Manufacture Medical &amp; Precision Instruments</strong></th>
+        </tr>
+        <tr>
+        <td>32500</td>
+        <td>Manufacture of medical and dental instruments and supplies</td>
+        </tr>
+        <tr>
+        <td>26511</td>
+        <td>Manufacture of instruments and appliances for measuring, testing and navigation</td>
+        </tr>
+        <tr>
+        <td>26512</td>
+        <td>Manufacture of electronic industrial process control equipment</td>
+        </tr>
+        <tr>
+        <td>32500</td>
+        <td>Manufacture of medical and dental instruments and supplies</td>
+        </tr>
+        <tr>
+        <td>26520</td>
+        <td>Manufacture of watches and clocks</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DM Manufacture of Transport Equipment</strong></th>
+        </tr>
+        <tr>
+        <td>29100</td>
+        <td>Manufacture of motor vehicles</td>
+        </tr>
+        <tr>
+        <td>29201</td>
+        <td>Manufacture of bodies (coachwork) for motor vehicles (except caravans)</td>
+        </tr>
+        <tr>
+        <td>29320</td>
+        <td>Manufacture of other parts and accessories for motor vehicles</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Manufacture of Other Transport Equipment</strong></th>
+        </tr>
+        <tr>
+        <td>30110</td>
+        <td>Building of ships and floating structures</td>
+        </tr>
+        <tr>
+        <td>30120</td>
+        <td>Building of pleasure and sporting boats</td>
+        </tr>
+        <tr>
+        <td>33170</td>
+        <td>Repair and maintenance of transport equipment n.e.c.</td>
+        </tr>
+        <tr>
+        <td>30300</td>
+        <td>Manufacture of air and spacecraft and related machinery</td>
+        </tr>
+        <tr>
+        <td>30910</td>
+        <td>Manufacture of motorcycles</td>
+        </tr>
+        <tr>
+        <td>30920</td>
+        <td>Manufacture of bicycles and invalid carriages</td>
+        </tr>
+        <tr>
+        <td>33170</td>
+        <td>Repair and maintenance of transport equipment n.e.c.</td>
+        </tr>
+        <tr>
+        <td>30990</td>
+        <td>Manufacture of other transport equipment n.e.c.</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>DN Manufacturing nec</strong></th>
+        </tr>
+        <tr>
+        <td>31090</td>
+        <td>Manufacture of other furniture</td>
+        </tr>
+        <tr>
+        <td>31010</td>
+        <td>Manufacture of office and shop furniture</td>
+        </tr>
+        <tr>
+        <td>31020</td>
+        <td>Manufacture of kitchen furniture</td>
+        </tr>
+        <tr>
+        <td>31090</td>
+        <td>Manufacture of other furniture</td>
+        </tr>
+        <tr>
+        <td>31030</td>
+        <td>Manufacture of mattresses</td>
+        </tr>
+        <tr>
+        <td>32110</td>
+        <td>Striking of coins</td>
+        </tr>
+        <tr>
+        <td>32120</td>
+        <td>Manufacture of jewellery and related articles</td>
+        </tr>
+        <tr>
+        <td>32200</td>
+        <td>Manufacture of musical instruments</td>
+        </tr>
+        <tr>
+        <td>32300</td>
+        <td>Manufacture of sports goods</td>
+        </tr>
+        <tr>
+        <td>32409</td>
+        <td>Manufacture of games and toys (other than professional and arcade games and toys) n.e.c.</td>
+        </tr>
+        <tr>
+        <td>32130</td>
+        <td>Manufacture of imitation jewellery and related articles</td>
+        </tr>
+        <tr>
+        <td>32910</td>
+        <td>Manufacture of brooms and brushes</td>
+        </tr>
+        <tr>
+        <td>32990</td>
+        <td>Other manufacturing n.e.c.</td>
+        </tr>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col"><strong>Recycling</strong></th>
+        </tr>
+        <tr>
+        <td>38320</td>
+        <td>Recovery of sorted materials</td>
+        </tr>
+        <tr>
+        <td>38320</td>
+        <td>Recovery of sorted materials</td>
+        </tr>
+        <tr>
+        <th scope="col"><strong>Trade Code</strong></th>
+        <th scope="col"><strong>Group E - Electricity, Gas and Water Supply</strong></th>
+        </tr>
+        <tr>
+        <td>35110</td>
+        <td>Production of electricity</td>
+        </tr>
+        <tr>
+        <td>35120</td>
+        <td>Transmission of electricity</td>
+        </tr>
+        <tr>
+        <td>35130</td>
+        <td>Distribution of electricity</td>
+        </tr>
+        <tr>
+        <td>35210</td>
+        <td>Manufacture of gas</td>
+        </tr>
+        <tr>
+        <td>35220</td>
+        <td>Distribution of gaseous fuels through mains</td>
+        </tr>
+        <tr>
+        <td>35300</td>
+        <td>Steam and air conditioning supply</td>
+        </tr>
+        <tr>
+        <td>36000</td>
+        <td>Water collection, treatment and supply</td>
+        </tr>
+        <tr>
+        <th scope="col"><strong>Trade Code</strong></th>
+        <th scope="col"><strong>Group F - Construction</strong></th>
+        </tr>
+        <tr>
+        <td>43120</td>
+        <td>Site preparation</td>
+        </tr>
+        <tr>
+        <td>43130</td>
+        <td>Test drilling and boring</td>
+        </tr>
+        <tr>
+        <td>41201</td>
+        <td>Construction of commercial buildings</td>
+        </tr>
+        <tr>
+        <td>43910</td>
+        <td>Roofing activities</td>
+        </tr>
+        <tr>
+        <td>42110</td>
+        <td>Construction of roads and motorways</td>
+        </tr>
+        <tr>
+        <td>42910</td>
+        <td>Construction of water projects</td>
+        </tr>
+        <tr>
+        <td>43999</td>
+        <td>Construction of other civil engineering projects n.e.c.</td>
+        </tr>
+        <tr>
+        <td>43210</td>
+        <td>Electrical installation</td>
+        </tr>
+        <tr>
+        <td>43290</td>
+        <td>Other construction installation</td>
+        </tr>
+        <tr>
+        <td>43220</td>
+        <td>Plumbing, heat and air-conditioning installation</td>
+        </tr>
+        <tr>
+        <td>43210</td>
+        <td>Electrical installation</td>
+        </tr>
+        <tr>
+        <td>43310</td>
+        <td>Plastering</td>
+        </tr>
+        <tr>
+        <td>43320</td>
+        <td>Joinery installation</td>
+        </tr>
+        <tr>
+        <td>43330</td>
+        <td>Floor and wall covering</td>
+        </tr>
+        <tr>
+        <td>43341</td>
+        <td>Painting</td>
+        </tr>
+        <tr>
+        <td>43390</td>
+        <td>Other building completion and finishing</td>
+        </tr>
+        <tr>
+        <td>43999</td>
+        <td>Specialised construction activities (other than scaffold erection) n.e.c</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        Page 1 &nbsp;&nbsp; <a href="/help-sic-codes-2">Page 2</a>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Help with SIC Codes",
+    "url": "https://www.121companyformation.co.uk/help-sic-codes/",
+    "description": "Find comprehensive guidance on SIC codes (Standard Industrial Classification) to select the appropriate code for your business registration.",
+    "mainEntity": {
+      "@type": "FAQPage",
+      "name": "SIC Codes Assistance",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a SIC code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A SIC code, or Standard Industrial Classification code, is a unique identifier used to classify businesses by their type of economic activity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find the correct SIC code for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can use the official UK SIC code lookup tool or consult our expert resources to identify the SIC code that best represents your business activity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it mandatory to use a SIC code for company registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, a SIC code is required when registering a business in the UK to classify the nature of your company's activities."
+          }
+        }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk/",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+    }
+  }
+  </script>

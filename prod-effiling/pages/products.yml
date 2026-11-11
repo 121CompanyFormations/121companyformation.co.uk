@@ -1,0 +1,51 @@
+"##PAGE_TITLE#": Products | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "Welcome to ##BRAND_NAME# product directory"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": 
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /products/
+"Unauth'd Template": Layout No Sidebar
+"Auth'd Template": Layout No Sidebar
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container cf-prose">
+      <p>Go back to <a href="/">Homepage</a>.</p>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Products | 121CompanyFormation.co.uk",
+    "description": "Welcome to 121 Company Formation's product directory, where you can find all the services and products offered to help your business get started.",
+    "url": "https://www.121companyformation.co.uk/products/",
+    "mainEntity": {
+      "@type": "Product",
+      "name": "Product Directory",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.121companyformation.co.uk/products/",
+        "priceCurrency": "GBP"
+      }
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Homepage",
+          "item": "https://www.121companyformation.co.uk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.121companyformation.co.uk/products/"
+        }
+      ]
+    }
+  }
+  </script>

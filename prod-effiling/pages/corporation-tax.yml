@@ -1,0 +1,167 @@
+"##PAGE_TITLE#": Corporation Tax | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Stay compliant with UK Corporation Tax. Our expert service helps you manage tax obligations efficiently, ensuring accurate filings and timely payments.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Corporation  Tax
+"##CUSTOM4#": 
+"##CUSTOM5#": 
+"URL": /corporation-tax/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Corporation Tax</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Corporation Tax</h1>
+        <p class="cf-page-hero__price">Corporation tax return from <strong>£595</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <h3>
+   Corporation Tax and Limited Liability Companies
+   </h3>
+  <p>When a limited company is incorporated it is required to register
+   with HM Revenue & Customs (HMRC), and submit a corporate tax
+   return annually to declare what corporation tax is payable.</p><p>The information that is entered on the corporate tax return is
+   derived from
+   <a href="/year-end-accounts/">
+   the company’s annual accounts
+   </a>
+   . The tax payable is based on the profits of the company.</p>
+  <h3>
+   HOW IS CORPORATION TAX CALCULATED?
+   </h3>
+  <p><strong>HMRC Corporation Tax Rates</strong>: With effect from 1st
+   April 2020, the rate for corporation tax is 19% which is payable on
+   the profits that a UK registered business makes. This rate will also
+   apply in 2021 although it may change in future years.</p><p>The tax liability is calculated on a self-assessment basis using the
+   financial information included in
+   <a href="/year-end-accounts/">
+   the company’s annual financial report
+   </a>
+   .</p><p>121 Company Formation is an experienced accounting firm that
+   specialises in offering a range of services to start-ups, small and
+   medium sized companies including offering sound business advice,
+   assisting in running their operations in the most tax efficient way,
+   preparing their
+   <a href="/year-end-accounts/">
+   year-end accounts
+   </a>
+   , and calculating and completing their annual
+   <a href="/corporation-tax/">
+   corporation tax returns
+   </a>
+   .</p>
+  <h3>
+   DOES EVERY LIMITED COMPANY PAY THE SAME RATE OF CORPORATION TAX?
+   </h3>
+  <p>All UK limited companies are obliged to pay corporation tax on their
+   profits. This includes companies that are based overseas and has a
+   branch that trades in the UK. In this case, the company must pay the
+   19% rate on any profits that relate to its UK activities.</p><p><a href="/contact-us/">
+   Contact us and we would be happy to advise you about the most
+   tax-efficient trading model for your business.
+   </a></p>
+  <h3>
+   PURCHASE OUR 121 COMPANY ACCOUNTING SERVICES
+   </h3>
+  <p>Each of our client’s requirements differ. Simply complete our
+   brief questionnaire and we will provide you with a quotation
+   customized to suit your business needs</p><p>Purchase our company formation package and you'll get access to
+   our incomparably low tax and accountancy prices.</p><p>Please contact our customer services team either by calling
+   <a href="tel:2038932121">+44 (0)203 8932 121</a>, WhatsApp
+   <a href="https://wa.me/4407984046470" target="_blank"
+   >##WHATSAPP_NUMBER#</a
+   >
+   or sending an email to
+   <a href="mailto:info@121companyformation.co.uk">
+   info@121companyformation.co.uk
+   </a></p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Service pricing and help">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Corporation tax</h2>
+            <p class="cf-pkg-summary__price">£595</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Purchase this service to</h3>
+            
+            <ul>
+              <li>Have 121 Company Formation seamlessly file your corporation tax return</li>
+            </ul>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+          </div>
+        </div>
+  <div class="cf-sidebar__card">
+      <h2 class="cf-sidebar__title">Need help?</h2>
+      <p>Our team can guide you through company formation and compliance.</p>
+      <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+      <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+      <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+  <div class="cf-sidebar__card cf-sidebar__card--packages">
+      <h2 class="cf-sidebar__title">Popular packages</h2>
+      <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+      <ul class="cf-sidebar-pkgs">
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Bronze</span>
+              <span class="cf-sidebar-pkg__hint">Essential formation</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+            <span class="cf-sidebar-pkg__badge">Popular</span>
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Gold</span>
+              <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Platinum</span>
+              <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Diamond</span>
+              <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+      </ul>
+      <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+    </div>
+
+      </aside>
+      </div>
+    </div>
+  </section>

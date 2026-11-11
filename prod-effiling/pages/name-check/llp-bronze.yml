@@ -1,0 +1,79 @@
+"##PAGE_TITLE#": LLP Bronze - Check name availability | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "The Bronze Package is the best option for those who are looking to set up a Limited Liability Partnership Company for the super low price of just ##LLP-PACKAGE_BRONZE_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": LLP Bronze Package
+"##CUSTOM3#": llp-bronze
+"##CUSTOM5#": 
+"URL": /name-check/llp-bronze/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+    <div class="cf-container cf-namesearch-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <a href="/name-check/">Name Check</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">##CUSTOM1#</span>
+      </nav>
+      <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">##CUSTOM1#</h1>
+      <p class="cf-namesearch-hero__lead">Choose your new company name</p>
+      ##NAME_CHECK_FORM#
+    </div>
+  </section>
+
+  ##HELP_SECTION#
+  <script>
+    fbq('trackCustom', 'NameSearch');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "LLP Bronze Company Name Check",
+    "url": "https://www.121companyformation.co.uk/name-check/llp-bronze/",
+    "description": "Easily check the availability of 'LLP Bronze' company names for registration. Start your Limited Liability Partnership formation process with 121 Company Formation.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.121companyformation.co.uk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Company Name Check",
+          "item": "https://www.121companyformation.co.uk/name-check/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "LLP Bronze",
+          "item": "https://www.121companyformation.co.uk/name-check/llp-bronze/"
+        }
+      ]
+    },
+    "mainEntity": {
+      "@type": "Service",
+      "name": "LLP Company Name Check Service",
+      "provider": {
+        "@type": "Organization",
+        "name": "121 Company Formation",
+        "url": "https://www.121companyformation.co.uk/"
+      },
+      "serviceType": "Company Name Availability Check",
+      "areaServed": "United Kingdom",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Business Owners and Entrepreneurs"
+      },
+      "description": "Check if 'LLP Bronze' or similar company names are available for registration with our easy-to-use name check tool.",
+      "termsOfService": "https://www.121companyformation.co.uk/terms-and-conditions/"
+    }
+  }
+  </script>

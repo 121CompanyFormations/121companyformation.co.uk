@@ -1,0 +1,96 @@
+"##PAGE_TITLE#": Blog | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "Guides and advice on UK company formation, choosing a company structure, Companies House and tax."
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Blog
+"##CUSTOM4#": 
+"##CUSTOM5#": 
+"URL": /blog/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Blog</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Blog</h1>
+      <p class="cf-page-hero__lead">Guides and updates on UK company formation, compliance and running your limited company.</p>
+    </div>
+  </section>
+
+  <section class="cf-section cf-blog-index">
+    <div class="cf-container">
+      <div class="cf-blog-layout">
+      <div class="cf-blog-main">
+        <div class="cf-blog-list blog_area">
+          <article class="cf-blog-card blog_list_item">
+            <div class="cf-blog-card__body blog_content">
+              <p class="cf-blog-card__meta post_date">10 Nov 2026 · Guide</p>
+              <h2 class="cf-blog-card__title blog_title"><a href="/introduction-to-company-formation/">Introduction to company formation</a></h2>
+              <p class="cf-blog-card__excerpt">What incorporation means, limited by shares vs guarantee vs LLP, and how 121 helps you file correctly.</p>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="/introduction-to-company-formation/">Read guide</a>
+            </div>
+          </article>
+          <article class="cf-blog-card blog_list_item">
+            <div class="cf-blog-card__body blog_content">
+              <p class="cf-blog-card__meta post_date">3 Nov 2026 · Guide</p>
+              <h2 class="cf-blog-card__title blog_title"><a href="/company-formation-checklist/">Company formation checklist</a></h2>
+              <p class="cf-blog-card__excerpt">A practical checklist before you submit your application to Companies House.</p>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="/company-formation-checklist/">Read guide</a>
+            </div>
+          </article>
+          <article class="cf-blog-card blog_list_item">
+            <div class="cf-blog-card__body blog_content">
+              <p class="cf-blog-card__meta post_date">28 Oct 2026 · Guide</p>
+              <h2 class="cf-blog-card__title blog_title"><a href="/our-4-step-guide-to-setting-up-a-company/">4-step guide to setting up a company</a></h2>
+              <p class="cf-blog-card__excerpt">Name search, package selection, checkout and submission — the path we use on the site.</p>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="/our-4-step-guide-to-setting-up-a-company/">Read guide</a>
+            </div>
+          </article>
+          <article class="cf-blog-card blog_list_item">
+            <div class="cf-blog-card__body blog_content">
+              <p class="cf-blog-card__meta post_date">21 Oct 2026 · Guide</p>
+              <h2 class="cf-blog-card__title blog_title"><a href="/post-incorporation-activities/">Post-incorporation activities</a></h2>
+              <p class="cf-blog-card__excerpt">What to do after Companies House approves your company — bank account, VAT, confirmation statement and more.</p>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="/post-incorporation-activities/">Read guide</a>
+            </div>
+          </article>
+          <article class="cf-blog-card blog_list_item">
+            <div class="cf-blog-card__body blog_content">
+              <p class="cf-blog-card__meta post_date">14 Oct 2026 · Guide</p>
+              <h2 class="cf-blog-card__title blog_title"><a href="/registered-office-address/">Why your registered office address matters</a></h2>
+              <p class="cf-blog-card__excerpt">How a Central London registered office protects privacy and strengthens your company’s professional image.</p>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="/registered-office-address/">Read guide</a>
+            </div>
+          </article>
+          <article class="cf-blog-card blog_list_item">
+            <div class="cf-blog-card__body blog_content">
+              <p class="cf-blog-card__meta post_date">7 Oct 2026 · Guide</p>
+              <h2 class="cf-blog-card__title blog_title"><a href="/confirmation-statement-service/">Confirmation statements explained</a></h2>
+              <p class="cf-blog-card__excerpt">Stay compliant with Companies House: what a confirmation statement covers and when you need to file.</p>
+              <a class="cf-btn cf-btn--soft cf-btn--sm" href="/confirmation-statement-service/">Read guide</a>
+            </div>
+          </article>
+        </div>
+      </div>
+      ##BLOG_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Blog – 121 Company Formation",
+    "url": "https://www.121companyformation.co.uk/blog/",
+    "description": "Guides and advice on UK company formation, choosing a company structure, Companies House and tax.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk/"
+    }
+  }
+  </script>

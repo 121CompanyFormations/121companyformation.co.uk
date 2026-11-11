@@ -1,0 +1,55 @@
+"##PAGE_TITLE#": Remarketing | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": 
+"##CUSTOM1#": 
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /remarketing/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  ##PAGE_CONTENT#
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Remarketing | 121CompanyFormation.co.uk",
+    "url": "https://www.121companyformation.co.uk/remarketing/",
+    "description": "Discover customized remarketing strategies by 121CompanyFormation to effectively retarget potential customers and boost your conversion rates. Learn how our solutions can benefit your business.",
+    "mainEntity": {
+      "@type": "Service",
+      "name": "Remarketing Service",
+      "serviceType": "Digital Marketing",
+      "description": "A tailored remarketing service designed to help businesses retarget potential customers and enhance engagement using Google Ads, social media, and email campaigns.",
+      "provider": {
+        "@type": "Organization",
+        "name": "121CompanyFormation",
+        "url": "https://www.121companyformation.co.uk",
+        "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg",
+        "sameAs": [
+          "https://www.facebook.com/121companyformation"
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.121companyformation.co.uk/remarketing/",
+        "priceCurrency": "GBP",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "GBP",
+          "description": "The cost varies based on the scope and customization of your remarketing campaign."
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      }
+    },
+    "potentialAction": {
+      "@type": "Action",
+      "name": "Request More Information",
+      "target": "https://www.121companyformation.co.uk/remarketing/#contact-form"
+    }
+  }
+  </script>

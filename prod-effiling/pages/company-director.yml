@@ -1,0 +1,201 @@
+"##PAGE_TITLE#": Company Director | 121 Company Formation
+"##PAGE_DESCRIPTION#": The director of a limited company has a number of fiduciary responsibilities, and must be eligible to act in this role.121 Company Formation is here to help.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Company Closure
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /company-director/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Company Director</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Company Director</h1>
+      
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <h2>
+   Company Director | 121 Company Formation
+   </h2>
+
+   
+   
+   The director of a limited company has certain responsibilities and duties and must be eligible to act in this role.</p><p>A limited company must have at least one director who can be either an individual or a corporate entity. If the director is an individual, they must:
+   <ul>
+  <li>
+   Be over 16 years of age
+   </li>
+  <li>
+   Not have a criminal record
+   </li>
+  <li>
+   Not been declared insolvent or faced bankruptcy proceedings
+   </li>
+  <li>
+   Not appear on the disqualified directors register at Companies House
+   </li>
+  <li>
+   Not act as the company’s auditor
+   </li>
+  </ul></p><p>There are no restrictions as to how many directors a company can have. New directors can be appointed at any time</p><p><strong>
+  <a href="/director-appointment-and-resignation/">
+   Appointment of a New Director 
+   </a>
+  </strong>: Certain information is required for each director:
+   <ul>
+  <li>
+   Full name
+   </li>
+  <li>
+   Date of birth
+   </li>
+  <li>
+   Place of birth (nationality)
+   </li>
+  <li>
+   Occupation (although ‘Director’ will suffice)
+   </li>
+  <li>
+   Residential address
+   </li>
+  <li>
+  <a href="/service-address/">
+   Service/correspondence address 
+   </a>
+   if different
+   </li>
+  <li>
+   Date of appointment as a director
+   </li>
+  </ul></p><p>Where the director is a corporate entity, the following information is required:
+   <ul>
+  <li>
+   Company registration number and corporate name
+   </li>
+  <li>
+  <a href="/registered-office-address/">
+   The registered office address 
+   </a>
+  </li>
+  <li>
+   Whether or not the director is based in the European Economic Area (i.e. it is an EEA company)
+   </li>
+  <li>
+   The name of the authorised signatory
+   </li>
+  <li>
+   If the person with significant control is based outside of the EEA (European Economic Area - not EAA) you will also need to provide:</p><p>a. The company's legal documents (equivalent of Incorporation Certificate and Memorandum & Articles of Association), and</p><p>b. Confirmation of the country in which the company was incorporated.
+   </li>
+  </ul></p><p><strong>
+  <a href="/director-appointment-and-resignation/">
+   Resignation of Director 
+   </a>
+  </strong>: Existing directors can resign at any time. The reason for their resignation does not need to be captured on Companies House documentation.
+   
+   
+
+   
+   <h3>
+   RESPONSIBILITIES AND DUTIES OF A DIRECTOR
+   </h3>
+   Directors of a company, who may or may not also be shareholders of the company, are legally responsible for running the company and managing its operations. This includes responsibility for both its day to day activities, the company’s vision, and its longer term strategic plan to promote the company’s success.</p><p>A director is also responsible for ensuring that all statutory information is submitted to Companies House in a timely manner and that all required legal documentation is maintained. This includes:
+   <ul>
+  <li>
+  <a href="/confirmation-statement-service/">
+   Filing the annual confirmation statement 
+   </a>
+  </li>
+  <li>
+  <a href="/year-end-accounts/">
+   Filing the annual year end accounts 
+   </a>
+  </li>
+  <li>
+   Reporting any changes to the company’s registered office, officers, shareholders, charges, persons with significant control, changes to the accounting period
+   </li>
+  <li>
+   Recording minutes of board meetings
+   </li>
+  </ul>
+   121 Company Formation offers a wide range of business support services to assist directors and other company stakeholders in remaining compliant. We manage these services for you to help make your legal-compliance easy and hassle-free.</p><p>A director is expected to act in the best interests of the company at all times including:</p>
+  <ul>
+  <li>
+   Not exceeding the power or level of control given by the shareholders of the company
+   </li>
+  <li>
+   Not misusing company property
+   </li>
+  <li>
+   Always acting in accordance with the company’s values, mission, vision and its constitution as defined in the articles of association
+   </li>
+  <li>
+   Abiding by any joint venture undertakings and shareholder agreements
+   </li>
+  <li>
+   Avoiding any conflicts of interest
+   </li>
+  <li>
+   Making unbiased decisions and applying independent judgement
+   </li>
+  <li>
+   Acting in a way that shows diligence and consideration for the company’s constitution, reputation and success
+   </li>
+  </ul>
+      </div>
+      ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Responsibilities and Duties of a Director",
+    "description": "This page outlines the responsibilities and duties of a director of a limited company, including eligibility requirements and necessary information for appointment and resignation.",
+    "author": {
+      "@type": "Organization",
+      "name": "121 Company Formation"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+    },
+    "datePublished": "2024-11-13",
+    "dateModified": "2024-11-13",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.121companyformation.co.uk/director-appointment-and-resignation/"
+    },
+    "url": "https://www.121companyformation.co.uk/director-appointment-and-resignation/",
+    "keywords": [
+      "director responsibilities",
+      "director duties",
+      "company director",
+      "director appointment",
+      "resignation of director"
+    ],
+    "wordCount": 450,
+    "articleSection": [
+      "Eligibility Requirements",
+      "Appointment Process",
+      "Duties and Responsibilities",
+      "Resignation and Removal"
+    ],
+    "articleBody": "Directors of a company, who may or may not also be shareholders of the company, are legally responsible for running the company and managing its operations. They must ensure compliance with company law, maintain accurate financial records, and act in the best interests of the company. Eligibility for a director requires being at least 16 years old and not being disqualified under company law. The appointment process typically involves formal consent and approval by the company, while resignation or removal must follow the procedures set out in the company's Articles of Association.",
+    "potentialAction": {
+      "@type": "ReadAction",
+      "target": "https://www.121companyformation.co.uk/director-appointment-and-resignation/"
+    }
+  }
+  </script>

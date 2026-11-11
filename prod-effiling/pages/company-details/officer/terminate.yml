@@ -1,0 +1,53 @@
+"##PAGE_TITLE#": Officer | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": 
+"##CUSTOM1#": 
+"##CUSTOM2#": 
+"##CUSTOM5#": 
+"URL": /company-details/officer/terminate/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  ##PAGE_CONTENT#
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.121companyformation.co.uk/company-details/officer/terminate/",
+    "name": "Officer | 121CompanyFormation.co.uk",
+    "url": "https://www.121companyformation.co.uk/company-details/officer/terminate/",
+    "description": "This page provides information on terminating an officer's role in a company. It outlines the steps and legal requirements for officers who wish to resign or be removed from their duties.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk/"
+    },
+    "mainEntity": {
+      "@type": "Service",
+      "serviceType": "Officer Termination",
+      "description": "This service helps with the termination of an officer's role in a company. It ensures all legal procedures are followed for the resignation or removal of company officers.",
+      "provider": {
+        "@type": "Organization",
+        "name": "121 Company Formation",
+        "url": "https://www.121companyformation.co.uk/",
+        "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.121companyformation.co.uk/company-details/officer/terminate/",
+        "priceCurrency": "GBP",
+        "price": "49.99",
+        "availability": "https://schema.org/InStock",
+        "eligibleRegion": {
+          "@type": "Place",
+          "name": "United Kingdom"
+        },
+        "seller": {
+          "@type": "Organization",
+          "name": "121 Company Formation"
+        }
+      }
+    }
+  }
+  </script>

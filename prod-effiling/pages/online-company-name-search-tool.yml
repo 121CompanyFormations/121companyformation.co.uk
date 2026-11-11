@@ -1,0 +1,72 @@
+"##PAGE_TITLE#": Company Name Check | 121 Company Formation
+"##PAGE_DESCRIPTION#": Once you have decided on the name you would like to use for your company, simply visit our homepage to check its availability, straight away.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": 
+"##CUSTOM2#": "##FOOTER_Register#"
+"##CUSTOM5#": 
+"URL": /online-company-name-search-tool/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+    <div class="cf-container cf-namesearch-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Company Name Check</span>
+      </nav>
+
+      <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">Check if your company name is available</h1>
+      <form class="cf-namecheck cf-namecheck--wide" action="/name-check/" method="GET" novalidate role="search">
+        <input type="hidden" name="gle" value="namecheck" />
+        <label class="cf-sr-only" for="cf_company_name_search">Type a company name</label>
+        <input id="cf_company_name_search" class="efInputText" name="name" type="text" placeholder="Type a name" autocomplete="organization" required aria-label="Type a name" />
+        <button class="cf-btn cf-btn--primary efSubmitButton" type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <h2>Company Name Check | 121 Company Formation</h2>
+          <p>Once you have decided on the name you would like to use for your company, simply use our quick search tool above to check its availability straight away.</p>
+          <p>This quick search tool is connected to the Companies House database and will immediately confirm whether your chosen name is available and approved by Companies House. If the proposed name of the company is too close to or the same as an existing company name Companies House will not approve its use.</p>
+          <p>We are pleased to offer our quick search tool free of charge which means that you can try as many variations as many times as you like until you find one that is suitable, available, and approved.</p>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Company Name Check",
+    "description": "Once you have decided on the name you would like to use for your company, simply visit our homepage to check its availability, straight away.",
+    "url": "https://www.121companyformation.co.uk/online-company-name-search-tool/",
+    "mainEntity": {
+      "@type": "WebPageElement",
+      "name": "Company Name Search Tool",
+      "description": "Use our quick search tool to check the availability of your desired company name. The tool is connected to the Companies House database and provides instant results.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.121companyformation.co.uk/online-company-name-search-tool/#search",
+        "query-input": "required name=companyName"
+      }
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk"
+    },
+    "isAccessibleForFree": true,
+    "keywords": [
+      "Company Name Check",
+      "Companies House Database",
+      "Company Name Search Tool"
+    ]
+  }
+  </script>

@@ -1,0 +1,87 @@
+<script type="text/javascript">
+  $(document).ready(function () {
+    //$("#").insertAfter("#");
+
+    //Same Day
+    $("#efOptionalSubheader_SAMEDAY td").text("Guaranteed Same Day Services");
+    $("#efOptionalSubheader_SAMEDAY").insertAfter(
+      $("#efOptionalTable tbody tr.ui-widget-header:first"),
+    );
+    $("#optional_4945").insertAfter("#efOptionalSubheader_SAMEDAY");
+    $("#optional_17780").insertAfter("#optional_4945");
+
+    //Standard Products
+    $("#efOptionalSubheader_ td").text("Tax and Accountancy Services");
+    $("#efOptionalSubheader_").insertAfter("#optional_17780");
+    $("#optional_20826").insertAfter("#efOptionalSubheader_");
+    $("#optional_4656").insertAfter("#optional_20826");
+    $("#optional_15048").insertAfter("#optional_4656");
+    $("#optional_15053").insertAfter("#optional_15048");
+    $("#optional_15054").insertAfter("#optional_15053");
+    $("#optional_15050").insertAfter("#optional_15054");
+    $("#optional_15052").insertAfter("#optional_15050");
+    $("#optional_15051").insertAfter("#optional_15052");
+    $("#optional_15049").insertAfter("#optional_15051");
+    $("#optional_20568").insertAfter("#optional_15049");
+
+    //Registered Office Services
+    $("#efOptionalSubheader_REGOFFICE").insertAfter("#optional_20568");
+    $("#optional_4306").insertAfter("#efOptionalSubheader_REGOFFICE");
+    $("#optional_17908").insertAfter("#optional_4306");
+
+    //Mail Forwarding Services
+    $("#efOptionalSubheader_MAILFORWARD").insertAfter("#optional_17908");
+    $("#optional_4308").insertAfter("#efOptionalSubheader_MAILFORWARD");
+    $("#optional_17910").insertAfter("#optional_4308");
+
+    //Officers Service Address Services
+    $("#efOptionalSubheader_SERVICEADDRESS").insertAfter("#optional_17910");
+    $("#optional_4649").insertAfter("#efOptionalSubheader_SERVICEADDRESS");
+    $("#optional_17909").insertAfter("#optional_4649");
+
+    //Web Products
+    var webProductsHeader =
+      '<tr class="ui-widget-header efTableSubheader" id="efOptionalSubheader_WEBPRODUCTS"><td colspan="10">Web Products</td></tr>';
+    $(webProductsHeader).insertAfter("#optional_17909");
+    $("#optional_20458").insertAfter("#efOptionalSubheader_WEBPRODUCTS");
+    $("#optional_20454").insertAfter("#optional_20458");
+    $("#optional_20455").insertAfter("#optional_20454");
+    $("#optional_20456").insertAfter("#optional_20455");
+    $("#optional_20457").insertAfter("#optional_20456");
+    $("#optional_20462").insertAfter("#optional_20457");
+    $("#optional_20460").insertAfter("#optional_20462");
+    $("#optional_20461").insertAfter("#optional_20460");
+    $("#optional_20463").insertAfter("#optional_20461");
+    $("#optional_20459").insertAfter("#optional_20463");
+
+    //Electronic Forms
+    $("#efOptionalSubheader_FORM").insertAfter("#optional_20459");
+    $("#optional_4945").insertAfter("#efOptionalSubheader_FORM");
+
+    //Document Products
+    $("#efOptionalSubheader_DOCUMENT").insertAfter("#optional_4945");
+    $("#optional_4334").insertAfter("#efOptionalSubheader_DOCUMENT");
+    $("#optional_4943").insertAfter("#optional_4334");
+    $("#optional_4693").insertAfter("#optional_4943");
+    $("#optional_4989").insertAfter("#optional_4693");
+  });
+
+  $(window).bind("load", function () {
+    //Add Tooltip
+    $(".efOptionalTrProduct").each(function () {
+      // Append the info-tooltip div
+      $(this)
+        .children("td")
+        .eq(2)
+        .append(
+          "<div class='prodinfo'><div class='info-tooltip'></div><div class='text-tooltip'></div></div>",
+        );
+
+      // Get the detail from the span inside the current efOptionalTrProduct
+      var detail = $(this).find("td span.details").html();
+
+      // Set the data-text attribute for the info-tooltip div
+      $(this).find(".text-tooltip").html(detail);
+    });
+  });
+</script>

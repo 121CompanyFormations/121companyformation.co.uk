@@ -1,0 +1,146 @@
+"##PAGE_TITLE#": LBG Diamond  | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "121 Company Formation offers a full company registration service for as low as ##LBG-PACKAGE_BRONZE_Price#.The Diamond Package is the premium service for those who require every aspect of setting up a company and the first year’s statutory accounts. Only ##LBG-PACKAGE_DIAMOND_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Limited By Guarantee Diamond Package
+"##CUSTOM2#": "##LBG-PACKAGE_DIAMOND_Price#"
+"##CUSTOM5#": "##HERO_PAGE_Services#"
+"URL": /lbg-diamond/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>The Diamond Package is the premium service for those who would like every aspect of setting up a company and the first year&rsquo;s statutory documentation handled by a highly experienced company formation facility.</p>
+          <p>As well as all the benefits of our packages, the Diamond Package also includes registering the company for VAT with HMRC, the preparation of the company&rsquo;s first year accounts and calculation and completion of the Corporation Tax Return subject to certain criteria.</p>
+          <h3>What does the Diamond Package include?</h3>
+          <p>While it may be the least expensive package in our range, this package offers optimum value and includes</p>
+          <ul>
+          <li>An incorporated private limited by guarantee company that is ready to begin trading</li>
+          <li>Officers of the company appointed</li>
+          <li>Ordinary shares issued&nbsp;</li>
+          <li>A PDF file containing the Certificate of Incorporation, the Memorandum and Articles of Association and guarantor certificate/s</li>
+          <li>Printed copies of the above documents</li>
+          <li>Registration for VAT with HMRC</li>
+          <li>Free filing of the company&rsquo;s Confirmation Statement for the first year</li>
+          <li>Preparation of the first year&rsquo;s accounts and Corporation Tax Return subject to a maximum turnover of &pound;300K, less than 1500 transactions in the first year&rsquo;s turnover</li>
+          <li>Option to use our quarterly VAT return filing service at a special rate</li>
+          <li>Free fast-track referral service for business banking facilities</li>
+          <li>Free access to your company management portal</li>
+          </ul>
+          <p>We offer a very quick service &ndash; your company will be usually formed within three to four hours of placing your order subject to Companies House activity</p>
+          <p>121 Company Formation will be happy to advise if the Bronze Limited by Guarantee package is right for you providing you can confirm that the proposed company is not:</p>
+          <ul>
+          <li>A charity</li>
+          <li>Profit-making businesses</li>
+          <li>Intending to operate as a Right to Manage company</li>
+          </ul>
+          <h3>What we do to incorporate your company</h3>
+          <ul>
+          <li>We check that your chosen company name is available for use and suggest alternatives if this is not the case</li>
+          <li>Complete the company incorporation application form with details of the company secretary, directors and registered address.</li>
+          <li>Details of the members must also be included and this must include a minimum of one member and one guarantor either of whom can also be a director</li>
+          <li>Submit the application to Companies House together with the appropriate fee</li>
+          <li>You will then receive a confirmation by email, usually within 24 hours, that your company has been incorporated and registered at Companies House</li>
+          </ul>
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
+          <div class="cf-faq cf-faq--page">
+          <details>
+          <summary>What does limited by guarantee mean?</summary>
+          <div class="cf-faq__body">
+          <p>This type of company has guarantees and guarantors instead of shares and shareholders and it is generally a non-profit or not-for-profit organisation.</p>
+          </div>
+          </details>
+          <details>
+          <summary>When would you choose to be a limited by guarantee company instead of a private limited company?</summary>
+          <div class="cf-faq__body">
+          <p>Examples of when to use this type of company formation would be when you want to set up a sports club or association, an organisation that entails membership or a workers&rsquo; co-operative, i.e. one that does not intend to make a profit.</p>
+          </div>
+          </details>
+          <details>
+          <summary>What are the advantages of this?</summary>
+          <div class="cf-faq__body">
+          <p>Because a limited by guarantee company is owned by its guarantors rather than shareholders, this means there is limited financial liability for the guarantors&rsquo; own personal finances which remain protected should the company face financial difficulties or any legal process.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Why is a guarantor different to a shareholder?</summary>
+          <div class="cf-faq__body">
+          <p>Unlike shareholders who often take a dividend out of a company, guarantors do not take any share of the profits of a limited by guarantee company allowing any such profits to remain in the company to further its objectives.</p>
+          </div>
+          </details>
+          <details>
+          <summary>Can a charity use this type of company incorporation?</summary>
+          <div class="cf-faq__body">
+          <p>No, because to incorporate a charitable company, the standard Memorandum and Article of Association cannot be used. A charity would require a special set of these that clearly state the specific objectives of the company.</p>
+          </div>
+          </details>
+          </div>
+          <p><a class="cf-btn cf-btn--primary" href="/name-check/lbg-diamond/" onclick="packagesBuyNow('lbg-diamond'); return false;">Buy now</a></p>
+        </div>
+        <aside class="cf-sidebar" aria-label="Package summary and contact">
+          <div class="cf-pkg-summary">
+            <div class="cf-pkg-summary__head">
+              <h2 class="cf-pkg-summary__name">##CUSTOM1#</h2>
+              <p class="cf-pkg-summary__price">##CUSTOM2#</p>
+            </div>
+            <div class="cf-pkg-summary__body">
+              <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/lbg-diamond/" onclick="packagesBuyNow('lbg-diamond'); return false;">Buy Now</a>
+            </div>
+          </div>
+          ##SIDEBAR_CONTACT#
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does limited by guarantee mean?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This type of company has guarantees and guarantors instead of shares and shareholders and is generally a non-profit or not-for-profit organisation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When would you choose to be a limited by guarantee company instead of a private limited company?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Examples of when to use this type of company formation would be when setting up a sports club, association, or workers’ co-operative that does not intend to make a profit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the advantages of this?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A limited by guarantee company offers limited financial liability for its guarantors and is ideal for non-profit organisations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is a guarantor different from a shareholder?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Guarantors do not take any share of the profits of a limited by guarantee company, unlike shareholders who often take dividends."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a charity use this type of company incorporation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, because a charity requires a special set of Memorandum and Articles of Association that clearly state the company's specific objectives."
+        }
+      }
+    ],
+    "url": "https://www.121companyformation.co.uk/diamond-package"
+  }
+  </script>

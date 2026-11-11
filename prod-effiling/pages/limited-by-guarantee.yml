@@ -1,0 +1,85 @@
+"##PAGE_TITLE#": Limited by Guarantee Company | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": For a company limited by guarantee, the guarantors are afforded protection to the amount of the guarantee set out in the company's articles, which is typically just £1.per guarantor
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Limited by guarantee
+"##CUSTOM2#": 
+"##CUSTOM5#": "##HERO_PAGE#"
+"URL": /limited-by-guarantee/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>An individual or groups of person are always at an advantage when they set up a limited company unlike the unincorporated forms of business such as sole trading and partnership reason been all debts incurred by the company are the company&#39;s own liabilities - they are not directly the legal liabilities of the shareholders or of the directors.</p>
+          <p>On the other hand, in the sole trading there is little distinction between you and the business, the company exists as a separate legal &#39;person&#39; from the shareholders and the directors. Just like a natural or &#39;real&#39; person, the company can own property (such as money, land, intellectual property, etc). Any business debts become your debts and your personal assets - including your house may not be protected.</p>
+          <p>Most companies formed are limited by shares, this is an ideal legal structure for making profits from their business activities. The limited by guarantee is an incorporated firm without share capital, and in which the liability of its members is limited to the amount each one of them undertakes to contribute at the time the firm is wound up.</p>
+          <p>Unlike the limited by share business, the limited by guarantee business are mainly set up for nonprofit and charitable aims. A large income is used to further the non-profit or charitable aims of the business, rather than being taken by the owners as personal income. However, both limited by share and limited by guarantee business provide limited financial liability protection to the owners of the business, which is one of the main advantages of company incorporation.</p>
+          <p>Consequently, we can say that a company limited by guarantee (LBG) is an alternative type of corporation used primarily for non-profit organizations that require legal personality. A company limited by guarantee does not usually have a share capital or shareholders but instead has members who act as guarantors. The members of a company limited by guarantee are bound by a guarantee in the company&#39;s articles of association, which requires them to pay the company&#39;s debts up to a fixed sum usually &pound;1.</p>
+          <h2>Limited by guarantee company are mainly used in</h2>
+          <ul>
+          <li>Charities (such as Oxfam)</li>
+          <li>Membership organizations, students&#39; unions inclusive.</li>
+          <li>residential property management companies.</li>
+          <li>clubs.</li>
+          <li>Sports associations.</li>
+          <li>Workers&#39; co-operatives.</li>
+          <li>Non-governmental organizations (NGOs)</li>
+          </ul>
+          <h2>What makes up a Company Limited by Guarantee?</h2>
+          <ul>
+          <li>No share capital or shareholders but instead has members who act as guarantors.</li>
+          <li>A nominal amount (typically very small) is usually contributed by members or guarantor as an undertaking in the event of the winding up of the company.</li>
+          <li>A limited by guarantee must include the suffix &quot;Limited&quot; in its name, except in circumstances specifically excluded by law. One condition of this exclusion is that the company does not distribute profits.</li>
+          <li>Company Limited by Guarantee cannot distribute its profits to its members but (depending on the provisions of the articles) this is not actually true.</li>
+          <li>A company limited by guarantee that distributes its profits to members would not be eligible for charitable status.</li>
+          </ul>
+          <h2>Benefits for setting up a limited by guarantee company?</h2>
+          <ul>
+          <li>More than anything else, a company limited by guarantee is a distinct legal entity from its owners and is responsible for its own debts.</li>
+          <li>The personal finances of the company&rsquo;s guarantors are protected. They will only be responsible for paying company debts up to the number of their guarantees.</li>
+          <li>To run a non-profit organization or charity purely non-profit or charitable purposes, rather than for personal benefit.</li>
+          <li>To provide limited liability to the people who own the non-profit organization or charity.</li>
+          <li>To create a credible and established image for your non-profit or charitable organization. this type of professional credibility is valuable and can help a company achieve its objectives more effectively.</li>
+          </ul>
+          <h2>Where do we come in?</h2>
+          <p>Setting up a company limited by guarantee through 121 company formation is simple. We offer special packages designed solely for this purpose. It takes about 5 business hours to set up your company and receive your company documents by email. Depending on your package, you&rsquo;ll receive your paper documents in the post a few days later. To begin the process, simply enter your chosen company name on our website and hit the search button.</p>
+          <p>If your company name is available simply choose your desired package, Bronze, Silver or Gold, register, then follow payment instructions via Paypal (Paypal allows you to pay using your Paypal account if you have one, or it allows you to use your credit/debit card)</p>
+          <p>Once you have paid, simply complete the remaining company registration details and hit submit. Our professional team will screen your application and begin the registration process if all details provided. are accurate. Please make yourself aware of the following requirements and regulations before applying to incorporate a limited company:</p>
+          <ul>
+          <li>You need a minimum of 1 director and 1 subscriber (ie shareholder) to set up a private limited company. A company secretary is no longer compulsory.</li>
+          <li>All companies limited by guarantee must be registered with Companies House, the Registrar of Companies in the UK.</li>
+          <li>A company limited by guarantee must have at least one director and one guarantor. A sole individual may assume both positions, or there can be multiple directors and guarantors.</li>
+          <li>All limited companies must provide details of a registered office address during the company formation process. The registered office address is the official company address that is displayed on the public record. It must be a full postal address in the country where your company is registered.</li>
+          <li>Standard Industrial Classification (SIC) codes which describe the business activities, should be supplied.</li>
+          <li>Information about People with Significant Control (PSCs) in the business should be provided. Normally, the directors and guarantors will be PSCs.</li>
+          </ul>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Limited by Guarantee Company Formation",
+    "description": "A company limited by guarantee is primarily used for non-profit organizations and charities, providing limited financial liability protection to the owners while not distributing profits to its members. This type of company is often used by charities, clubs, NGOs, and other non-profit entities.",
+    "brand": {
+      "@type": "Organization",
+      "name": "121 Company Formation"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.121companyformation.co.uk/limited-by-guarantee",
+      "priceCurrency": "GBP",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    },
+    "additionalType": "https://schema.org/NonprofitOrganization",
+    "category": "Company Formation",
+    "keywords": "Limited by Guarantee, Non-profit, Charitable, Company Formation, NGO, Charity, Membership Organization"
+  }
+  </script>

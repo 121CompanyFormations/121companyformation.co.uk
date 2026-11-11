@@ -6,6 +6,7 @@
   "scripts": {
     "build:dist": "node scripts/build-dist.mjs",
     "build:site": "node scripts/sync-from-live.mjs --site-only",
+    "build:prod": "node scripts/build-prod-effiling.mjs",
     "build": "npm run build:dist && npm run build:site",
     "start": "npm run build && node scripts/preview-server.mjs",
     "preview": "node scripts/preview-server.mjs",

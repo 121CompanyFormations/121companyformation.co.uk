@@ -1,0 +1,143 @@
+"##PAGE_TITLE#": Payroll & PAYE | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": As an experienced accounting firm we offer comprehensive accountancy services that ensures you meet all your statutory obligations as an employer.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Payroll (PAYE)
+"##CUSTOM4#": 
+"##CUSTOM5#": 
+"URL": /payroll-and-paye/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Payroll (PAYE)</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Payroll &amp; PAYE</h1>
+        <p class="cf-page-hero__price">Payroll &amp; PAYE from <strong>£295</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/contact-us/">Order now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>When a limited company is incorporated, and has one employee or
+   more, it must register for the Pay As You Earn (PAYE) scheme with
+   HMRC.</p><p>To register for PAYE, you’ll first need to
+   <a
+   href="/packages/#packages"
+   >
+   register your company
+   </a>
+   . Only businesses that are registered with Companies House have
+   the right to employ workers.</p><p>PAYE refers to the system whereby income tax and National
+   Insurance (NI) contributions are deducted from an employee’s
+   gross pay, the balance of which is the employee’s weekly (or
+   monthly) net pay. The tax and NI contributions are then paid to
+   HMRC. While other deductions may also be taken from an
+   employee’s gross pay, such as pension contributions and
+   child maintenance payments, these are not paid to HMRC.</p><p>121 Company Formation is an experienced accounting company that
+   offers a comprehensive accountancy service including ensuring that
+   you meet all your obligations as an employer.</p>
+  <h3>
+   WHAT ARE MY OBLIGATIONS AS AN EMPLOYER?
+   </h3>
+  <ul>
+  <li>Register your company as an employer</li>
+  <li>
+   Sign into online business account to choose PAYE for Employers
+   </li>
+  <li>
+   Select your business structure, Limited Company, Sole Trader,
+   Partnership
+   </li>
+  <li>Enter your company's tax reference number (UTR)</li>
+  <li>Enter you employees' first pay day</li>
+  <li>
+   Complete Employer's registration form and submit application
+   </li>
+  </ul>
+      </div>
+      <aside class="cf-sidebar" aria-label="Service pricing and help">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Payroll &amp; PAYE</h2>
+            <p class="cf-pkg-summary__price">£295</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Purchase this service to</h3>
+            
+            <ul>
+              <li>Have 121 Company Formation seamlessly manage your Payroll &amp; PAYE services so you can focus on growing your business</li>
+            </ul>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Order now</a>
+          </div>
+        </div>
+  <div class="cf-sidebar__card">
+      <h2 class="cf-sidebar__title">Need help?</h2>
+      <p>Our team can guide you through company formation and compliance.</p>
+      <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+      <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+      <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+  <div class="cf-sidebar__card cf-sidebar__card--packages">
+      <h2 class="cf-sidebar__title">Popular packages</h2>
+      <p class="cf-sidebar__intro">Limited by Shares · one-off fees</p>
+      <ul class="cf-sidebar-pkgs">
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-bronze/" onclick="packagesBuyNow('lbs-bronze'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Bronze</span>
+              <span class="cf-sidebar-pkg__hint">Essential formation</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_BRONZE_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg cf-sidebar-pkg--featured" href="/name-check/lbs-gold/" onclick="packagesBuyNow('lbs-gold'); return false;">
+            <span class="cf-sidebar-pkg__badge">Popular</span>
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Gold</span>
+              <span class="cf-sidebar-pkg__hint">+ Confirmation Statement</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_GOLD_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Platinum</span>
+              <span class="cf-sidebar-pkg__hint">+ VAT registration</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_PLATINUM_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+        <li>
+          <a class="cf-sidebar-pkg" href="/name-check/lbs-diamond/" onclick="packagesBuyNow('lbs-diamond'); return false;">
+            <span class="cf-sidebar-pkg__meta">
+              <span class="cf-sidebar-pkg__name">Diamond</span>
+              <span class="cf-sidebar-pkg__hint">+ Accounts support</span>
+            </span>
+            <span class="cf-sidebar-pkg__price">##LBS-PACKAGE_DIAMOND_Price#</span>
+            <span class="cf-sidebar-pkg__go" aria-hidden="true">Buy</span>
+          </a>
+        </li>
+      </ul>
+      <a class="cf-btn cf-btn--outline cf-btn--block cf-btn--sm" href="/packages/#packages">View all packages</a>
+    </div>
+
+      </aside>
+      </div>
+    </div>
+  </section>

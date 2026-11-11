@@ -1,0 +1,45 @@
+<script>
+  (function (d, w, c) {
+    if (!d.getElementById("spd-busns-spt")) {
+      var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script");
+      var loaded = false;
+      s.id = "spd-busns-spt";
+      s.async = "async";
+      s.setAttribute("data-self-init", "false");
+      s.setAttribute("data-init-type", "opt");
+      s.src = "https://cdn.freshbots.ai/assets/share/js/freshbots.min.js";
+      s.setAttribute("data-client", "b41709a5279911a7ada77452c083842b6e694769");
+      s.setAttribute(
+        "data-bot-hash",
+        "b73ae415ed81533954ea03ea9834c4b48cba132b",
+      );
+      s.setAttribute("data-env", "prod");
+      s.setAttribute("data-region", "us");
+      if (c) {
+        s.onreadystatechange = s.onload = function () {
+          if (!loaded) {
+            c();
+          }
+          loaded = true;
+        };
+      }
+      n.parentNode.insertBefore(s, n);
+    }
+  })(document, window, function () {
+    Freshbots.initiateWidget(
+      {
+        autoInitChat: false,
+        getClientParams: function () {
+          return {
+            "cstmr::eml": "test@test.com",
+            "cstmr::nm": "Text",
+            "cstmr::xtrInfrmtn:SiteId": "121 Company Formation Website",
+          };
+        },
+      },
+      function (successResponse) {},
+      function (errorResponse) {},
+    );
+  });
+</script>

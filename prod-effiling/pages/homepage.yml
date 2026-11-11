@@ -1,0 +1,121 @@
+"##PAGE_TITLE#": Online UK Company Formation, E-company Formation in UK, Web Developers Online, Cheap Business Insurance, Business Banking
+"##PAGE_DESCRIPTION#": 121 Company Formation is one of the UK's leading online Company formation agents.It aims to ensure providing you a complete range of complimentary services when you order a new company. With the help of direct interface with Companies House, it also ensures that it can set-up a new company easily and comparatively faster than the others.An Electronic Company Registration technology helps it to be a faster service provider, focusing your new business start-up.
+"##PAGE_KEYWORDS#": 121 Company Formation, Online UK Company Formation, Order a new Company, Companies House Forms, Company Formation, offshore company formation, offshore banking, Limited company formation, Online company formation, Register a company, How to set up a company?, How do you create a company?, Start a company, Uk Company formation, Company Registration, Online Company secretary, Company Formation Agent, offshore business banking, Setting up a Limited Company, Start your own business, Online UK Compan
+"##CUSTOM1#": Online UK Company Formation
+"##CUSTOM4#": 
+"##CUSTOM5#": "##HERO_Homepage#"
+"URL": /homepage/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  ##Services#
+  ##HOME_PACKAGES_DESKTOP#
+  ##HOME_PACKAGES_MOBILE#
+  ##HELP_SECTION#
+  ##YOUTUBE_SECTION#
+  ##HOW_IT_WORKS#
+  ##BANKING_PARTNERS#
+  ##POPULAR_SERVICES#
+  ##WHY_US#
+  ##FAQ_HOME#
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "121 Company Formation Company Formation Services",
+    "url": "https://www.121companyformation.co.uk/homepage/",
+    "description": "121 Company Formation simplifies company formation with a transparent, four-step process, offering affordable pricing, professional checks, and post-incorporation support services.",
+    "image": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg",
+    "mainEntity": {
+      "@type": "Service",
+      "name": "Company Formation",
+      "description": "Streamlined, transparent business formation services with professional checks and ongoing support.",
+      "serviceType": "Business Formation",
+      "provider": {
+        "@type": "Organization",
+        "name": "121 Company Formation",
+        "url": "https://www.121companyformation.co.uk/",
+        "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg",
+        "sameAs": [
+          "https://www.facebook.com/121companyformation",
+          "https://www.twitter.com/121CFLtd"
+        ]
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Company Name Search",
+          "description": "Search for available company names.",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Select Package and Service",
+          "description": "Choose the best package and additional services for your business.",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Proceed to Checkout",
+          "description": "Review and finalize your selections.",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Enter Company Details and Submit",
+          "description": "Complete your company formation by submitting all required details.",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+    },
+    "datePublished": "2024-12-16",
+    "dateModified": "2024-12-16"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "name": "Frequently Asked Questions",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long does it take to form a company?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our system uses the Electronic Filing facilities at Companies House. When you place an order, your request is sent electronically. Typical incorporation is within 24 business hours, subject to Companies House workload."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a solicitor or accountant to form a company?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — we can handle the whole process from start to finish. We also provide company formation services to many accountants and solicitors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What details do I need to form a limited company?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You will need a registered office address, details of directors and shareholders, share capital information, and a chosen company name that Companies House will accept."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I choose any name I want for my company?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You cannot register the same name as another company, and certain sensitive words need approval. Use our name check to review availability before you order."
+        }
+      }
+    ]
+  }
+  </script>

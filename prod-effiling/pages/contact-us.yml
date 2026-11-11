@@ -1,0 +1,145 @@
+"##PAGE_TITLE#": Contact Us | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Register today to begin your company formation process. Create an account to access our services, manage your business setup, and more.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Confirmation Statement Service
+"##CUSTOM4#": contact-us-page
+"##CUSTOM5#": 
+"URL": /contact-us/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Contact Us</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Contact Us</h1>
+      <p class="cf-page-hero__lead">Questions about UK company formation, packages or compliance? Reach us by phone, WhatsApp, email or the form below — we usually reply within 24–48 business hours.</p>
+    </div>
+  </section>
+
+  <section class="cf-section cf-contact" aria-labelledby="cf-contact-title">
+    <div class="cf-container">
+      <h2 id="cf-contact-title" class="cf-sr-only">Contact details and enquiry form</h2>
+
+      <div class="cf-contact__channels" aria-label="Quick contact options">
+        <a class="cf-contact__channel" href="tel:+442038932121">
+          <span class="cf-contact__channel-label">Phone</span>
+          <strong>+44 (0)203 8932 121</strong>
+          <span class="cf-contact__channel-hint">Speak to the team</span>
+        </a>
+        <a class="cf-contact__channel" href="https://wa.me/4407984046470" target="_blank" rel="noopener">
+          <span class="cf-contact__channel-label">WhatsApp</span>
+          <strong>##WHATSAPP_NUMBER#</strong>
+          <span class="cf-contact__channel-hint">Message us anytime</span>
+        </a>
+        <a class="cf-contact__channel" href="mailto:info@121companyformation.co.uk">
+          <span class="cf-contact__channel-label">Email</span>
+          <strong>info@121companyformation.co.uk</strong>
+          <span class="cf-contact__channel-hint">Support &amp; sales</span>
+        </a>
+        <button
+          type="button"
+          class="cf-contact__channel cf-contact__channel--btn"
+          onclick="if (window.Freshbots &amp;&amp; Freshbots.showWidget) { Freshbots.showWidget(true); } else if (typeof openChat === 'function') { openChat(); }"
+        >
+          <span class="cf-contact__channel-label">Live chat</span>
+          <strong>Chat for free</strong>
+          <span class="cf-contact__channel-hint">Instant answers online</span>
+        </button>
+      </div>
+
+      <div class="cf-contact__grid">
+        <aside class="cf-contact__info" aria-label="Office details">
+          <div class="cf-contact__card">
+            <p class="cf-eyebrow">Registered office</p>
+            <h3>Visit or write to us</h3>
+            <p>
+              <a href="https://www.google.com/maps/place/Hold+Everything/@51.5132068,-0.1438285,17.13z/data=!3m1!5s0x48761b2cab03f1df:0x588fabaca8473c91!4m5!3m4!1s0x48761ad574cf495d:0x737f5960ced46d6d!8m2!3d51.5132459!4d-0.1411087" target="_blank" rel="noopener">
+                121 Company Formation Limited<br />
+                3rd Floor, 207 Regent Street<br />
+                London W1B 3HH
+              </a>
+            </p>
+            <a class="cf-btn cf-btn--outline cf-btn--sm" href="https://www.google.com/maps/place/Hold+Everything/@51.5132068,-0.1438285,17.13z/data=!3m1!5s0x48761b2cab03f1df:0x588fabaca8473c91!4m5!3m4!1s0x48761ad574cf495d:0x737f5960ced46d6d!8m2!3d51.5132459!4d-0.1411087" target="_blank" rel="noopener">Open in Google Maps</a>
+          </div>
+
+          <div class="cf-contact__card cf-contact__card--soft">
+            <h3>Before you write</h3>
+            <ul class="cf-contact__tips">
+              <li>Include your company name or order reference if you have one</li>
+              <li>For package questions, see <a href="/packages/#packages">our packages</a></li>
+              <li>For common queries, check the <a href="/frequently-asked-questions/">FAQs</a></li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="cf-contact__form-wrap">
+          <div class="cf-contact__form">
+            ##PAGE_CONTENT#
+            <div id="success" class="cf-contact__msg cf-contact__msg--success" hidden>Your message was sent successfully.</div>
+            <div id="error" class="cf-contact__msg cf-contact__msg--error" hidden>Something went wrong. Please try again, or email us directly.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-contact__map mapbox" aria-label="Office location map">
+        <iframe
+          title="121 Company Formation office map — 207 Regent Street, London"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=207%20regent%20street%20london%20w1b%203hh+(121%20Company%20Formation)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.121companyformation.co.uk/contact-us/"
+    },
+    "url": "https://www.121companyformation.co.uk/contact-us/",
+    "name": "Contact Us - 121 Company Formation",
+    "description": "Get in touch with 121 Company Formation for inquiries on company formation services, business registration, and support. We're here to help.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.121companyformation.co.uk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact Us",
+          "item": "https://www.121companyformation.co.uk/contact-us/"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+44-203-8932-121",
+      "contactType": "Customer Support",
+      "areaServed": "GB",
+      "availableLanguage": [
+        "English"
+      ],
+      "email": "info@121companyformation.co.uk"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3rd Floor, 207 Regent Street",
+      "addressLocality": "London",
+      "postalCode": "W1B 3HH",
+      "addressCountry": "GB"
+    }
+  }
+  </script>

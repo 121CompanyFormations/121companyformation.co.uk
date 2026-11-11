@@ -1,0 +1,123 @@
+"##PAGE_TITLE#": Sitemap HTML
+"##PAGE_DESCRIPTION#": 
+"##PAGE_KEYWORDS#": 
+"##CUSTOM1#": Sitemap HTML
+"##CUSTOM2#": 
+"##CUSTOM5#": "##HERO_PAGE#"
+"URL": /sitemap-html/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <ul class="cf-sitemap">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us/">About Us</a></li>
+          <li><a href="/address-services/">Address Services</a></li>
+          <li><a href="/admin-portal-to-manage-your-companies/">Admin Portal To Manage Your Companies</a></li>
+          <li><a href="/allocation-of-shares/">Allocation Of Shares</a></li>
+          <li><a href="/bookkeeping/">Bookkeeping</a></li>
+          <li><a href="/business-banking/">Business Banking</a></li>
+          <li><a href="/business-telephone-service/">Business Telephone Service</a></li>
+          <li><a href="/business-telephone-services/">Business Telephone Services</a></li>
+          <li><a href="/buy/">Buy</a></li>
+          <li><a href="/certificate-of-good-standing/">Certificate Of Good Standing</a></li>
+          <li><a href="/closing-a-company/">Closing A Company</a></li>
+          <li><a href="/company-closure/">Company Closure</a></li>
+          <li><a href="/company-details/officer/terminate/">Company Detailsofficerterminate</a></li>
+          <li><a href="/company-director/">Company Director</a></li>
+          <li><a href="/company-formation-checklist/">Company Formation Checklist</a></li>
+          <li><a href="/company-name-chang/">Company Name Chang</a></li>
+          <li><a href="/company-name-change/">Company Name Change</a></li>
+          <li><a href="/company-secretary/">Company Secretary</a></li>
+          <li><a href="/confirmation-statement-service/">Confirmation Statement Service</a></li>
+          <li><a href="/contact-request-form/">Contact Request Form</a></li>
+          <li><a href="/contact-us/">Contact Us</a></li>
+          <li><a href="/corporation-tax/">Corporation Tax</a></li>
+          <li><a href="/director-appointment-and-resignation/">Director Appointment And Resignation</a></li>
+          <li><a href="/director-salary-and-dividends/">Director Salary And Dividends</a></li>
+          <li><a href="/dormant-company-account/">Dormant Company Account</a></li>
+          <li><a href="/free-business-banking/">Free Business Banking</a></li>
+          <li><a href="/frequently-asked-questions/">Frequently Asked Questions</a></li>
+          <li><a href="/guide-to-companies-house-search/">Guide To Companies House Search</a></li>
+          <li><a href="/help-sic-codes-2/">Help Sic Codes 2</a></li>
+          <li><a href="/help-sic-codes/">Help Sic Codes</a></li>
+          <li><a href="/international-plus/">International Plus</a></li>
+          <li><a href="/international/">International</a></li>
+          <li><a href="/introduction-to-company-formation/">Introduction To Company Formation</a></li>
+          <li><a href="/issue-of-shares/">Issue Of Shares</a></li>
+          <li><a href="/lbg-bronze/">Lbg Bronze</a></li>
+          <li><a href="/lbg-diamond/">Lbg Diamond</a></li>
+          <li><a href="/lbg-gold/">Lbg Gold</a></li>
+          <li><a href="/lbg-platinum/">Lbg Platinum</a></li>
+          <li><a href="/lbg-silver/">Lbg Silver</a></li>
+          <li><a href="/lbg/">Lbg</a></li>
+          <li><a href="/lbs-bronze/">Lbs Bronze</a></li>
+          <li><a href="/lbs-diamond/">Lbs Diamond</a></li>
+          <li><a href="/lbs-gold/">Lbs Gold</a></li>
+          <li><a href="/lbs-platinum/">Lbs Platinum</a></li>
+          <li><a href="/lbs-silver/">Lbs Silver</a></li>
+          <li><a href="/limited-by-guarantee-company/">Limited By Guarantee Company</a></li>
+          <li><a href="/limited-by-guarantee/">Limited By Guarantee</a></li>
+          <li><a href="/limited-by-shares/">Limited By Shares</a></li>
+          <li><a href="/limited-company-shareholders/">Limited Company Shareholders</a></li>
+          <li><a href="/limited-liability-partnership-package/">Limited Liability Partnership Package</a></li>
+          <li><a href="/limited-liability-partnership/">Limited Liability Partnership</a></li>
+          <li><a href="/llp-bronze/">Llp Bronze</a></li>
+          <li><a href="/llp-diamond/">Llp Diamond</a></li>
+          <li><a href="/llp-gold/">Llp Gold</a></li>
+          <li><a href="/llp-platinum/">Llp Platinum</a></li>
+          <li><a href="/llp-silver/">Llp Silver</a></li>
+          <li><a href="/llp/">Llp</a></li>
+          <li><a href="/login/">Login</a></li>
+          <li><a href="/name-check/">Name Check</a></li>
+          <li><a href="/name-check/international-plus/">Name Checkinternational Plus</a></li>
+          <li><a href="/name-check/international/">Name Checkinternational</a></li>
+          <li><a href="/name-check/lbg-bronze/">Name Checklbg Bronze</a></li>
+          <li><a href="/name-check/lbg-diamond/">Name Checklbg Diamond</a></li>
+          <li><a href="/name-check/lbg-gold/">Name Checklbg Gold</a></li>
+          <li><a href="/name-check/lbg-platinum/">Name Checklbg Platinum</a></li>
+          <li><a href="/name-check/lbg-silver/">Name Checklbg Silver</a></li>
+          <li><a href="/name-check/lbs-bronze/">Name Checklbs Bronze</a></li>
+          <li><a href="/name-check/lbs-diamond/">Name Checklbs Diamond</a></li>
+          <li><a href="/name-check/lbs-gold/">Name Checklbs Gold</a></li>
+          <li><a href="/name-check/lbs-platinum/">Name Checklbs Platinum</a></li>
+          <li><a href="/name-check/lbs-silver/">Name Checklbs Silver</a></li>
+          <li><a href="/name-check/llp-bronze/">Name Checkllp Bronze</a></li>
+          <li><a href="/name-check/llp-diamond/">Name Checkllp Diamond</a></li>
+          <li><a href="/name-check/llp-gold/">Name Checkllp Gold</a></li>
+          <li><a href="/name-check/llp-platinum/">Name Checkllp Platinum</a></li>
+          <li><a href="/name-check/llp-silver/">Name Checkllp Silver</a></li>
+          <li><a href="/online-company-name-search-tool/">Online Company Name Search Tool</a></li>
+          <li><a href="/our-4-step-guide-to-setting-up-a-company/">Our 4 Step Guide To Setting Up A Company</a></li>
+          <li><a href="/packages/">Packages</a></li>
+          <li><a href="/password-reset/">Password Reset</a></li>
+          <li><a href="/payment-gateway/">Payment Gateway</a></li>
+          <li><a href="/payroll-and-paye/">Payroll And Paye</a></li>
+          <li><a href="/post-incorporation-activities/">Post Incorporation Activities</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/processed-mail/">Processed Mail</a></li>
+          <li><a href="/refund-and-cancellation-policy/">Refund And Cancellation Policy</a></li>
+          <li><a href="/register/">Register</a></li>
+          <li><a href="/registered-office-address/">Registered Office Address</a></li>
+          <li><a href="/remarketing/">Remarketing</a></li>
+          <li><a href="/renewals/">Renewals</a></li>
+          <li><a href="/service-address/">Service Address</a></li>
+          <li><a href="/sole-trader-vs-limited-company/">Sole Trader Vs Limited Company</a></li>
+          <li><a href="/terms-and-conditions/">Terms And Conditions</a></li>
+          <li><a href="/terms/">Terms</a></li>
+          <li><a href="/trade-mail-forwarding/">Trade Mail Forwarding</a></li>
+          <li><a href="/transfer-of-shares/">Transfer Of Shares</a></li>
+          <li><a href="/uk-tax-identification-number-guide/">Uk Tax Identification Number Guide</a></li>
+          <li><a href="/vat-registration/">Vat Registration</a></li>
+          <li><a href="/vat-returns/">Vat Returns</a></li>
+          <li><a href="/vat/">Vat</a></li>
+          <li><a href="/year-end-accounts/">Year End Accounts</a></li>
+          </ul>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>

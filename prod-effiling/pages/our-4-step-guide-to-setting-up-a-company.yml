@@ -1,0 +1,167 @@
+"##PAGE_TITLE#": 4 Step Guide to Setting Up a Company
+"##PAGE_DESCRIPTION#": Set up your UK company in just four easy steps. Our comprehensive guide simplifies the process, helping you establish your business swiftly and correctly.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": 
+"##CUSTOM2#": "##FOOTER_Register#"
+"##CUSTOM5#": 
+"URL": /our-4-step-guide-to-setting-up-a-company/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">4 Step Guide to Setting Up a Company</span>
+      </nav>
+      <h1 class="cf-page-hero__title">4 Step Guide to Setting Up a Company</h1>
+      <p class="cf-page-hero__lead">Four simple steps to form a UK company online — save your progress and come back anytime.</p>
+    </div>
+  </section>
+
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div>
+          <p class="cf-guide-intro">There are just four simple steps to <a href="/packages/#packages">our company formation service</a>, designed to make the process as easy as possible. Our system lets you save partially completed applications so you can return, amend, update or finish at any time.</p>
+
+          <div class="cf-guide" data-cf-guide>
+            <input class="cf-guide__radio" type="radio" name="cf-guide-step" id="cf-guide-1" checked />
+            <input class="cf-guide__radio" type="radio" name="cf-guide-step" id="cf-guide-2" />
+            <input class="cf-guide__radio" type="radio" name="cf-guide-step" id="cf-guide-3" />
+            <input class="cf-guide__radio" type="radio" name="cf-guide-step" id="cf-guide-4" />
+
+            <ol class="cf-guide__nav" aria-label="Formation steps">
+              <li>
+                <label class="cf-guide__tab" for="cf-guide-1">
+                  <span class="cf-guide__num" aria-hidden="true">1</span>
+                  <span class="cf-guide__tab-text">
+                    <span class="cf-guide__tab-label">Step 1</span>
+                    <span class="cf-guide__tab-title">Choose a name</span>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="cf-guide__tab" for="cf-guide-2">
+                  <span class="cf-guide__num" aria-hidden="true">2</span>
+                  <span class="cf-guide__tab-text">
+                    <span class="cf-guide__tab-label">Step 2</span>
+                    <span class="cf-guide__tab-title">Select a package</span>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="cf-guide__tab" for="cf-guide-3">
+                  <span class="cf-guide__num" aria-hidden="true">3</span>
+                  <span class="cf-guide__tab-text">
+                    <span class="cf-guide__tab-label">Step 3</span>
+                    <span class="cf-guide__tab-title">Submit payment</span>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="cf-guide__tab" for="cf-guide-4">
+                  <span class="cf-guide__num" aria-hidden="true">4</span>
+                  <span class="cf-guide__tab-text">
+                    <span class="cf-guide__tab-label">Step 4</span>
+                    <span class="cf-guide__tab-title">Complete details</span>
+                  </span>
+                </label>
+              </li>
+            </ol>
+
+            <div class="cf-guide__panels">
+              <article class="cf-guide__panel" data-panel="1" aria-labelledby="cf-guide-title-1">
+                <p class="cf-eyebrow">Step 1 of 4</p>
+                <h2 id="cf-guide-title-1">Choose a company name</h2>
+                <p>Once you have decided on the name you would like to use for your company, visit our homepage to use our quick check tool to verify its availability.</p>
+                <p>This quick search tool is connected to the Companies House database and can immediately confirm if your chosen company name is available and approved by Companies House. If the proposed company name is too close to, or the same as, an existing company name, Companies House will not approve its use.</p>
+                <p>We offer our quick search tool free of charge — try as many variations as you like until you find one that is suitable, available and approved.</p>
+                <div class="cf-guide__actions">
+                  <a class="cf-btn cf-btn--outline" href="/online-company-name-search-tool/">Check a name</a>
+                  <label class="cf-btn cf-btn--primary" for="cf-guide-2">Next step</label>
+                </div>
+              </article>
+
+              <article class="cf-guide__panel" data-panel="2" aria-labelledby="cf-guide-title-2">
+                <p class="cf-eyebrow">Step 2 of 4</p>
+                <h2 id="cf-guide-title-2">Select a package</h2>
+                <p>There are three types of limited company available:</p>
+                <ul>
+                  <li>Limited by Shares (and Limited by Shares for non-UK residents)</li>
+                  <li>Limited Liability Partnership</li>
+                  <li>Limited by Guarantee</li>
+                </ul>
+                <p>For each type, 121 Company Formation offers different company formation packages so you can choose the level of support you need for incorporation and during the first year of trading.</p>
+                <p>Packages are designed to suit every budget. You can also add business support services at any time — from administrative services such as handling incoming calls, to bookkeeping and accounting.</p>
+                <div class="cf-guide__actions">
+                  <label class="cf-btn cf-btn--outline" for="cf-guide-1">Previous</label>
+                  <a class="cf-btn cf-btn--outline" href="/packages/#packages">View packages</a>
+                  <label class="cf-btn cf-btn--primary" for="cf-guide-3">Next step</label>
+                </div>
+              </article>
+
+              <article class="cf-guide__panel" data-panel="3" aria-labelledby="cf-guide-title-3">
+                <p class="cf-eyebrow">Step 3 of 4</p>
+                <h2 id="cf-guide-title-3">Submit payment</h2>
+                <p>Once you have decided which company formation package is most suitable, make your selection. You will be asked to complete your order details and submit payment through our secure online portal using a credit card, debit card, or via PayPal.</p>
+                <p>An order confirmation and an invoice will then be emailed to you.</p>
+                <div class="cf-guide__actions">
+                  <label class="cf-btn cf-btn--outline" for="cf-guide-2">Previous</label>
+                  <label class="cf-btn cf-btn--primary" for="cf-guide-4">Next step</label>
+                </div>
+              </article>
+
+              <article class="cf-guide__panel" data-panel="4" aria-labelledby="cf-guide-title-4">
+                <p class="cf-eyebrow">Step 4 of 4</p>
+                <h2 id="cf-guide-title-4">Complete your company’s details</h2>
+                <p>On receipt of your order and payment, you will be asked to complete a company incorporation document online. This prompts you to enter details of the <a href="/registered-office-address/">company’s registered address</a>, its officers, shareholders, SIC code and so forth.</p>
+                <p>We will review the application for errors and omissions before submitting to Companies House. Typically within 24 business hours your company will be formally incorporated and registered, at which time we will email your company’s statutory incorporation documents.</p>
+                <div class="cf-guide__actions">
+                  <label class="cf-btn cf-btn--outline" for="cf-guide-3">Previous</label>
+                  <a class="cf-btn cf-btn--primary" href="/packages/#packages">Incorporate a new company now</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "4 Step Guide to Set Up a UK Company",
+    "description": "A simple 4-step guide to setting up a UK company, including choosing a name, selecting a package, submitting payment, and completing company details.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Choose a Company Name",
+        "text": "Use our quick check tool to verify the availability of your desired company name via the Companies House database. Try variations until you find an approved name.",
+        "url": "https://www.121companyformation.co.uk/"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Select a Package",
+        "text": "Choose from Limited by Shares, Limited Liability Partnership, or Limited by Guarantee packages. Select the support level that suits your incorporation and trading needs.",
+        "url": "https://www.121companyformation.co.uk/packages/#packages"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Submit Payment",
+        "text": "Complete your order details and make a secure online payment via credit card, debit card, or PayPal. An order confirmation and invoice will be sent via email."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Complete Your Company's Details",
+        "text": "Provide the registered address, officer details, shareholders, and SIC code. We will review and submit your application to Companies House. Your company will be incorporated within 24 business hours.",
+        "url": "https://www.121companyformation.co.uk/registered-office-address/"
+      }
+    ]
+  }
+  </script>

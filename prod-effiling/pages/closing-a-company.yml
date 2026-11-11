@@ -1,0 +1,76 @@
+"##PAGE_TITLE#": Closing a Company | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": When required 121 Company Formation can help you to close a limited company in order to avoid penalties and unnecessary legal issues
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Closing Down a Company
+"##CUSTOM2#": 
+"##CUSTOM5#": "##HERO_PAGE#"
+"URL": /closing-a-company/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>So you want to close down your company? In other words you want to strike off your company from the register and have it dissolved.</p>
+          <p>There are a number of reasons people may wish to strike off their company. Perhaps the timing wasn&rsquo;t quite right and the company has been dormant for some time; or things may have gone a little sour with a business partner; or the directors may have decided to hang up their boots and retire and there is no one to take over from them. Whatever the reason, this is something we can help with. However there are a few key criteria that your company has to meet if you wish to opt for voluntary striking off:</p>
+          <ul>
+          <li>Your company has not traded in the last 3 months.</li>
+          <li>Your company has not made any financial transactions in the last 3 months, including making payments or taking out a loan or receiving any deposits.</li>
+          <li>Your company has not sold property, rights to goods or stock that it owned just before ceasing to be in business.</li>
+          <li>Your company is not in the process of changing its name.</li>
+          <li>Your company is not already going through insolvency proceedings.</li>
+          </ul>
+          <p>It is serious offence to attempt to close down your company if any of the above conditions applies. This offence carries a maximum penalty of &pound;5,000.</p>
+          <p><strong>Next Steps</strong></p>
+          <p>Once you are happy that your company complies with all of the above conditions, the next steps are as follows:</p>
+          <ul>
+          <li>Seek agreement from the majority of the company directors. So from the sole director if only 1, by both if there are 2, or by the majority if there are more than 2.</li>
+          <li>For assistance contact us either by sending an email to <a href="mailto:info@121companyformation.co.uk">info@121companyformation.co.uk</a> or call us on +44 (0)203 8932 121.</li>
+          </ul>
+          ##GA1#
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Strike Off Your Company: A Step-by-Step Guide",
+    "description": "Learn the conditions and steps required to voluntarily strike off your company and have it dissolved.",
+    "author": {
+      "@type": "Organization",
+      "name": "121 Company Formation"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+    },
+    "datePublished": "2024-11-13",
+    "dateModified": "2024-11-13",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.121companyformation.co.uk/strike-off-company/"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+44-203-8932-121",
+      "contactType": "Customer Service",
+      "areaServed": "GB",
+      "availableLanguage": "English",
+      "email": "info@121companyformation.co.uk"
+    },
+    "articleBody": "So you want to close down your company? In other words, you want to strike off your company from the register and have it dissolved. There are a number of reasons people may wish to strike off their company... There are a few key criteria that your company has to meet if you wish to opt for voluntary striking off, such as not trading in the last 3 months and not being in the process of insolvency proceedings. Once you are sure your company meets the criteria, the next steps involve seeking agreement from the majority of the company directors and contacting 121 Company Formation for assistance.",
+    "wordCount": 350,
+    "keywords": "strike off company, dissolve company, company closure, company dissolution, 121 Company Formation",
+    "potentialAction": {
+      "@type": "ContactAction",
+      "name": "Contact for Assistance",
+      "target": "mailto:info@121companyformation.co.uk"
+    }
+  }
+  </script>

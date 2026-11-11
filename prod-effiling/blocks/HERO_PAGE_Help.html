@@ -1,0 +1,25 @@
+<section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+  <div class="cf-container cf-namesearch-hero__inner">
+    <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+      <span class="cf-breadcrumbs__current">##PAGE_TITLE#</span>
+    </nav>
+    <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">Check if your company name is available</h1>
+    <form class="cf-namecheck cf-namecheck--wide" action="/name-check/" method="GET" novalidate role="search">
+      <input name="gle" type="hidden" value="namecheck" />
+      <label class="cf-sr-only" for="company_name">Type a company name</label>
+      <input
+        id="company_name"
+        class="efInputText"
+        name="name"
+        type="text"
+        value="##COMPANY_REQUESTED_NAME#"
+        placeholder="Type a name"
+        autocomplete="organization"
+        aria-label="Type a name"
+      />
+      <button class="cf-btn cf-btn--primary efSubmitButton" type="submit">Check now</button>
+    </form>
+  </div>
+</section>

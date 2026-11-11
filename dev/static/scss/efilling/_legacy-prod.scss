@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Rules carried over from the previous production site (prod-backup) that are still
+   relevant to the redesign. Everything else in the old CSS_TEASERS / ACS_CSS blocks styled
+   markup that no longer exists (old hero teasers, .heading-1/.content-1 cards, …) and was dropped.
+
+   Sources
+   - blocks/CSS_TEASERS.html        → #efEmulationWidget, .ef-16-item-* (platform order wizard)
+   - blocks/INITIAL_CHECKOUT_CSS    → optional-products info tooltip on the checkout step
+   - blocks/SITE_MESSAGE_.html      → .site-message banner (styled by the old app_min_full.css)
+   ========================================================================== */
+
+/* eFiling support "emulate customer" bar – must stay above the sticky header */
+#efEmulationWidget {
+  position: fixed;
+  z-index: 99999;
+  width: 99%;
+}
+
+/* eFiling order wizard – lower action bar */
+.ef-16-item-lowerbar {
+  .ef-advert-tnc-wrapper {
+    bottom: 3px !important;
+  }
+  .ef-16-item-btn {
+    z-index: 15 !important;
+  }
+}
+
+.ef-16-item-terms-link {
+  color: $cf-muted !important;
+}
+
+/* Checkout – optional products: description lives in a hover tooltip on desktop */
+.efOptionalTrProduct span.details {
+  display: none;
+}
+
+div.prodinfo {
+  position: relative;
+}
+
+.info-tooltip {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-image: url(/assets/custom/images/info-button.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: margin-bottom 0.1s ease-in;
+
+  &:hover {
+    margin-bottom: 10px;
+  }
+}
+
+.text-tooltip {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+  width: 600px;
+  max-width: 70vw;
+  padding: 24px;
+  border-radius: $cf-radius;
+  background: $white;
+  border: 1px solid $cf-line;
+  box-shadow: $cf-shadow;
+  color: $cf-muted;
+  text-align: left;
+  display: none;
+  z-index: 10;
+}
+
+.info-tooltip:hover + .text-tooltip,
+.text-tooltip:hover {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .efOptionalTrProduct span.details {
+    display: block;
+  }
+  div.prodinfo {
+    display: none;
+  }
+}
+
+/* Site-wide notice (SITE_MESSAGE_ block) */
+.site-message {
+  margin: 0;
+  padding: 12px 16px;
+  background: $cf-navy;
+  color: $white;
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  border-bottom: 3px solid $cf-orange;
+}
+
+/* Name-check package pages (/name-check/{package}/): short lead under the hero title */
+.cf-namesearch-hero__lead {
+  margin: -14px 0 24px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+}
+
+/* Layout always renders FOOTER_Register; the packages page has its own CTA (body class via CUSTOM4) */
+body.packages-page .cf-cta {
+  display: none;
+}
+
+/* Account menu (authenticated header): last nav item opens aligned to the right edge */
+.cf-nav__toggle-btn,
+.cf-nav > li > a {
+  white-space: nowrap;
+}
+.cf-nav > li:last-child > .cf-dropdown--right {
+  left: auto;
+  right: 0;
+  min-width: 220px;
+}
+
+@media (max-width: 990px) {
+  .cf-nav > li:last-child > .cf-dropdown--right {
+    right: auto;
+  }
+}

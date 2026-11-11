@@ -1,0 +1,150 @@
+"##PAGE_TITLE#": Free Business Banking  | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": We have partnered with a range of UK business banking providers to ensure our customers banking needs are catered for
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Free Barclays Business Banking
+"##CUSTOM4#": 
+"##CUSTOM5#": "##HERO_PAGE_Services2#"
+"URL": /free-business-banking/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <h3>We offer a combined company formation and bank account service</h3>
+          <p>As a leading UK Company Formation Agent, 121 Company Formation has been appointed as a Barclays Approved new business partner. Through our unique agreement with Barclays Bank PLC, <strong>121 Company Formation</strong> offers a fast track account opening process, subject to Barclays&#39; due diligence checks.</p>
+          <h3>Main features:</h3>
+          <ul>
+          <li>Your application will be channelled through the Barclays automated fast track process</li>
+          <li>1 year free banking for Start-up businesses</li>
+          <li>Dedicated Local Business Manager</li>
+          <li>24/7 award winning banking support</li>
+          <li>Online, Telephone &amp; branch based banking</li>
+          <li>Access to a network of local experts &amp; specialists</li>
+          <li>Free seminars, workshops and business skills training</li>
+          <li>A unique award winning credit management service to help prevent and reduce the risk of late payment and bad debt</li>
+          <li>2GB free of data backup storage to protect business critical data</li>
+          <li>Subsidised Payroll services</li>
+          <li>Savings of up to &pound;2,000 on the market leading essential business software applications and services including Sage &amp; QuickBooks and business compliance services</li>
+          </ul>
+          <h3>How does it work?</h3>
+          <p>You must have successfully registered a limited company to use this service.</p>
+          <p>Less than 24 hours after your company has been accepted and registered by Companies House, your contact details will be referred to a Barclays Local Business Manager at a branch close to your business premises.</p>
+          <p>The Local Business Manager will then contact you no later than 48 hours after receiving your details to welcome you to Barclays, discuss your needs and arrange a suitable time to meet up and open their new business account, subject to Barclays&#39; due diligence checks.</p>
+          <p>This process has been designed to ensure that our customers receive a first class priority service.</p>
+          <h3>Resigster A Company Now for your Free Barclays Business Banking*</h3>
+          <p><small>*Subject to Barclays Bank approval.</small></p>
+          <p><small>##GA1#</small></p>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Combined Company Formation and Bank Account Service",
+    "alternateName": "Free Company Formation with Barclays Bank Account",
+    "provider": {
+      "@type": "Organization",
+      "name": "121 Company Formation",
+      "url": "https://www.121companyformation.co.uk/",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg"
+    },
+    "description": "121 Company Formation provides a free company formation service bundled with Barclays Bank account setup, offering start-ups quick access to essential banking services.",
+    "additionalType": "https://schema.org/FinancialService",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.121companyformation.co.uk/company-formation-bank-account-service/"
+    },
+    "serviceType": "Company Formation and Banking Services",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.121companyformation.co.uk/company-formation-bank-account-service/",
+      "price": "0.00",
+      "priceCurrency": "GBP",
+      "eligibleRegion": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Free company formation and banking services, subject to approval by Barclays Bank."
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Main Features of the Service",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "1 Year Free Banking for Start-Up Businesses",
+          "description": "Enjoy one year of free Barclays Business Banking for new businesses."
+        },
+        {
+          "@type": "Offer",
+          "name": "Dedicated Local Business Manager",
+          "description": "Get personalized support from a dedicated local business manager."
+        },
+        {
+          "@type": "Offer",
+          "name": "24/7 Award-Winning Banking Support",
+          "description": "Access round-the-clock banking support for your business needs."
+        },
+        {
+          "@type": "Offer",
+          "name": "Multi-Channel Banking Options",
+          "description": "Bank online, via telephone, or in-branch as per your convenience."
+        },
+        {
+          "@type": "Offer",
+          "name": "Access to Local Experts and Specialists",
+          "description": "Connect with a network of local experts for tailored business advice."
+        },
+        {
+          "@type": "Offer",
+          "name": "Free Business Skills Training",
+          "description": "Attend seminars, workshops, and training sessions at no cost."
+        },
+        {
+          "@type": "Offer",
+          "name": "Credit Management Services",
+          "description": "Receive help managing late payments and preventing bad debts."
+        },
+        {
+          "@type": "Offer",
+          "name": "2GB Free Data Backup Storage",
+          "description": "Secure your business data with complimentary 2GB of backup storage."
+        },
+        {
+          "@type": "Offer",
+          "name": "Subsidized Payroll Services",
+          "description": "Benefit from discounted payroll management services."
+        },
+        {
+          "@type": "Offer",
+          "name": "Software Discounts",
+          "description": "Enjoy discounts on business software like Sage and QuickBooks."
+        }
+      ]
+    },
+    "termsOfService": "Subject to Barclays Bank approval.",
+    "potentialAction": {
+      "@type": "RegisterAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.121companyformation.co.uk/register-company/",
+        "inLanguage": "en"
+      },
+      "result": {
+        "@type": "Thing",
+        "name": "Barclays Business Banking Account"
+      },
+      "description": "Register your company to gain access to Barclays' free business banking services."
+    }
+  }
+  </script>

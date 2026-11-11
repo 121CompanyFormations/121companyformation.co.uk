@@ -1,0 +1,45 @@
+"##PAGE_TITLE#": LLP PLatinum - Check name availability | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": "The Platinum Package offers just that little bit more help with setting up a limited company by taking away the hassle of registering for VAT with HMRC - just ##LLP-PACKAGE_PLATINUM_Price#"
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": LLP Platinum Package
+"##CUSTOM3#": llp-platinum
+"##CUSTOM5#": 
+"URL": /name-check/llp-platinum/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-namesearch-hero" aria-labelledby="cf-namesearch-title">
+    <div class="cf-container cf-namesearch-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <a href="/name-check/">Name Check</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">##CUSTOM1#</span>
+      </nav>
+      <h1 id="cf-namesearch-title" class="cf-namesearch-hero__title">##CUSTOM1#</h1>
+      <p class="cf-namesearch-hero__lead">Choose your new company name</p>
+      ##NAME_CHECK_FORM#
+    </div>
+  </section>
+
+  ##HELP_SECTION#
+  <script>
+    fbq('trackCustom', 'NameSearch');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "LLP Platinum - Check name availability",
+    "description": "The Platinum Package offers just that little bit more help with setting up a limited company by taking away the hassle of registering for VAT with HMRC - just ##LLP-PACKAGE_PLATINUM_Price#",
+    "url": "https://www.121companyformation.co.uk/name-check/llp-platinum/",
+    "mainEntity": {
+      "@type": "WebPageElement",
+      "name": "Company Name Search Form",
+      "url": "https://www.121companyformation.co.uk/name-check/llp-platinum/",
+      "description": "Fill in the form to check the availability of your desired company name."
+    }
+  }
+  </script>

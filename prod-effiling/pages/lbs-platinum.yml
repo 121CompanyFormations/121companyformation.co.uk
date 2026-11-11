@@ -1,0 +1,121 @@
+"##PAGE_TITLE#": LBS Platinum | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Opt for the LBS Platinum package for an exclusive company formation experience, including expedited name checks and top-tier business support services.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Platinum Package
+"##CUSTOM2#": "##LBS-PACKAGE_PLATINUM_Price#"
+"##CUSTOM5#": 
+"URL": /lbs-platinum/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero cf-page-hero--package" aria-label="Page header">
+    <div class="cf-container">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Platinum Package</span>
+      </nav>
+      <div class="cf-page-hero__row">
+      <div class="cf-page-hero__copy">
+        <h1 class="cf-page-hero__title">Platinum Package</h1>
+        <p class="cf-page-hero__price">The one-off fee for the Platinum Package is just <strong>##LBS-PACKAGE_PLATINUM_Price#</strong></p>
+      </div>
+      <a class="cf-btn cf-btn--light" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">Buy Now</a>
+    </div>
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <p>The Platinum Package offers a comprehensive set of services that
+   takes care of the many statutory requirements for newly formed
+   companies including
+   <a href="/confirmation-statement-service/">filing your first year's confirmation statement</a>
+   as well as
+   <a href="/vat-registration/">VAT registration</a>.
+   More than providing you a hassle-free set of services, this
+   package leaves you free to focus on making your business a success
+   knowing that everything that needs to be done to set up your company
+   has been handled by a team of company formation experts.</p>
+  <h3>What does the Platinum Package include?</h3>
+  <p>A highly personalised service that will not only take care of all
+   the necessary documentation at the time of incorporation but also
+   ensure that the company's
+   <a href="/confirmation-statement-service/">first year confirmation statement</a>
+   is filed and that the company is registered with HMRC for VAT
+   purposes. The Platinum Package includes:</p>
+  <ul>
+  <li>An incorporated limited company that is ready to begin trading</li>
+  <li>Officers of the company appointed</li>
+  <li>Ordinary shares issued</li>
+  <li>A PDF file containing the Certificate of Incorporation, the Memorandum and Articles of Association and the share certificate/s</li>
+  <li>Registration for VAT with HMRC</li>
+  <li>Free filing of the company’s <a href="/confirmation-statement-service/">Confirmation Statement</a> for the first year</li>
+  <li>Free access to your company management portal</li>
+  <li>Free fast-track referral service for <a href="/business-banking/">business banking</a> facilities</li>
+  </ul>
+  <p>We offer a very quick service &ndash; your company will be usually
+   formed within three to four hours of placing your order, subject to
+   Companies House response times.</p>
+  <h3>The process</h3>
+  <ol>
+  <li>Use our free tool to do a company name search to check that your chosen company name is available. If it is not, we will recommend a few alternatives</li>
+  <li>Complete the self-guided company incorporation application form with details of the company secretary, directors, shareholders, <a href="/registered-office-address/">registered address</a> and <a href="/service-address/">director service address</a>, if applicable</li>
+  <li>We’ll submit the application to Companies House on your behalf, along with the appropriate fee</li>
+  <li>We will contact you via email (typically within 24 business hours), once your company has been incorporated and registered at Companies House.</li>
+  </ol>
+  <p><a class="cf-btn cf-btn--primary" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">Buy now</a></p>
+      </div>
+      <aside class="cf-sidebar" aria-label="Package summary and contact">
+        <div class="cf-pkg-summary">
+          <div class="cf-pkg-summary__head">
+            <h2 class="cf-pkg-summary__name">Platinum Package</h2>
+            <p class="cf-pkg-summary__price">##LBS-PACKAGE_PLATINUM_Price#</p>
+          </div>
+          <div class="cf-pkg-summary__body">
+            <h3 class="cf-pkg-summary__label">Who is it for?</h3>
+            <p>UK and international companies and individuals looking to set up a for-profit company in the UK.</p>
+            <h3 class="cf-pkg-summary__label">What you’ll get</h3>
+            <ul>
+              <li>Our standard, fast, hassle-free company formation service (<a href="/lbs-bronze/">Bronze Package</a>)</li>
+              <li>PLUS! Free filing of your company's <a href="/confirmation-statement-service/">confirmation statement</a> for the first year</li>
+              <li>PLUS! Have your company's <a href="/vat-registration/">VAT registered</a> with HMRC</li>
+            </ul>
+            <p class="cf-pkg-summary__note">All our formation packages include <a href="/business-banking/">a free business bank account referral</a> for UK residents!</p>
+            <a class="cf-btn cf-btn--primary cf-btn--block" href="/name-check/lbs-platinum/" onclick="packagesBuyNow('lbs-platinum'); return false;">Buy Now</a>
+          </div>
+        </div>
+        <div class="cf-sidebar__card">
+          <h2 class="cf-sidebar__title">Need help?</h2>
+          <p>Our team can guide you through company formation and compliance.</p>
+          <a class="cf-btn cf-btn--primary cf-btn--block" href="/contact-us/">Contact us</a>
+          <a class="cf-btn cf-btn--outline cf-btn--block" href="tel:+442038932121">+44 (0)203 8932 121</a>
+          <a class="cf-btn cf-btn--soft cf-btn--block" href="https://wa.me/4407984046470" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </aside>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Platinum Package",
+    "description": "The Platinum Package offers extra support with company formation, including VAT registration with HMRC, allowing the business to be fully operational. It includes various services to ensure smooth company setup.",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "242.99",
+      "url": "https://www.121companyformation.co.uk/lbs-platinum/",
+      "eligibleRegion": {
+        "@type": "Place",
+        "name": "United Kingdom"
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "mainEntityOfPage": "https://www.121companyformation.co.uk/lbs-platinum/",
+    "additionalType": "https://www.121companyformation.co.uk/lbs-platinum/"
+  }
+  </script>

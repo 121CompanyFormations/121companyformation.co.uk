@@ -1,0 +1,130 @@
+"##PAGE_TITLE#": Admin Portal | 121 Company Formation
+"##PAGE_DESCRIPTION#": Simplify business management with our admin portal. Easily access and update all your company records in one secure, user-friendly platform.
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Admin Portal to manage your companies
+"##CUSTOM2#": "##FOOTER_Register#"
+"##CUSTOM5#": 
+"URL": /admin-portal-to-manage-your-companies/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-page-hero" aria-label="Page header">
+    <div class="cf-container cf-page-hero__inner">
+      <nav class="cf-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="cf-breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="cf-breadcrumbs__current">Admin Portal To Manage Your Companies</span>
+      </nav>
+      <h1 class="cf-page-hero__title">Admin Portal To Manage Your Companies</h1>
+      
+    </div>
+  </section>
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+      <div class="cf-prose">
+  <h2>
+   Admin Portal | 121 Company Formation
+   </h2>
+  <p>We are pleased to offer all of our clients a convenient, self-serve online Admin Portal where they can manage their company portfolio and activities, including keep tracking of the progress of any orders placed, as well as every aspect of their company’s statutory requirements.</p><p>Below we provide a step by step guide to creating an account and using this free, ultra-convenient tool.</p>
+  <h3>
+   REGISTERING AS A NEW USER
+   </h3>
+  <p>To create an account, simply enter your email address, a password, and some basic contact information. After registering you will be able to begin purchasing any of our services such as company incorporation or any of our other additional post-incorporation support services. You can also use the Admin Portal to import an existing company into your account.</p>
+  <h3>
+   LOGGING INTO YOUR ACCOUNT
+   </h3>
+  <p>Once you have registered and created an account (or if you already have an account), simply enter your login details to conveniently access your account at any time.</p>
+  <h3>
+   MY ACCOUNT
+   </h3>
+  <p>Use the <em>My Account</em> section to update or amend your contact details including the email address where scanned documents should be sent. You can also change your username and password at any time.</p>
+  <h3>
+   COMPANIES
+   </h3>
+  <p>Here you can access:</p>
+  <ul>
+  <li>
+   All the companies you have incorporated using the 121 Company Formation 
+   <a href="/packages/#packages">
+   incorporation service 
+   </a>
+  </li>
+  <li>
+   Each company’s registration number(s) and authentication code(s)
+   </li>
+  </ul>
+   This makes the process of incorporating any new companies in the future a quick and convenient one as our system will be able to prefill much of the application for you using all your saved information</p><p>You can also import any other companies that you may have incorporated with other service providers. This enables you to more easily manage your entire portfolio of companies, including for example, maintaining up-to-date records with Companies House.
+   
+   
+
+   
+   <h3>
+   SERVICES
+   </h3>
+  <p>The <em>Services </em>area provides you a summary of all the 121 Company Formation services that have used, or are currently using. You can conveniently review each service, and update or renew your services depending on your business requirements.</p>
+  <h3>
+   ORDER HISTORY
+   </h3>
+  <p>This function allows you to view your order history with us, and includes real-time updates on the status of any orders. You can also view and print invoices as well as keep track of your payment history</p>
+      </div>
+      ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Admin Portal for Company Formation and Management",
+    "url": "https://www.121companyformation.co.uk/admin-portal-to-manage-your-companies/",
+    "description": "Convenient online admin portal for managing company portfolios, including order tracking, statutory requirements, and more.",
+    "mainEntity": {
+      "@type": "Service",
+      "name": "Company Formation Services",
+      "description": "Self-serve portal allowing clients to manage company formation, post-incorporation support, and statutory requirements.",
+      "provider": {
+        "@type": "Organization",
+        "name": "121 Company Formation",
+        "url": "https://www.121companyformation.co.uk/"
+      }
+    },
+    "about": {
+      "@type": "ItemList",
+      "name": "Portal Features",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Registering as a New User",
+          "description": "Guidance on creating an account to start using the Admin Portal for company management."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "My Account",
+          "description": "Allows users to update contact details, email addresses for scanned documents, and login information."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Companies",
+          "description": "Overview of incorporated companies, registration numbers, and authentication codes with options to import other companies."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Services",
+          "description": "Summary of all services used, with options to update or renew based on business needs."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Order History",
+          "description": "Real-time updates on order status, with options to view, print invoices, and track payment history."
+        }
+      ]
+    }
+  }
+  </script>

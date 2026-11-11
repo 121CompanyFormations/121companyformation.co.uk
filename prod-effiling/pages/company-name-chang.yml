@@ -1,0 +1,103 @@
+"##PAGE_TITLE#": Company Name Change | 121CompanyFormation.co.uk
+"##PAGE_DESCRIPTION#": Are you thinking about changing the name of your business?
+"##PAGE_KEYWORDS#": "##CONTENT_PAGE_KEYWORDS#"
+"##CUSTOM1#": Company Name Change
+"##CUSTOM2#": 
+"##CUSTOM5#": "##HERO_PAGE#"
+"URL": /company-name-chang/
+"Unauth'd Template": Layout
+"Auth'd Template": Layout Authenticated
+"Body": | 
+  <section class="cf-section">
+    <div class="cf-container">
+      <div class="cf-split">
+        <div class="cf-prose">
+          <p>Are you considering changing the name of your business for reasons that you have new insight and knowledge you didn&rsquo;t have just before you set up your limited company?, If you&rsquo;re not sure whether you&rsquo;ve got the right name? &nbsp;Your company name is too general, Or, maybe you realize now you need to pivot. Head in a new direction.</p>
+          <p>Regardless of how long your company was incorporated, change is constant and that&rsquo;s a fact. You can change the name of your limited company at any time after incorporation.<br /> 121 Company Formations offers you a professional service to change your company name on your behalf .The company name change process typically takes about 5/6 business hours depending Companies House workload.</p>
+          <p>Changing your registered name at 001 Formationagent is simple to do and only costs a few pounds. Most name change applications are accepted within just a few hours. A new certificate of name change is then issued. This is very similar to a certificate of incorporation.</p>
+          <p>Company name changes Includes checking name availability and Companies House filing fee, certificate of name change and online filing.</p>
+          <p>The previous company name will be recorded by Companies House. It is not possible to have this erased from the record. A search of Companies House would show that the company has changed its name. If you would prefer that your company does not have any name change history then the only way to achieve this is by registering a second company and dissolving (closing) the first.<br /></p>
+          <h2>What is included in our price?</h2>
+          <p><br /> Our charges for the company name change services include all Companies House fees and obtaining the certificate which provides evidence that the new name has been allocated to the company.</p>
+          <h2>How it works?</h2>
+          <ul>
+          <li>
+          <p>1. Check your proposed company name is available via our company name search tool.</p>
+          </li>
+          <li>
+          <p>2. Seek agreement from the majority of the company directors; so from the sole director if only 1, by both if there are 2. or by the majority if there are more than 2.</p>
+          </li>
+          <li>
+          <p>3. Make sure you have your company authentication code; if you formed your company through another formation agent they should able to give this to you.</p>
+          </li>
+          <li>
+          <p>4. Contact us either by sending an email to <a href="mailto:info@121companyformation.co.uk">info@121companyformation.co.uk</a> or call us on <a href="tel:+44 (0)203 8932 121">+44 (0)203 8932 121</a>.</p>
+          </li>
+          <li>
+          <p>5. Once the signed documents are received, we will file the request for a company name change electronically, and the name change should be approved within 5-6 business hours (however, this is dependent on Companies House workload and may take longer).</p>
+          </li>
+          <li>
+          <p>6. A &#39;Certificate of Incorporation on Change of Name&#39; is emailed to you. This certificate states both the previous and new company name and the date that the new name came into effect. The company number remains the same.</p>
+          </li>
+          </ul>
+          <h2>Frequently asked questions</h2>
+          <h2>What is the process?</h2>
+          <p>Once you&#39;ve placed your order you can submit the new company name electronically via your account. It normally takes 5-6 business hours for Companies House to approve the new company name. You will receive a Certificate of Incorporation on Change of Name once the new name has been accepted.</p>
+          <h2>How do I know if my new company name is available?</h2>
+          <p>We highly recommend that you check the availability of your new company name via our <a href="https://beta.companieshouse.gov.uk/company-name-availability">https://beta.companieshouse.gov.uk/company-name-availability</a> before placing an order. If, however, the company name is submitted but not approved by Companies House, you can submit another company name at no additional fee.</p>
+          <h2>What if my new company name contains a sensitive word?</h2>
+          <p><br /> If your new company name contains a sensitive word for example &#39;Britain&#39;, you will not be able to change the company name with online filing. Instead, you will need to use a paper submission along with a supporting evidence or a letter of non-objection from the relevant authority to support your application Unfortunately, we are unable to offer assistance with paper submissions.</p>
+          <h2>Will I receive a new Certificate of Incorporation stating the new company name?</h2>
+          <p>As soon as Companies House has accepted the name change, the new company name is entered on the register in place of the old name and a &#39;Certificate of Incorporation on Change of Name&#39; is emailed to you. This certificate states both the previous and new company name and the date that the new name came into effect. The company number remains the same.</p>
+          <h2>Who do I need to notify once the company name has been changed?</h2>
+          <p>You will need to update HMRC with your new company name (Corporation Tax, VAT and PAYE). You will also need to update your bank, customers, suppliers, service providers, relevant authorities and other business contacts. Finally, don&#39;t forget to update your company stationery, signage, website and domain name as well.</p>
+          <h2>Will my company registration number change if I change my company name?</h2>
+          <p>No. This will remain the same.</p>
+          <h2>Can I change the &lsquo;Limited&rsquo; part of my company name to &lsquo;plc&rsquo; using the name change service?</h2>
+          <p>No. This change requires you to re-register your private limited company to a plc using form RR01.</p>
+          <h2>Will I receive a new certificate of incorporation and company documents?</h2>
+          <p>No. Your original certificate of incorporation will remain intact and will be supplemented with a certificate of company name change. The memorandum will not change, as this lists the subscribers to the company on the day it was formed. In many respects, the memorandum becomes a document of historical significance, through the passage of time.</p>
+        </div>
+        ##SERVICE_SIDEBAR#
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Company Name Change",
+    "name": "Company Name Change Service",
+    "provider": {
+      "@type": "Organization",
+      "name": "121 Company Formations",
+      "url": "https://www.121companyformation.co.uk",
+      "logo": "https://www.121companyformation.co.uk/assets/custom/images/logo-wordmark-dark.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+44-203-8932-121",
+        "contactType": "Customer Service",
+        "areaServed": "GB",
+        "availableLanguage": "English"
+      }
+    },
+    "description": "121 Company Formations offers professional services to change the name of your limited company. This process typically takes 5-6 business hours depending on Companies House workload. The service includes checking name availability, Companies House filing fees, certificate of name change, and online filing.",
+    "termsOfService": "https://www.121companyformation.co.uk/terms-and-conditions",
+    "offers": {
+      "@type": "Offer",
+      "name": "Company Name Change Service",
+      "url": "https://www.121companyformation.co.uk/company-name-change",
+      "priceCurrency": "GBP",
+      "eligibleRegion": {
+        "@type": "Place",
+        "name": "United Kingdom"
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.121companyformation.co.uk/company-name-change"
+    }
+  }
+  </script>
