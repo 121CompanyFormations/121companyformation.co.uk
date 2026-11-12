@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const LIVE = path.join(ROOT, "live-html");
 const PAGES = path.join(ROOT, "pages");
-const BLOCKS = path.join(ROOT, "blocks");
+const BLOCKS = path.join(ROOT, "prod-effiling", "blocks");
 const PREVIEW = path.join(ROOT, "preview");
 const SITE = path.join(ROOT, "site");
 const DOCS = path.join(ROOT, "docs");
@@ -314,7 +314,15 @@ function applyPackagePrices(html) {
 }
 
 function block(name) {
-  let html = read(path.join(BLOCKS, `${name}.html`));
+  // Preview shell needs a placeholder JS src; prod JAVASCRIPT points at Asset Manager.
+  if (name === "JAVASCRIPT") {
+    return `<script src="##CF_JS_SRC#"></script>\n`;
+  }
+  const blockPath = path.join(BLOCKS, `${name}.html`);
+  if (!fs.existsSync(blockPath)) {
+    throw new Error(`Missing block ${name} in ${BLOCKS}`);
+  }
+  let html = read(blockPath);
   // Expand nested ##BLOCK_NAME# placeholders one level (and again for safety).
   for (let i = 0; i < 3; i++) {
     const next = html.replace(/##([A-Z0-9_]+)#/g, (match, key) => {

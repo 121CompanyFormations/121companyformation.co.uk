@@ -5,7 +5,11 @@
  *   node scripts/build-prod-effiling.mjs            (or: npm run build:prod)
  *   PROD_BACKUP=<path to prod-backup/prod-backup> node scripts/build-prod-effiling.mjs
  *
- * Output (prod-effiling/ is fully generated – do not edit by hand, re-run instead):
+ * Single blocks source: prod-effiling/blocks (edit redesign blocks there).
+ * This script snapshots blocks/, regenerates pages/assets/restyled blocks, then
+ * writes redesign + preview helper blocks back from the snapshot.
+ *
+ * Output:
  *   blocks/*.html            every live block, redesigned / restyled / copied (see README.md)
  *   pages/**.yml             every live page + /blog/, redesigned body, JSON-LD kept/updated
  *   layout/Layout.html       Layout template (not part of the export)
@@ -13,6 +17,7 @@
  *   assets/custom/images/    logos + favicon           → Asset Manager
  */
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import crypto from "node:crypto";
 import { createRequire } from "node:module";
@@ -25,7 +30,15 @@ import * as P from "./prod/pages.mjs";
 const require = createRequire(import.meta.url);
 const hash = (s) => crypto.createHash("sha1").update(s).digest("hex").slice(0, 10);
 
-/* ------------------------------------------------------------ 1. clean */
+/* -------------------------------------- 1. snapshot blocks, then clean */
+const blocksSrc = path.join(OUT, "blocks");
+if (!fs.existsSync(blocksSrc)) {
+  throw new Error(`Missing ${blocksSrc} – redesign blocks live only in prod-effiling/blocks`);
+}
+const snap = fs.mkdtempSync(path.join(os.tmpdir(), "cf-prod-blocks-"));
+fs.cpSync(blocksSrc, snap, { recursive: true });
+B.setProjectBlocksPath(snap);
+
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 
@@ -145,6 +158,11 @@ for (const [n, t] of pages) {
 
 /* -------------------------------------------------------------- 7. write */
 for (const [name, text] of blocks) write(path.join(OUT, "blocks", `${name}.html`), text);
+// Preview helpers used by sync-from-live (not part of the live export)
+for (const name of B.EXTRA_PREVIEW) {
+  const src = path.join(snap, `${name}.html`);
+  if (fs.existsSync(src)) write(path.join(OUT, "blocks", `${name}.html`), read(src).replace(/\s+$/, "") + "\n");
+}
 for (const [slug, text] of pages) write(path.join(OUT, "pages", slug === ".root" ? ".root.yml" : `${slug}.yml`), text);
 write(path.join(OUT, "layout", "Layout.html"), layout());
 
@@ -155,6 +173,8 @@ if (unaccounted.length) problems.push(`blocks neither shipped nor in REMOVED: ${
 const newBlocks = [...blocks.keys()].filter((n) => !backupBlockNames.includes(n)).sort();
 const readme = (await import("./prod/readme.mjs")).render({ cssVer, jsVer, blocks, pages, removed, newBlocks, report: P.report, REMOVED: B.REMOVED, backupBlockNames });
 write(path.join(OUT, "README.md"), readme);
+
+fs.rmSync(snap, { recursive: true, force: true });
 
 /* ----------------------------------------------------------------- done */
 console.log(`prod-effiling/  blocks: ${blocks.size}  pages: ${pages.size}  (css v=${cssVer}, js v=${jsVer})`);

@@ -2028,6 +2028,8 @@ html:has(body.cf-redesign) {
   font-size: 0.82rem;
   font-weight: 700;
   padding: 10px 14px;
+  line-height: 1.25;
+  text-align: center;
   border-radius: 999px;
   cursor: pointer;
   transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
@@ -2039,6 +2041,12 @@ html:has(body.cf-redesign) {
   background: var(--cf-grad);
   border-color: transparent;
   color: #fff;
+}
+@media (max-width: 700px) {
+  .cf-pkg-tabs__btn {
+    font-size: 0.74rem;
+    padding: 9px 11px;
+  }
 }
 .cf-pkg-panel[hidden] { display: none !important; }
 .cf-pkg-alt {

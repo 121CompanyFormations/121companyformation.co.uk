@@ -1,17 +1,42 @@
 /**
  * Block assembly for prod-effiling/blocks.
  *
+ * Single source of truth: prod-effiling/blocks (edit redesign blocks there).
+ * build:prod snapshots that folder, regenerates tracking/restyled/verbatim blocks,
+ * and writes redesign blocks back from the snapshot.
+ *
  * Rules
  *  - Every block of the live export keeps its name (same placeholder in Layout / pages).
- *  - Visible blocks are replaced by the redesign version (project /blocks) or restyled in place.
- *  - Tracking / chat / price / data blocks are copied untouched.
+ *  - Visible redesign blocks live in prod-effiling/blocks and are re-emitted from the snapshot.
+ *  - Tracking / chat / price / data blocks are copied untouched from the live backup.
  *  - Blocks superseded by the redesign are not shipped (listed in REMOVED with the reason).
  */
 import path from "node:path";
-import { ROOT, BACKUP, read, mapAssets, restorePriceTokens, useWhatsappBlock, stripBlockComment } from "./lib.mjs";
+import { ROOT, BACKUP, OUT, read, mapAssets, restorePriceTokens, useWhatsappBlock, stripBlockComment } from "./lib.mjs";
 
-const PROJECT_BLOCKS = path.join(ROOT, "blocks");
+/** Default: editable redesign blocks in prod-effiling/blocks. build:prod may override via setProjectBlocksPath (snapshot). */
+let PROJECT_BLOCKS = path.join(OUT, "blocks");
 const BACKUP_BLOCKS = path.join(BACKUP, "blocks");
+
+/** Preview-only helpers that must survive build:prod (used by sync-from-live / static site). */
+export const EXTRA_PREVIEW = [
+  "BLOG_CARD",
+  "BLOG_LIST",
+  "BLOG_POST_LAYOUT",
+  "BREADCRUMBS",
+  "CTA_BAND",
+  "LEGAL_LAYOUT",
+  "PAGE_HERO_INNER",
+  "TRUST_BAR",
+];
+
+export function setProjectBlocksPath(p) {
+  PROJECT_BLOCKS = p;
+}
+
+export function getProjectBlocksPath() {
+  return PROJECT_BLOCKS;
+}
 
 export const projectBlock = (name) =>
   mapAssets(useWhatsappBlock(restorePriceTokens(stripBlockComment(read(path.join(PROJECT_BLOCKS, `${name}.html`))))))
@@ -19,7 +44,7 @@ export const projectBlock = (name) =>
 
 export const backupBlock = (name) => read(path.join(BACKUP_BLOCKS, `${name}.html`));
 
-/** Taken as-is from the redesign (project/blocks). */
+/** Redesign blocks edited in prod-effiling/blocks. */
 export const FROM_PROJECT = [
   "HEADER",
   "HEADER_TOP",
@@ -140,11 +165,13 @@ export function headerNavAuthenticated() {
 
 export function footer() {
   let f = projectBlock("FOOTER");
-  // The previous footer linked the refund policy; keep it reachable.
-  f = f.replace(
-    '<a href="/privacy-policy/">Privacy Policy</a>',
-    '<a href="/privacy-policy/">Privacy Policy</a>\n        <a href="/refund-and-cancellation-policy/">Refund Policy</a>'
-  );
+  // The previous footer linked the refund policy; keep it reachable (idempotent).
+  if (!/refund-and-cancellation-policy/.test(f)) {
+    f = f.replace(
+      '<a href="/privacy-policy/">Privacy Policy</a>',
+      '<a href="/privacy-policy/">Privacy Policy</a>\n        <a href="/refund-and-cancellation-policy/">Refund Policy</a>'
+    );
+  }
   return f;
 }
 

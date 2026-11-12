@@ -16,6 +16,90 @@
     return String(window.location.hash || "").replace(/^#/, "");
   }
 
+  var SEARCH_STARTED_KEY = "cf-search-started";
+  var PACKAGE_NAV_HASHES = {
+    packages: 1,
+    lbs: 1,
+    llp: 1,
+    lbg: 1,
+    intl: 1,
+    international: 1,
+    "limited-by-shares": 1,
+    "limited-liability-partnership": 1,
+    "limited-by-guarantee": 1,
+    "package-lbs": 1,
+    "package-llp": 1,
+    "package-lbg": 1,
+    "package-intl": 1,
+    "package-international": 1,
+  };
+
+  function markSearchStarted() {
+    try {
+      sessionStorage.setItem(SEARCH_STARTED_KEY, "1");
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
+  function isPackageNavHash(raw) {
+    var key = String(raw || "").toLowerCase();
+    if (!key) return false;
+    if (PACKAGE_NAV_HASHES[key]) return true;
+    if (key.indexOf("package-") === 0) return true;
+    return false;
+  }
+
+  function hasSearchStarted() {
+    try {
+      if (sessionStorage.getItem(SEARCH_STARTED_KEY) === "1") return true;
+    } catch (_) {
+      /* ignore */
+    }
+    var nameEl = document.getElementById("company_name");
+    if (nameEl && String(nameEl.value || "").trim()) return true;
+    try {
+      var params = new URLSearchParams(window.location.search || "");
+      if (String(params.get("name") || "").trim()) return true;
+    } catch (_) {
+      /* ignore */
+    }
+    var h = hashValue();
+    if (h && !isPackageNavHash(h)) return true;
+    return false;
+  }
+
+  /* Package CTAs: first visit = Buy now; after name search = Start Now */
+  function updatePackageCtaLabels() {
+    var label = hasSearchStarted() ? "Start Now" : "Buy now";
+    qsa(".cf-packages a[onclick*='packagesBuyNow']").forEach(function (a) {
+      a.textContent = label;
+    });
+  }
+
+  function initPackageCtaJourney() {
+    if (hasSearchStarted()) markSearchStarted();
+
+    qsa("form.cf-namecheck, form[action*='name-check']").forEach(function (form) {
+      form.addEventListener("submit", function () {
+        markSearchStarted();
+        updatePackageCtaLabels();
+      });
+    });
+
+    var nameEl = document.getElementById("company_name");
+    if (nameEl) {
+      nameEl.addEventListener("change", function () {
+        if (String(nameEl.value || "").trim()) {
+          markSearchStarted();
+          updatePackageCtaLabels();
+        }
+      });
+    }
+
+    updatePackageCtaLabels();
+  }
+
   /* -------------------- Mobile nav + dropdowns -------------------- */
   function closeAllDropdowns() {
     qsa(".cf-nav > li.is-open").forEach(function (li) {
@@ -464,6 +548,7 @@
     var nameEl = qs("[data-cf-namecheck-name]", root);
 
     if (name) {
+      markSearchStarted();
       if (nameEl) nameEl.textContent = name.toUpperCase();
       if (result) result.hidden = false;
       qsa(".name-check-default", root).forEach(function (el) {
@@ -543,6 +628,7 @@
     initPackageTabsFromLocation();
     initNameCheckPreview();
     initChecklists();
+    initPackageCtaJourney();
   }
 
   if (document.readyState === "loading") {
@@ -550,5 +636,8 @@
   } else {
     boot();
   }
-  window.addEventListener("hashchange", initPackageTabsFromLocation);
+  window.addEventListener("hashchange", function () {
+    initPackageTabsFromLocation();
+    updatePackageCtaLabels();
+  });
 })();

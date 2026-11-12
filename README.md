@@ -10,12 +10,12 @@ Production-oriented build: a single CSS file + HTML split into `##NAME#` blocks.
 - `dist/app_min.css` + `dist/app_min.js` – **minified eFiling uploads** (`npm run build`)
 - `dist/efiling-css.html` / `dist/efiling-javascript.html` – paste into `##CSS#` / `##JAVASCRIPT#`
 - `css/cf-site-block.html` – link snippet for the CSS block
-- `blocks/*.html` – one file per CMS block (filename = block name)
+- `prod-effiling/blocks/*.html` – **single source** for CMS blocks (filename = block name)
 - `layout/Layout.html` – updated Layout template (keeps tracking + placeholders)
 - `pages/home-content.html` – PAGE_CONTENT field for the homepage
 - `assets/logo/` – logo SVG (light/dark), icon, favicon SVG/PNG/ICO
 - `pages/*-content.html` – PAGE_CONTENT for homepage + ALL interior pages + blog
-- `blocks/` – shared blocks (interior hero, breadcrumbs, sidebar, blog, legal, CTA)
+- `prod-effiling/` – eFiling deploy package (`npm run build:prod`); edit blocks only under `prod-effiling/blocks/`
 - `preview/` – static preview by template type + screenshots 1440/390
 - LBS package prices (Bronze/Gold/Platinum/Diamond) are **unchanged** from live
 
@@ -26,25 +26,25 @@ Production-oriented build: a single CSS file + HTML split into `##NAME#` blocks.
 | `layout/Layout.html` | Theme / Templates → **Layout** (Overwrite) |
 | `dist/app_min.css` (+ `dist/efiling-css.html`) | Asset Manager + Blocks → **CSS** (`##CSS#`) |
 | `dist/app_min.js` (+ `dist/efiling-javascript.html`) | Asset Manager + Blocks → **JAVASCRIPT** |
-| `blocks/HEADER.html` | Blocks → **HEADER** |
-| `blocks/HEADER_TOP.html` | Blocks → **HEADER_TOP** |
-| `blocks/HEADER_NAV.html` | Blocks → **HEADER_NAV** |
-| `blocks/HERO_Homepage.html` | Blocks → **HERO_Homepage** |
-| `blocks/Services.html` | Blocks → **Services** |
-| `blocks/HOME_PACKAGES_DESKTOP.html` | Blocks → **HOME_PACKAGES_DESKTOP** |
-| `blocks/HOME_PACKAGES_MOBILE.html` | Blocks → **HOME_PACKAGES_MOBILE** |
-| `blocks/HELP_SECTION.html` | Blocks → **HELP_SECTION** |
-| `blocks/YOUTUBE_SECTION.html` | Blocks → **YOUTUBE_SECTION** |
-| `blocks/HOW_IT_WORKS.html` | Blocks → create **HOW_IT_WORKS** (new) |
-| `blocks/BANKING_PARTNERS.html` | Blocks → create **BANKING_PARTNERS** (new) |
-| `blocks/POPULAR_SERVICES.html` | Blocks → create **POPULAR_SERVICES** (new) |
-| `blocks/WHY_US.html` | Blocks → create **WHY_US** (new) |
-| `blocks/FAQ_HOME.html` | Blocks → create **FAQ_HOME** (new) |
-| `blocks/TRUST_BAR.html` | optional (homepage already uses Services) |
-| `blocks/CTA_BAND.html` | optional alias; live CTA is in FOOTER_Register |
-| `blocks/FOOTER_Register.html` | Blocks → **FOOTER_Register** |
-| `blocks/FOOTER.html` | Blocks → **FOOTER** |
-| `blocks/JAVASCRIPT.html` | Blocks → **JAVASCRIPT** |
+| `prod-effiling/blocks/HEADER.html` | Blocks → **HEADER** |
+| `prod-effiling/blocks/HEADER_TOP.html` | Blocks → **HEADER_TOP** |
+| `prod-effiling/blocks/HEADER_NAV.html` | Blocks → **HEADER_NAV** |
+| `prod-effiling/blocks/HERO_Homepage.html` | Blocks → **HERO_Homepage** |
+| `prod-effiling/blocks/Services.html` | Blocks → **Services** |
+| `prod-effiling/blocks/HOME_PACKAGES_DESKTOP.html` | Blocks → **HOME_PACKAGES_DESKTOP** |
+| `prod-effiling/blocks/HOME_PACKAGES_MOBILE.html` | Blocks → **HOME_PACKAGES_MOBILE** |
+| `prod-effiling/blocks/HELP_SECTION.html` | Blocks → **HELP_SECTION** |
+| `prod-effiling/blocks/YOUTUBE_SECTION.html` | Blocks → **YOUTUBE_SECTION** |
+| `prod-effiling/blocks/HOW_IT_WORKS.html` | Blocks → create **HOW_IT_WORKS** (new) |
+| `prod-effiling/blocks/BANKING_PARTNERS.html` | Blocks → create **BANKING_PARTNERS** (new) |
+| `prod-effiling/blocks/POPULAR_SERVICES.html` | Blocks → create **POPULAR_SERVICES** (new) |
+| `prod-effiling/blocks/WHY_US.html` | Blocks → create **WHY_US** (new) |
+| `prod-effiling/blocks/FAQ_HOME.html` | Blocks → create **FAQ_HOME** (new) |
+| `prod-effiling/blocks/TRUST_BAR.html` | optional (homepage already uses Services) |
+| `prod-effiling/blocks/CTA_BAND.html` | optional alias; live CTA is in FOOTER_Register |
+| `prod-effiling/blocks/FOOTER_Register.html` | Blocks → **FOOTER_Register** |
+| `prod-effiling/blocks/FOOTER.html` | Blocks → **FOOTER** |
+| `prod-effiling/blocks/JAVASCRIPT.html` | Blocks → **JAVASCRIPT** |
 | `pages/home-content.html` | Pages → Homepage → **Page Content** field |
 | `assets/logo/*` | Asset Manager → `/assets/custom/images/` (see below) |
 

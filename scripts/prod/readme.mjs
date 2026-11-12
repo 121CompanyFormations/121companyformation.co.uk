@@ -22,7 +22,9 @@ export function render({ cssVer, jsVer, blocks, pages, removed, newBlocks, repor
 
 The redesign laid out **exactly like the live eFiling export** (\`../prod-backup/prod-backup\`):
 the same \`blocks/*.html\` and \`pages/**/*.yml\`, with the new design and content.
-This folder is **generated** – do not edit it by hand, change the sources and run:
+
+**Blocks live only here** (\`prod-effiling/blocks\`) – edit redesign blocks in this folder.
+\`npm run build:prod\` snapshots \`blocks/\`, regenerates pages/assets/restyled/verbatim blocks, then writes redesign blocks back.
 
 \`\`\`bash
 npm run build:prod      # = node scripts/build-prod-effiling.mjs
@@ -31,7 +33,7 @@ npm run build:prod      # = node scripts/build-prod-effiling.mjs
 
 | Folder | What it is |
 |---|---|
-| \`blocks/\` | ${blocks.size} blocks – every live block (same name), redesigned / restyled / copied, plus ${newBlocks.length} new ones |
+| \`blocks/\` | ${blocks.size} blocks – single source for CMS blocks (redesign + restyled + verbatim), plus ${newBlocks.length} new ones |
 | \`pages/\` | ${pages.size} pages – every live page (same URL, templates, SEO meta, CUSTOM fields) with a redesigned Body, plus \`/blog/\` |
 | \`layout/Layout.html\` | the Layout template (templates are **not** part of the export – see "Layout" below) |
 | \`assets/custom/files/\` | \`app_min.css\`, \`app_min.js\` (compiled from \`css/cf-site.css\` + \`dev/static/scss\` + \`dev/static/js\`) → Asset Manager |

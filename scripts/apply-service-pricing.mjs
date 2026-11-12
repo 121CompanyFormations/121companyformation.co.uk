@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const PAGES = path.join(ROOT, "pages");
-const BLOCKS = path.join(ROOT, "blocks");
+const BLOCKS = path.join(ROOT, "prod-effiling", "blocks");
 const catalog = JSON.parse(
   fs.readFileSync(path.join(__dirname, "service-pricing-catalog.json"), "utf8")
 );

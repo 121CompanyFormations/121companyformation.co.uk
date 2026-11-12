@@ -3,7 +3,7 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BLOCKS = ROOT / "blocks"
+BLOCKS = ROOT / "prod-effiling" / "blocks"
 
 YES = '<span class="cf-yes" aria-label="Included">✓</span>'
 NO = '<span class="cf-no" aria-label="Not included">✕</span>'
